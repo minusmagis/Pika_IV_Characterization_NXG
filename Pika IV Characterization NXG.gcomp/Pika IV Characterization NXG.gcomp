@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3BF1B8B8EABE770F96ECACE820A30D9C988D5C3371CBBE5E40294B7C5231337E6B887FF4D7586A859FB4E31FD6B5A3BB1F8133C9E2F07334D7CA5262AAFEB674" Timestamp="1D76DCAD556CE2D" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="cb479be7683b4acc9c0f63494b9f8352" RootNamespaceId="b7e94143ec914e67b39840dec013fb45" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="ee863067acba40d396076d30753e1109" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="298d2ad983be40c89ea6f5305d70f4f5" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="b15d28b2b94494eacb4e77a28d2c4c8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="4344bfe9e43944db94f3f99da758bf36" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Application" Id="c2bfaf49156e4ddcbf7ace105d19c741" Name="Configuration1">
+			<CompilerSymbolTable Id="7511cb1c17b942fdaeab26349f60a0a7" xmlns="http://www.ni.com/PlatformFramework" />
+			<NativeApplicationOutputTypeProperties Id="4c3578f8b64d466fa995fe721b82d25f" xmlns="http://www.ni.com/LabVIEW.NativeBackEndCompiler" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="2cc16aa35cbf46f2bf15bc6960b5ab67" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="53409a8c971448408dfb16c4fa82e8ee" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="7dad8d73d36148ffa976841327350029" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b7e94143ec914e67b39840dec013fb45" Name="Pika IV Characterization NXG">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fe7d1df1150541d7ba2231d94cda4a0a" Name="IV Curves">
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,EnvoyManager" Id="6a0fb0fb43ba47238153d1c9621c50a0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="IV Curve Parameters.gtype" StoragePath="IV Curves\IV Curve Parameters.gtype\IV Curve Parameters.gtype" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,EnvoyManager" Id="36e92845e41a4f4198344448759a8785" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Cell Selector.gtype" StoragePath="IV Curves\Cell Selector.gtype\Cell Selector.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="24ec8fed39604675b11b5d4b5e2c0cf2" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="IV Mode.gtype" StoragePath="IV Curves\IV Mode.gtype\IV Mode.gtype" />
+				</NameScopingEnvoy>
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="a84bd0b897e54040ac655bfdb8c960b7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main Window.gvi" StoragePath="Main Window.gvi" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f813debd9eac4e64a6b2a443da938a5c" Name="Main Functions">
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="83c141b70b8f45acad8c129373c7e70e" Name="Instruction Handling">
+						<SourceFileReference Bindings="EnvoyManager" Id="a48820e84c3440949ef7ac798e0c29a4" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Queue Instructions Control.gtype" StoragePath="Main Functions\Instruction Handling\Queue Instructions Control.gtype\Queue Instructions Control.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="8d5bc6a920224409a12ae4811507f75c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FGV Current State.gvi" StoragePath="Main Functions\Instruction Handling\FGV Current State.gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="c6d1e467dfab403eaced45cfc9a5c710" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Current State Instructions.gtype" StoragePath="Main Functions\Instruction Handling\Current State Instructions.gtype\Current State Instructions.gtype" />
+					</NameScopingEnvoy>
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9de0658088304fbdbdbee06086b4d4de" Name="Side Functions">
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f6f768a43232446791422b737e9f7bde" Name="Abort Control">
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="fdfca3ba697e40bebcc340ab22a60193" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FGV Global Abort.gvi" StoragePath="Side Functions\Abort Control\FGV Global Abort.gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="9bd88a4ce60d47d79ed73dbf2158f5aa" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Global Abort Instructions.gtype" StoragePath="Side Functions\Abort Control\Global Abort Instructions.gtype\Global Abort Instructions.gtype" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="a90c46fbb1994d83b9722e72a072e29a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Abort Sequence.gvi" StoragePath="Side Functions\Abort Control\Abort Sequence.gvi" />
+					</NameScopingEnvoy>
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2c179912de2b4816bd27d80d88484708" Name="FGV Control">
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,EnvoyManager" Id="5b6c99c196514b72a119999a86e4c3f3" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="FGV Instructions.gtype" StoragePath="Side Functions\FGV Control\FGV Instructions.gtype\FGV Instructions.gtype" />
+					</NameScopingEnvoy>
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="6dd345d1b6a443eab3edf1c12d7ae507" Name="Pika IV Characterization NXG.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="c2bfaf49156e4ddcbf7ace105d19c741" Id="6b445ced75a4ef9a3a4af83846f796e" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E75A2009F919B2A3972B8085791F09005514147D8F9BFCD66CAC66E017F8616C2D3B2F3786EDA7F018A5E7EBB7DA8263D394B6FA425E290C3A0AA99B307F9ABC" Timestamp="1D76DC83C0CD6F3" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@48fbac6b19534735bd621cc8fc1663a2" Id="8a6662bf874742f9b6d61b2a118c3cba" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="6d6f2ff6b8074f36ba6c3d01cf8587f3" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="40e3dfa1a6124f4da63d289241dee047" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="171075330be9437c9e60c2432e4b5b78" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@48fbac6b19534735bd621cc8fc1663a2" Id="6fefb9245187432d9662bd7d82a88d8e" Name="Current State Instructions">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="f6899c69dfe34565a32110a13fe4cfbf" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="eaeb68a3ec664056a60a032deae58023" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f99947becf264a52889dfe733d74bf9c" Name="Current State Instructions.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="daeb416df892477689381657fbb59035" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="bc9d4e263f6a473fbf2cd31121447ff8" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Current State Instructions" Height="[float]24" Id="10a8c5e77c1d42eca7442bde66f927d8" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]fd07a7bc3f954b02baa517b875303717" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=6fefb9245187432d9662bd7d82a88d8e}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]267" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Read Current State and Substate" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Set Current State" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Set Current Substate" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Set Current State and Substate" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="fd07a7bc3f954b02baa517b875303717" LabelOwner="[UIModel]10a8c5e77c1d42eca7442bde66f927d8" Left="[float]100" Text="[string]Current State Instructions" Top="[float]80" Width="[float]135" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="48fbac6b19534735bd621cc8fc1663a2">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Read Current State and Substate" />
+					<EnumerationMember Value="1" Name="Set Current State" />
+					<EnumerationMember Value="2" Name="Set Current Substate" />
+					<EnumerationMember Value="3" Name="Set Current State and Substate" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

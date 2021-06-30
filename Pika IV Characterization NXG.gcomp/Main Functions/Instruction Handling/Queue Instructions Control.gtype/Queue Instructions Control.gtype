@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4EC2AFA5A06530DE8877C24C23C6F0A5B6E17476D70D0EA75CBFB0E5315367721E9914D4D42CAE2793B7381D17A1FF6562C2811D9421589CE85B7EBBA2E6DB6E" Timestamp="1D76DC7D085AC53" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@b934264b77544947818a02d5bd866ce9" Id="acf8fc8155684f47a1d86625464ee457" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="eb8647aa9a594b539ecaa53afc268c3e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="20cee9cd16c745f8ba178c5f219659b3" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="a5aa69322f7e44eab15287a227eb879a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@b934264b77544947818a02d5bd866ce9" Id="c1c157075a794a53bbc8faea9c7aaa34" Name="Enum">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="4d95ef7e442c43c69db463331364ab99" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="5112ad0036bf4994b7bfd44359e8583f" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2860cd4382ef4715bec87d73456e867d" Name="Queue Instructions Control.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="e7d25f6ba6b442ba908498e540211b6" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="e0a9dca883d644faba27eb9a7fccad4f" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="e5bfaad5f47c46c3aa920cf96bab5b0b" IsTypeAheadEnabled="[bool]True" Label="[UIModel]c41714bbeb0347a08f99e129d2a9d093" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=c1c157075a794a53bbc8faea9c7aaa34}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Undefined State" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Debug Check" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Initialize App" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Idle" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Change Cell" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]IV Curve" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Saving TXT Files" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Generating Origin Files" Value="[ushort]7" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Stopping App" Value="[ushort]8" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]State 1" Value="[ushort]9" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]State2" Value="[ushort]10" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]State3" Value="[ushort]11" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]State4" Value="[ushort]12" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]State5" Value="[ushort]13" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Id="c41714bbeb0347a08f99e129d2a9d093" LabelOwner="[UIModel]e5bfaad5f47c46c3aa920cf96bab5b0b" Left="[float]100" Text="[string]Enum" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b934264b77544947818a02d5bd866ce9">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Undefined State" />
+					<EnumerationMember Value="1" Name="Debug Check" />
+					<EnumerationMember Value="2" Name="Initialize App" />
+					<EnumerationMember Value="3" Name="Idle" />
+					<EnumerationMember Value="4" Name="Change Cell" />
+					<EnumerationMember Value="5" Name="IV Curve" />
+					<EnumerationMember Value="6" Name="Saving TXT Files" />
+					<EnumerationMember Value="7" Name="Generating Origin Files" />
+					<EnumerationMember Value="8" Name="Stopping App" />
+					<EnumerationMember Value="9" Name="State 1" />
+					<EnumerationMember Value="10" Name="State2" />
+					<EnumerationMember Value="11" Name="State3" />
+					<EnumerationMember Value="12" Name="State4" />
+					<EnumerationMember Value="13" Name="State5" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
