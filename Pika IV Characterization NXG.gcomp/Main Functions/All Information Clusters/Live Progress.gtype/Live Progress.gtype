@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="175AA389A00E40436859EE20D9708BC152AC54471695EFC4552B84441647792C13599E4A55E007D0C37B8BC63DA86B7A303BC87A6D33B0E8823C60B35F36B7D1" Timestamp="1D77185B74CEC93" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@f736f270b22040e9a02e959f46e8eca4" Id="90975d2f91de49178cf4ed2f799c7476" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="f2824af7aa2243d0b5787716e6ff2306" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3c44a913a6894cb3a925fe963d2d1536" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="81e8c055aba2482585925a393d994caf" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@f736f270b22040e9a02e959f46e8eca4" Id="f1f7f9a321f747a184d8a895ce08e2e4" Name="Cluster">
+			<p.DefaultValue>0_0_0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="f24244070bae41859d06017aea656366" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="809a534f93104bb3beab2d3c0aef100d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a5fa507c036a478b9d5024a1f7082303" Name="Live Progress.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="7771b243ddca4019837d51a3937e1eb2" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="c2523f1b116f47a9870273c592e0b787" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@f736f270b22040e9a02e959f46e8eca4" Height="[float]164" Id="1dba017973bb4f1b8cdb7fefc4923ef6" Label="[UIModel]4684ee5a0963458ebbb06b9095c4abc7" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=f1f7f9a321f747a184d8a895ce08e2e4}" Width="[float]40" xmlns="http://www.ni.com/PanelCommon">
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="e5abea4e1afe48e5a6e13794dcdf6954" Label="[UIModel]be7ce286cff041f3b2057cf4a1f32cad" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ProgressBarProxy, NationalInstruments.Controls.Runtime" Top="[float]24" Value="{ClusterBinding FieldName=Progress\ %}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="be7ce286cff041f3b2057cf4a1f32cad" LabelOwner="[UIModel]e5abea4e1afe48e5a6e13794dcdf6954" Left="[float]4" Text="[string]Progress %" Top="[float]4" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="e7b5832c272f4ade940f58b330dc2b17" Label="[UIModel]1c5ed0edb1204245bf8433103c8b9ca9" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.NumericTextBoxDoubleProxy, NationalInstruments.Controls.Runtime" Top="[float]76" Value="{ClusterBinding FieldName=Progress\ Counter}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="1c5ed0edb1204245bf8433103c8b9ca9" LabelOwner="[UIModel]e7b5832c272f4ade940f58b330dc2b17" Left="[float]4" Text="[string]Progress Counter" Top="[float]56" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="bbdcb67b89824b5fad0a4fc299a5b1cd" Label="[UIModel]48e9a03d94674206899b89d38081caf3" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@2c86c834e86c46c983092ede96919cf6`@2c86c834e86c46c983092ede96919cf6" Top="[float]128" Value="{ClusterBinding FieldName=Live\ IV\ Parameters}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="48e9a03d94674206899b89d38081caf3" LabelOwner="[UIModel]bbdcb67b89824b5fad0a4fc299a5b1cd" Left="[float]4" Text="[string]Live IV Parameters" Top="[float]108" />
+					</Cluster>
+					<Label Id="4684ee5a0963458ebbb06b9095c4abc7" LabelOwner="[UIModel]1dba017973bb4f1b8cdb7fefc4923ef6" Left="[float]100" Text="[string]Cluster" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="f736f270b22040e9a02e959f46e8eca4">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Progress %" DataType=":DotNet:NationalInstruments.Controls.Runtime.ProgressBarProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Progress Counter" DataType=":DotNet:NationalInstruments.Controls.Runtime.NumericTextBoxDoubleProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Live IV Parameters" DataType=":DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@2c86c834e86c46c983092ede96919cf6`@2c86c834e86c46c983092ede96919cf6" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2c86c834e86c46c983092ede96919cf6">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Current (A)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Voltage (V)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Density (A/m^2)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Cell" DataType="@8baa21a97741484e9776cae734a10eaa" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8baa21a97741484e9776cae734a10eaa">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

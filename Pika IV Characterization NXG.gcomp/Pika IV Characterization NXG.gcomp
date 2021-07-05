@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3BF1B8B8EABE770F96ECACE820A30D9C988D5C3371CBBE5E40294B7C5231337E6B887FF4D7586A859FB4E31FD6B5A3BB1F8133C9E2F07334D7CA5262AAFEB674" Timestamp="1D76DCAD556CE2D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C9448177F49543E545270BCB7EE607F2137BC16A277F9F8409156E118E6CBC5359255ACE4E5057EBF9A31CD787D8E8EA4A6ABBAB92ADC931F70A60E62537B5EE" Timestamp="1D7718A9E585BA0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -36,6 +36,15 @@
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="8d5bc6a920224409a12ae4811507f75c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FGV Current State.gvi" StoragePath="Main Functions\Instruction Handling\FGV Current State.gvi" />
 						<SourceFileReference Bindings="EnvoyManager" Id="c6d1e467dfab403eaced45cfc9a5c710" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Current State Instructions.gtype" StoragePath="Main Functions\Instruction Handling\Current State Instructions.gtype\Current State Instructions.gtype" />
 					</NameScopingEnvoy>
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="d7529cd4a7e6487587c7e45df77f99f9" Name="All Information Clusters">
+						<SourceFileReference Bindings="EnvoyManager" Id="593b665b77d94fca81420ae81dc88596" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Sample Naming Cluster.gtype" StoragePath="Main Functions\All Information Clusters\Sample Naming Cluster.gtype\Sample Naming Cluster.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="eb04fae589e44a919828877461e76af1" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Acquisition Parameters.gtype" StoragePath="Main Functions\All Information Clusters\Acquisition Parameters.gtype\Acquisition Parameters.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="f40d6d4c84c041479c30addc52c713cb" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Sample extra imformation.gtype" StoragePath="Main Functions\All Information Clusters\Sample extra imformation.gtype\Sample extra imformation.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="2d393468674b4854b7e76a25d69f4251" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Live Progress.gtype" StoragePath="Main Functions\All Information Clusters\Live Progress.gtype\Live Progress.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="a60eec83b2554b39b5a5ad9df665cf82" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Status Report.gtype" StoragePath="Main Functions\All Information Clusters\Status Report.gtype\Status Report.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="8a3d5e8893b14888b8ff8a4891eb7337" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Full Reference Cluster.gtype" StoragePath="Main Functions\All Information Clusters\Full Reference Cluster.gtype\Full Reference Cluster.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="124c3fa90e7f4f80ab115d570a77d269" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Misc Mega Cluster.gtype" StoragePath="Main Functions\All Information Clusters\Misc Mega Cluster.gtype\Misc Mega Cluster.gtype" />
+					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9de0658088304fbdbdbee06086b4d4de" Name="Side Functions">
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f6f768a43232446791422b737e9f7bde" Name="Abort Control">
@@ -45,6 +54,17 @@
 					</NameScopingEnvoy>
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2c179912de2b4816bd27d80d88484708" Name="FGV Control">
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,EnvoyManager" Id="5b6c99c196514b72a119999a86e4c3f3" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="FGV Instructions.gtype" StoragePath="Side Functions\FGV Control\FGV Instructions.gtype\FGV Instructions.gtype" />
+					</NameScopingEnvoy>
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="603056009325473bb3d05ac004694786" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Exit App Sequence.gvi" StoragePath="Side Functions\Exit App Sequence.gvi" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="90af3c5a2d0d4b3b883490d19a6b2547" Name="Utilities">
+						<NameScopingEnvoy AutomaticallyResolveUp="True" Id="1dda7b64e3a64289bf9f11eb55d78653" Name="Cell Naming">
+							<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="317b1821fa0d43fc867ff57e79925dd8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Prefix Generator.gvi" StoragePath="Side Functions\Utilities\Cell Naming\Prefix Generator.gvi" />
+							<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="58e00a1f2b9a401c85c094ee9bf8cbe5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Prefix Error Check.gvi" StoragePath="Side Functions\Utilities\Cell Naming\Prefix Error Check.gvi" />
+							<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1ca4a7344a274450a97b367606255247" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sample Naming Subroutine.gvi" StoragePath="Side Functions\Utilities\Cell Naming\Sample Naming Subroutine.gvi" />
+						</NameScopingEnvoy>
+						<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4bc364adcf424f5eb622bb0bd63be27b" Name="Time">
+							<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="f8ec821bd8e84e9893db1d232b720796" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Date YYMMDD.gvi" StoragePath="Side Functions\Utilities\Time\Get Date YYMMDD.gvi" />
+						</NameScopingEnvoy>
 					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
