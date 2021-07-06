@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="64BDB047F4B190E88F741A220A74DE144E5A8081B6687982AEADA5EDAF34D0057C08FD93E0CB407CEF12ED1FE935D1013A7A1576B3F4CAEC7DE2D1039802D436" Timestamp="1D7725351FEA0C9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@fda0f1a6ecf0407f9011794437c0147f" Id="76115c5a6b2149e88d1516518fa6dca4" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="3d9331d221464cde94e4891bed0fe3e1" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d24545b4d57b4f5092ff2d77c3a24255" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="780ca9188708403984c5514b99ed6a9b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@fda0f1a6ecf0407f9011794437c0147f" Id="eb82a66ca4194e91862fc53b3e6f0c64" Name="Initialize App States">
+			<p.DefaultValue>1</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="dc49cac23fe74ae183a5de06efcf39cf" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="a7660cbd72914a129bfdb679c33e58a8" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f4fad886334e4822884171bbc2afca34" Name="Initialize App States.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="4b6488a116ff44688f72b355188740c1" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="ae1d1a2c03a84a4687ee0b850c88dbf0" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="4ba03bdb7fd745cdb32221ae7cff7d42" IsTypeAheadEnabled="[bool]True" Label="[UIModel]5f736f321c214ad0b23a362324071893" Left="[float]287" TabIndex="[int]0" Top="[float]237" Value="{DataItemBinding Id=eb82a66ca4194e91862fc53b3e6f0c64}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]280" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Reset Global Variables" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset Disabled/Enabled Controls" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset Doubles" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset Clusters" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset Booleans" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset Strings" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Detect Instruments" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="5f736f321c214ad0b23a362324071893" LabelOwner="[UIModel]4ba03bdb7fd745cdb32221ae7cff7d42" Left="[float]287" Text="[string]Initialize App States" Top="[float]217" Width="[float]104" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="fda0f1a6ecf0407f9011794437c0147f">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Reset Global Variables" />
+					<EnumerationMember Value="1" Name="Reset Disabled/Enabled Controls" />
+					<EnumerationMember Value="2" Name="Reset Doubles" />
+					<EnumerationMember Value="3" Name="Reset Clusters" />
+					<EnumerationMember Value="4" Name="Reset Booleans" />
+					<EnumerationMember Value="5" Name="Reset Strings" />
+					<EnumerationMember Value="6" Name="Detect Instruments" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

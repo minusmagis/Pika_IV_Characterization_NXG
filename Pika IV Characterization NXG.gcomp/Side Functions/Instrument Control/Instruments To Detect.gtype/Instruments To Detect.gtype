@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0DD71183BDE55AA0F45DA648178EC7CBAFD6C2F7818D1DBCB982179EAE089FEADFFD170F9AABBBEA5CF81B8ADBBA506F06A04C10F1EC84670675295F3DCFF3A3" Timestamp="1D7724C87C01848" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@92a74271e10d431bbc8bca0caac642ed" Id="f197ef2241ef4aff9dacf4335821110b" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="5f4a831881d14692be2c0364d1637a0b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="e0a87c1f8c5e445b9bf74d7750f5c6f9" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="138626f79f10448c820e627671e9ec8a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@92a74271e10d431bbc8bca0caac642ed" Id="7b10e5404e594b9da34c0a95e19b94f5" Name="Instruments To Detect">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="73c8651ff2514c45a0b7f88faa19c4aa" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="59ec0589d5a04b88bb1675263e46bb24" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="aee156d2fb7147388079146ced4db344" Name="Instruments To Detect.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="6db7ceb404a94c09ab6ed7aefe53c773" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="48060d4f82724bc89b3579d9eb8d4f92" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="835bedf6cb3943c6a438570f5e68d10b" IsTypeAheadEnabled="[bool]True" Label="[UIModel]b1b54e47276040428d3ccf5061987e15" Left="[float]495" TabIndex="[int]0" Top="[float]260" Value="{DataItemBinding Id=7b10e5404e594b9da34c0a95e19b94f5}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]135" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Keithley" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Arduino" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="b1b54e47276040428d3ccf5061987e15" LabelOwner="[UIModel]835bedf6cb3943c6a438570f5e68d10b" Left="[float]495" Text="[string]Instruments To Detect" Top="[float]240" Width="[float]116" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="92a74271e10d431bbc8bca0caac642ed">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Keithley" />
+					<EnumerationMember Value="1" Name="Arduino" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
