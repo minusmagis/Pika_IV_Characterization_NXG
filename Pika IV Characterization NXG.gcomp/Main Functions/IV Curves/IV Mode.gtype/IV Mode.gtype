@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="26E2B14BD27854E3E464EA30A90CD2C6C39D95B26C41CFB9EBBCF38F3E32892CE0D1F37F284ED594376132E083BCFE9A4B6B6D915189C1835048CBF929AEDA7D" Timestamp="1D76D01E6FB72AC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="84B07CE24BEC465A4030CDD58060E347083C8B340DA21E926D1A46E1640C9E8DEB336D5D07FA5F4E9119E7DEC73FF651E9759370F2B59ACB2E4BD4F8A8631B78" Timestamp="1D7726FF4441BFB" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@ca50e012df0a40f38e4f5f8987ae613e" Id="d97e5f000a80469db069e1f5b55febed" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@21df3294f0634d81b9b3a6135e2c21d8" Id="d97e5f000a80469db069e1f5b55febed" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="106497d38e69456aa4b309a57242cc4b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="eb503238b6b049b394a8749b4df3dcc9" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="812fd903a53f40e9bc87a55643e5e8ce" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@ca50e012df0a40f38e4f5f8987ae613e" Id="c4d14a9772fa47998c96d7c2436d0800" Name="IV Mode">
+		<DataItem DataType="@21df3294f0634d81b9b3a6135e2c21d8" Id="c4d14a9772fa47998c96d7c2436d0800" Name="IV Mode">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -27,6 +27,7 @@
 						<EnumSelectorInfo DisplayValue="[string]Normal" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Accurate" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Smart" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Custom" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="e83288cfc4024b10a8f789e90e58bcd4" LabelOwner="[UIModel]405447af9cbe4bcebb19a448511d69c8" Left="[float]112" Text="[string]IV Mode" Top="[float]77" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -34,13 +35,14 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="ca50e012df0a40f38e4f5f8987ae613e">
+		<p.TypeReference TypeId="21df3294f0634d81b9b3a6135e2c21d8">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Rough" />
 					<EnumerationMember Value="1" Name="Normal" />
 					<EnumerationMember Value="2" Name="Accurate" />
 					<EnumerationMember Value="3" Name="Smart" />
+					<EnumerationMember Value="4" Name="Custom" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

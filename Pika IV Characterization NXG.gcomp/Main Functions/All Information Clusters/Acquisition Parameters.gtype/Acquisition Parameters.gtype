@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FAEE41EB3B0D34AFB76BBEBDB4CCA3DF4698AEF055F3FA1508C535893E3B995CDF118F03F64B98670116EA4EC873A8E940ABB3B0F8873B5D674E9EC4BEF7E628" Timestamp="1D771AE04519F82" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3DDD0753E158D59C826A3D695227619241A8ED1BCFF6DF85DF15BD6C0DB355B860D18D760BC3D37F953181319C08DFC9557406E8B26538E5EFED97A7C7261F6C" Timestamp="1D7727421B0414D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,23 +7,27 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@1a14379b7912494c8dcefab3ffbf9b4d" Id="e6763ac6989e4ff5928b50b76818833d" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@5bd2e76eab644eaca15a7a182e85375f" Id="e6763ac6989e4ff5928b50b76818833d" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
 			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::All Information Clusters::Cell Selector.gtype" />
-			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::All Information Clusters::IV Curve Parameters.gtype" />
+			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::IV Curves::Cell Parameters.gtype" />
+			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::IV Curves::IV Mode.gtype" />
+			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::IV Curves::Accuracy Parameters.gtype" />
 		</p.TypeDefinitionTargets>
 		<Icon Id="122532b91c52487b82c5a85ac7fce151" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="2e1e144e3e4a4b0b9b96a78e4e77abe0" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="6b40cefc4600452c9022abab99921bab" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@1a14379b7912494c8dcefab3ffbf9b4d" Id="44eb3c35611a4508a1685c87c5ef1873" Name="Cluster">
-			<p.DefaultValue>0_0_</p.DefaultValue>
+		<DataItem DataType="@5bd2e76eab644eaca15a7a182e85375f" Id="44eb3c35611a4508a1685c87c5ef1873" Name="Cluster">
+			<p.DefaultValue>0_0_0_0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
 				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::All Information Clusters::Cell Selector.gtype" />
-				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::All Information Clusters::IV Curve Parameters.gtype" />
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::IV Curves::Cell Parameters.gtype" />
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::IV Curves::IV Mode.gtype" />
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::IV Curves::Accuracy Parameters.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</TypeDefinition>
@@ -32,23 +36,29 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a37f18e4e014cbebb74adf24d59537d" Name="Acquisition Parameters.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="50b07edddd2b4a95a1da6d0b07ddb97b" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="820a58cc50b44670b2d6cfeab87dc03b" xmlns="http://www.ni.com/MocCommon">
-					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1a14379b7912494c8dcefab3ffbf9b4d" Height="[float]112" Id="b5a44410791f4a099bbf203908e6bf96" Label="[UIModel]41faa7c5df174fbfa9f25eeed71b3055" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=44eb3c35611a4508a1685c87c5ef1873}" Width="[float]40" xmlns="http://www.ni.com/PanelCommon">
-						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="e56a464694ea4a41a7aaa7adb9d3932d" Label="[UIModel]7d6baccaccb1483d812d095610039df2" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@34de7af022c44eb69bda981055c947ed`@34de7af022c44eb69bda981055c947ed" Top="[float]24" Value="{ClusterBinding FieldName=Cell\ Selector}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Id="7d6baccaccb1483d812d095610039df2" LabelOwner="[UIModel]e56a464694ea4a41a7aaa7adb9d3932d" Left="[float]4" Text="[string]Cell Selector" Top="[float]4" />
-						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="13d26ff1a5da4354aeb4b3a74db1bc67" Label="[UIModel]4660f1aa738f4fa8a28a696c2beb185e" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@6bb0828cd5c641e18780377cd546f29e`@6bb0828cd5c641e18780377cd546f29e" Top="[float]76" Value="{ClusterBinding FieldName=IV\ Curve\ Parameters}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Id="4660f1aa738f4fa8a28a696c2beb185e" LabelOwner="[UIModel]13d26ff1a5da4354aeb4b3a74db1bc67" Left="[float]4" Text="[string]IV Curve Parameters" Top="[float]56" />
+					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@5bd2e76eab644eaca15a7a182e85375f" Height="[float]202" Id="b5a44410791f4a099bbf203908e6bf96" Label="[UIModel]41faa7c5df174fbfa9f25eeed71b3055" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=44eb3c35611a4508a1685c87c5ef1873}" Width="[float]160" xmlns="http://www.ni.com/PanelCommon">
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="e56a464694ea4a41a7aaa7adb9d3932d" Label="[UIModel]7d6baccaccb1483d812d095610039df2" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@34de7af022c44eb69bda981055c947ed`@34de7af022c44eb69bda981055c947ed" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Cell\ Selector}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="7d6baccaccb1483d812d095610039df2" LabelOwner="[UIModel]e56a464694ea4a41a7aaa7adb9d3932d" Left="[float]4" Text="[string]Cell Selector" Top="[float]4" Width="[float]65" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="2ba6109075a8402287f8d66023154d49" Label="[UIModel]f8ae7f46e88f488fa8d50fb7d45f11c6" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@e3b5bfefe8314e19862ae33f32b94e78`@e3b5bfefe8314e19862ae33f32b94e78" TabIndex="[int]1" Top="[float]70" Value="{ClusterBinding FieldName=Cell\ Parameters\ Ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="1e5b67d1dccc4cc6b2e5e8e2f02c9904" Label="[UIModel]d3ce271f5fad443381ac2be10039329c" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.EnumSelectorProxy, NationalInstruments.Controls.Runtime`@a8c86bd6668b4ffaaa9efe300e0e1ae5`@a8c86bd6668b4ffaaa9efe300e0e1ae5" TabIndex="[int]2" Top="[float]118" Value="{ClusterBinding FieldName=IV\ Mode\ Ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="1411041ec7074713b320b84932f13019" Label="[UIModel]39751667e7724328b9a6dd49b18a3212" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@3bc13c9a50a94cfca864a8c43b0c5c18`@3bc13c9a50a94cfca864a8c43b0c5c18" TabIndex="[int]3" Top="[float]166" Value="{ClusterBinding FieldName=Measurement\ Precision\ Ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="f8ae7f46e88f488fa8d50fb7d45f11c6" LabelOwner="[UIModel]2ba6109075a8402287f8d66023154d49" Left="[float]4" Text="[string]Cell Parameters Ref" Top="[float]50" Width="[float]102" />
+						<Label Height="[float]16" Id="d3ce271f5fad443381ac2be10039329c" LabelOwner="[UIModel]1e5b67d1dccc4cc6b2e5e8e2f02c9904" Left="[float]4" Text="[string]IV Mode Ref" Top="[float]98" Width="[float]65" />
+						<Label Height="[float]16" Id="39751667e7724328b9a6dd49b18a3212" LabelOwner="[UIModel]1411041ec7074713b320b84932f13019" Left="[float]4" Text="[string]Measurement Precision Ref" Top="[float]146" Width="[float]144" />
 					</Cluster>
-					<Label Id="41faa7c5df174fbfa9f25eeed71b3055" LabelOwner="[UIModel]b5a44410791f4a099bbf203908e6bf96" Left="[float]100" Text="[string]Cluster" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+					<Label Height="[float]16" Id="41faa7c5df174fbfa9f25eeed71b3055" LabelOwner="[UIModel]b5a44410791f4a099bbf203908e6bf96" Left="[float]100" Text="[string]Cluster" Top="[float]80" Width="[float]37" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="1a14379b7912494c8dcefab3ffbf9b4d">
+		<p.TypeReference TypeId="5bd2e76eab644eaca15a7a182e85375f">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Cell Selector" DataType=":DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@34de7af022c44eb69bda981055c947ed`@34de7af022c44eb69bda981055c947ed" />
-					<Field FieldAccessPolicy="ReadWrite" Name="IV Curve Parameters" DataType=":DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@6bb0828cd5c641e18780377cd546f29e`@6bb0828cd5c641e18780377cd546f29e" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cell Parameters Ref" DataType=":DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@e3b5bfefe8314e19862ae33f32b94e78`@e3b5bfefe8314e19862ae33f32b94e78" />
+					<Field FieldAccessPolicy="ReadWrite" Name="IV Mode Ref" DataType=":DotNet:NationalInstruments.Controls.Runtime.EnumSelectorProxy, NationalInstruments.Controls.Runtime`@a8c86bd6668b4ffaaa9efe300e0e1ae5`@a8c86bd6668b4ffaaa9efe300e0e1ae5" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Measurement Precision Ref" DataType=":DotNet:NationalInstruments.Controls.Runtime.ClusterProxy, NationalInstruments.Controls.Runtime`@3bc13c9a50a94cfca864a8c43b0c5c18`@3bc13c9a50a94cfca864a8c43b0c5c18" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -59,18 +69,38 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6bb0828cd5c641e18780377cd546f29e">
-			<Attributed AttributedType="@b80d6d8c352b4a3290c6c2a1a7528349">
+		<p.TypeReference TypeId="e3b5bfefe8314e19862ae33f32b94e78">
+			<Attributed AttributedType="@2641f3d199d54b44bc44b1f4b02c0350">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::All Information Clusters" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::IV Curves" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a8c86bd6668b4ffaaa9efe300e0e1ae5">
+			<Attributed AttributedType="@127bf0e7173c4d6fb50961348454cd6c">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::IV Curves" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3bc13c9a50a94cfca864a8c43b0c5c18">
+			<Attributed AttributedType="@9526cb0884214e86ba9767a8d75e18ce">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::IV Curves" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="6dbe738c74144cbe91769e372dbcff4f">
 			<Typedef TypedefName="Cell Selector.gtype" UnderlyingType="@bf958151b57e4b0fb2474d8d0f9e1b9e" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="b80d6d8c352b4a3290c6c2a1a7528349">
-			<Typedef TypedefName="IV Curve Parameters.gtype" UnderlyingType="@cafbfd73ef3749b9a62f539de09e3aaa" />
+		<p.TypeReference TypeId="2641f3d199d54b44bc44b1f4b02c0350">
+			<Typedef TypedefName="Cell Parameters.gtype" UnderlyingType="@8aee81dbd036435ea40310bbf01f8b46" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="127bf0e7173c4d6fb50961348454cd6c">
+			<Typedef TypedefName="IV Mode.gtype" UnderlyingType="@21df3294f0634d81b9b3a6135e2c21d8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9526cb0884214e86ba9767a8d75e18ce">
+			<Typedef TypedefName="Accuracy Parameters.gtype" UnderlyingType="@b6e15fc9bdcc4874bfbf71d9d5bd5f1e" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="bf958151b57e4b0fb2474d8d0f9e1b9e">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -85,22 +115,39 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="cafbfd73ef3749b9a62f539de09e3aaa">
+		<p.TypeReference TypeId="8aee81dbd036435ea40310bbf01f8b46">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Max (V)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Min (V)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="V Points" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Curr Range (A)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Sweep Dir" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Current Avg" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Max (A)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Integration Time" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Curr Range (A)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Autorange" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max (A)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Cell Area (m^2)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Light Power (W m^-2)" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="21df3294f0634d81b9b3a6135e2c21d8">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Rough" />
+					<EnumerationMember Value="1" Name="Normal" />
+					<EnumerationMember Value="2" Name="Accurate" />
+					<EnumerationMember Value="3" Name="Smart" />
+					<EnumerationMember Value="4" Name="Custom" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b6e15fc9bdcc4874bfbf71d9d5bd5f1e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="V Points" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Avg" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Integration Time" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Iterations" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="IV Mode" DataType="@7245edb99c9342dba147cbb42b278f91" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -133,27 +180,6 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="R.12" DataType="Boolean" />
 				</Members>
 			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="7245edb99c9342dba147cbb42b278f91">
-			<Attributed AttributedType="@94ab4a7dce934026a89cd1ab2b6e09f0">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::All Information Clusters" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="94ab4a7dce934026a89cd1ab2b6e09f0">
-			<Typedef TypedefName="IV Mode.gtype" UnderlyingType="@ca50e012df0a40f38e4f5f8987ae613e" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="ca50e012df0a40f38e4f5f8987ae613e">
-			<Enumeration>
-				<Members>
-					<EnumerationMember Value="0" Name="Rough" />
-					<EnumerationMember Value="1" Name="Normal" />
-					<EnumerationMember Value="2" Name="Accurate" />
-					<EnumerationMember Value="3" Name="Smart" />
-				</Members>
-				<DataType>UInt16</DataType>
-			</Enumeration>
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 </SourceFile>
