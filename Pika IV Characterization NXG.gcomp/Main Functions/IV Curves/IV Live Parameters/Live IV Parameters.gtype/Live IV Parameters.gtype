@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A6BF332CE44F2B5F1F7B643161BBAF770FC25A922DD033EA170CD3732369C87752DBB24852E777B2E61FDEA4B2B405755A0CAFF2F863EDC24041FEE49855C822" Timestamp="1D77276B92D45ED" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DB70DA7F2D6D19A077DC937C7C60BA9FCFBEF6392AE1000EB0B735124289ACFD7303598EF6CE28EAC5ADF4500B287926DECDA459C05A75BA5559F5A3E41487D1" Timestamp="1D773F8F94BB419" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@2c86c834e86c46c983092ede96919cf6" Id="5969e64a71414b02b070ceb1140f00a4" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@9f59ec0f6ffb4ca2bd83c6a1329a85a3" Id="5969e64a71414b02b070ceb1140f00a4" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="601d8844b9664be7906053595e9438b3" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="6803389849b444588fb6a8baa873d4e5" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="20c9cca939b64ece9ea6ac93f8098c22" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@2c86c834e86c46c983092ede96919cf6" Id="d5e0d898853f44148a4a9c0e25fd1d39" Name="Live IV Parameters">
+		<DataItem DataType="@9f59ec0f6ffb4ca2bd83c6a1329a85a3" Id="d5e0d898853f44148a4a9c0e25fd1d39" Name="Live IV Parameters">
 			<p.DefaultValue>0x0_0x0_0x0_0_</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -22,13 +22,13 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a0e965831d34fe8ac302176341f854b" Name="Live IV Parameters.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="b5f14ad221964a9eb7bffba6837688ff" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Indicator" Id="7b3461cb5c224837a822a04c8941287d" xmlns="http://www.ni.com/MocCommon">
-					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@2c86c834e86c46c983092ede96919cf6" Height="[float]104" Id="91960dd19a6c4e66b63b941bae0ac62d" Label="[UIModel]56a43973a71a428a82a1c04e728908e4" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=d5e0d898853f44148a4a9c0e25fd1d39}" Width="[float]232" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@9f59ec0f6ffb4ca2bd83c6a1329a85a3" Height="[float]104" Id="91960dd19a6c4e66b63b941bae0ac62d" Label="[UIModel]56a43973a71a428a82a1c04e728908e4" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=d5e0d898853f44148a4a9c0e25fd1d39}" Width="[float]208" xmlns="http://www.ni.com/PanelCommon">
 						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="f4c11a77fcb04df0a338824b91595c1d" IsReadOnly="[bool]True" Label="[UIModel]954378f244de4ea6a01d720dd2e509ac" Left="[float]5" TabIndex="[int]0" Top="[float]21" Value="{ClusterBinding FieldName=Current\ (A)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Label Height="[float]16" Id="954378f244de4ea6a01d720dd2e509ac" LabelOwner="[UIModel]f4c11a77fcb04df0a338824b91595c1d" Left="[float]5" Text="[string]Current (A)" Top="[float]1" Width="[float]58" />
 						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="b62879dfcdf748819ac5c293635c4c43" IsReadOnly="[bool]True" Label="[UIModel]8d01825b2826484f809fbd69984876b7" Left="[float]5" TabIndex="[int]1" Top="[float]69" Value="{ClusterBinding FieldName=Voltage\ (V)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Height="[float]16" Id="8d01825b2826484f809fbd69984876b7" LabelOwner="[UIModel]b62879dfcdf748819ac5c293635c4c43" Left="[float]5" Text="[string]Voltage (V)" Top="[float]49" Width="[float]59" />
-						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a3fceed20a5e49fc9d6372beea95e4d7" IsReadOnly="[bool]True" Label="[UIModel]6c3f8071f4d84856980297c19b1c12b0" Left="[float]90" TabIndex="[int]2" Top="[float]21" Value="{ClusterBinding FieldName=Current\ Density\ (A/m^2)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Height="[float]16" Id="6c3f8071f4d84856980297c19b1c12b0" LabelOwner="[UIModel]a3fceed20a5e49fc9d6372beea95e4d7" Left="[float]90" Text="[string]Current Density (A/m^2)" Top="[float]1" Width="[float]131" />
+						<Label Height="[float]16" Id="8d01825b2826484f809fbd69984876b7" LabelOwner="[UIModel]b62879dfcdf748819ac5c293635c4c43" Left="[float]5" Text="[string]Voltage (V)" Top="[float]49" Width="[float]58" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a3fceed20a5e49fc9d6372beea95e4d7" IsReadOnly="[bool]True" Label="[UIModel]6c3f8071f4d84856980297c19b1c12b0" Left="[float]90" TabIndex="[int]2" Top="[float]21" Value="{ClusterBinding FieldName=Cur\ Density\ (A/m^2)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="6c3f8071f4d84856980297c19b1c12b0" LabelOwner="[UIModel]a3fceed20a5e49fc9d6372beea95e4d7" Left="[float]90" Text="[string]Cur Density (A/m^2)" Top="[float]1" Width="[float]109" />
 						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="2f264b5a80d64a868901e21737dbddf2" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]305e72fb34814c5b9143f8b098f1f7fa" Left="[float]90" TabIndex="[int]3" Top="[float]69" Value="{ClusterBinding FieldName=Current\ Cell}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 							<EnumSelectorInfo DisplayValue="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 						</EnumSelector>
@@ -40,12 +40,12 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="2c86c834e86c46c983092ede96919cf6">
+		<p.TypeReference TypeId="9f59ec0f6ffb4ca2bd83c6a1329a85a3">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Current (A)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Voltage (V)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Current Density (A/m^2)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cur Density (A/m^2)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Current Cell" DataType="@8baa21a97741484e9776cae734a10eaa" />
 				</Members>
 			</Composite>

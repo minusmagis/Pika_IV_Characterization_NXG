@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A6BB4470631AF893261BF3501C0D7480664473E84E35F78EF8C98EAA82274C532C031062D8FAFDA63B8400ED5D4A0E99C5CBA5DA2EDD45455A337576123B25A7" Timestamp="1D77254E8768182" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="72F8B6057AF72EA4750B149C97CF8DE60966FAA266384FF8677524603F65E0A05E509355F354DACF057747F7863FC71497B72A2455A508CBA9957FE76080BBB9" Timestamp="1D773DDD7604712" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@1446c006ee3d4b13af8bc2e00483ba24" Id="2478eef9c83141babf23fb3f82a301da" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@3c6690237cdb4d3da7d42c682e583e1a" Id="2478eef9c83141babf23fb3f82a301da" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="9e811607f8f54822a81f4b0dcbe50efb" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="a9ac926c3d884f869b2e3ab7f2ebea28" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="3517e946e5724ac2b29b76b4d314fad7" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@1446c006ee3d4b13af8bc2e00483ba24" Id="67d0a35506cf49f49346dec2fb5e9aaf" Name="Desired Cell">
+		<DataItem DataType="@3c6690237cdb4d3da7d42c682e583e1a" Id="67d0a35506cf49f49346dec2fb5e9aaf" Name="Desired Cell">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -47,14 +47,15 @@
 						<EnumSelectorInfo DisplayValue="[string]R.10" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]21" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]R.11" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]22" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]R.12" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]23" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Custom" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]24" ValueType="[Type]UInt16" />
 					</EnumSelector>
-					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="a5169dfd47ec4bada5368c2510cbc703" LabelOwner="[UIModel]c48d7bc035f549f89e91b4da4a2b9e53" Left="[float]100" Text="[string]Desired Cell" Top="[float]80" Width="[float]64" xmlns="http://www.ni.com/PanelCommon" />
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="a5169dfd47ec4bada5368c2510cbc703" LabelOwner="[UIModel]c48d7bc035f549f89e91b4da4a2b9e53" Left="[float]100" Text="[string]Desired Cell" Top="[float]80" Width="[float]63" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="1446c006ee3d4b13af8bc2e00483ba24">
+		<p.TypeReference TypeId="3c6690237cdb4d3da7d42c682e583e1a">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="L.01" />
@@ -81,6 +82,7 @@
 					<EnumerationMember Value="21" Name="R.10" />
 					<EnumerationMember Value="22" Name="R.11" />
 					<EnumerationMember Value="23" Name="R.12" />
+					<EnumerationMember Value="24" Name="Custom" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

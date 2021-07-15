@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="409CF3AE0CE0E552EB9ED28519A1DD815A1993BD67235491B5AB237004317493141D16935B7EEBE5C3ECF86F2CDD24EFBDE0A7863F38065176EEF5D6AA9A48B7" Timestamp="1D77271CD7466B2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B216975CCE9DF44493BDF239B7EBFB91E8085AF6C504FDEB21BFA081B4748B98BB27394EC7367A6F4293F0C0CE99125E5769CF3B778FCB9A2ED29B53212F92C5" Timestamp="1D773DB80B7D082" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,14 +7,14 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@b6e15fc9bdcc4874bfbf71d9d5bd5f1e" Id="f23ec412116044e298a9bb670c45cba7" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@081ce01b641a46fc879ac69d36233e97" Id="f23ec412116044e298a9bb670c45cba7" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="21b058bea5d94f7aa1904689fa171f7c" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="592a53064b1a48888e939887eedbab59" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="ecf7ab433104148a703d842f9cd9cb5" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@b6e15fc9bdcc4874bfbf71d9d5bd5f1e" Id="e14c2a880b4e4b839f107e17a682cb82" Name="Measurement Precision">
-			<p.DefaultValue>100_3_0x3FE0000000000000_1_</p.DefaultValue>
+		<DataItem DataType="@081ce01b641a46fc879ac69d36233e97" Id="e14c2a880b4e4b839f107e17a682cb82" Name="Measurement Precision">
+			<p.DefaultValue>100_3_0x3FE0000000000000_1_5_</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
 	<EnvoyManagerFile Id="1b9edd24f73448789208e14cdde31cc2" xmlns="http://www.ni.com/PlatformFramework">
@@ -22,7 +22,7 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="46bb99f8a54d4fdbb307563065dc6129" Name="Accuracy Parameters.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="547b47bf9e9e4e208e3ee8907e2e31cf" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="f95b2615946d4f1591bc63cdf85bbfa8" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b6e15fc9bdcc4874bfbf71d9d5bd5f1e" Height="[float]109" Id="2357f9374f0240bf90025a1ae6f317cf" Label="[UIModel]7dcbcf9cdaf74e1d88148eeab699b768" Left="[float]329" TabIndex="[int]0" Top="[float]108" Value="{DataItemBinding Id=e14c2a880b4e4b839f107e17a682cb82}" Width="[float]154" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@081ce01b641a46fc879ac69d36233e97" Height="[float]159" Id="2357f9374f0240bf90025a1ae6f317cf" Label="[UIModel]7dcbcf9cdaf74e1d88148eeab699b768" Left="[float]329" TabIndex="[int]0" Top="[float]108" Value="{DataItemBinding Id=e14c2a880b4e4b839f107e17a682cb82}" Width="[float]154" xmlns="http://www.ni.com/PanelCommon">
 						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f114fcdc4edb47da827e29de79182338" Interval="[uint]1" Label="[UIModel]e634d0eff41941ada6a7e56f54f2b2ca" Left="[float]99" Maximum="[uint]100000" Minimum="[uint]1" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]0" Top="[float]73" Value="{ClusterBinding FieldName=V\ Points}" ValueFormatter="[string]Decimal, Uppercase" ValueType="[Type]UInt32" Width="[float]36" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="6650da95f9a4e9d8457459d5ee898b8" Interval="[uint]1" Label="[UIModel]3e20e23065444f99867d1053ee3321a9" Left="[float]62" Maximum="[uint]1000000" Minimum="[uint]1" TabIndex="[int]1" Top="[float]25" Value="{ClusterBinding FieldName=Current\ Avg}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="d7dbc7bb87b04f2a9dcad8cda0c9ae71" Interval="[double]0.1" Label="[UIModel]ec5e38dae6214888a3509b8dc26e9bd3" Left="[float]5" Maximum="[double]1000000" Minimum="[double]0.001" TabIndex="[int]2" Top="[float]73" Value="{ClusterBinding FieldName=Integration\ Time}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -33,6 +33,10 @@
 						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="3e20e23065444f99867d1053ee3321a9" LabelOwner="[UIModel]6650da95f9a4e9d8457459d5ee898b8" Left="[float]62" Text="[string]Current Avg" Top="[float]5" Width="[float]63" />
 						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="ec5e38dae6214888a3509b8dc26e9bd3" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]d7dbc7bb87b04f2a9dcad8cda0c9ae71" Left="[float]5" Text="[string]Integration Time" Top="[float]53" Width="[float]88" />
 						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="dd787f2dca994da2aef75021339c0b45" LabelOwner="[UIModel]d71993dea2514faebcd9ee85897b80a5" Left="[float]4" Text="[string]Iterations" Top="[float]4" Width="[float]50" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f27870c7407b496d80ad05d19cfddf94" Interval="[uint]1" Label="[UIModel]780ef237aa2848f1b8dd67b3c79b4674" Left="[float]8" Maximum="[uint]1000000" Minimum="[uint]3" TabIndex="[int]4" Top="[float]123" Value="{ClusterBinding FieldName=Rs\ Rsh\ Slope\ points}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Lower for faster and less accurate measurements</p.InfoTipDescription>
+						</NumericText>
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="780ef237aa2848f1b8dd67b3c79b4674" LabelOwner="[UIModel]f27870c7407b496d80ad05d19cfddf94" Left="[float]8" Text="[string]Rs Rsh Slope points" Top="[float]103" Width="[float]104" />
 					</Cluster>
 					<Label Height="[float]0" Id="7dcbcf9cdaf74e1d88148eeab699b768" LabelOwner="[UIModel]2357f9374f0240bf90025a1ae6f317cf" Left="[float]329" Text="[string]Measurement Precision" Top="[float]88" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -40,13 +44,14 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="b6e15fc9bdcc4874bfbf71d9d5bd5f1e">
+		<p.TypeReference TypeId="081ce01b641a46fc879ac69d36233e97">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="V Points" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Current Avg" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Integration Time" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Iterations" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Rs Rsh Slope points" DataType="UInt32" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
