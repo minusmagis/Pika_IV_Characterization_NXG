@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="FD12D9D1A260ED84612023DF4905527C4DBD9C46E8E2B4049890D2B9166A2EAA697C1009DC14961A35A695BE7845B8E43C668AAF7E701D63E6354C4E7596E4C7" Timestamp="1D77A454D0F42B4" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@d369af0e9f1442fe985c96aaab6a7a2a" Id="2c3a098c1a1f4df8aa2ce6d45b49a490" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="7e2de3b05e82476cbb93cb3def0efbbf" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="2979c6e09922426d91ca1adb2b46b4a2" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="952d94da891f43f8a3e39ce99f70b574" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@d369af0e9f1442fe985c96aaab6a7a2a" Id="a3fb64681f4b44f89575e49a4e18b0fa" Name="Sample Extra Information">
+			<p.DefaultValue>0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="b43c8f40e21948ed8fae6ff206619388" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="5e401d4e83214632a13e1775dfa8100d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="351768e40cd24f42afd3f6015c215149" Name="Sample extra imformation.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="fdfae86164494351b23f63500f451851" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="75daee40b928430aa5f49054bde58e21" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@d369af0e9f1442fe985c96aaab6a7a2a" Height="[float]60" Id="f8b4f0f8af4247b2aa66fb40a9a3629b" Label="[UIModel]4d81a406908647fb91883f9e42b45233" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=a3fb64681f4b44f89575e49a4e18b0fa}" Width="[float]105" xmlns="http://www.ni.com/PanelCommon">
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="7665601a428141bda40d7000a29c7403" Label="[UIModel]fdaaff827a4c450389268ddbe2ae9b67" Left="[float]4" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ArrayViewerProxy, NationalInstruments.Controls.Runtime`String[]`String[]" Top="[float]24" Value="{ClusterBinding FieldName=Layer\ Information}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="fdaaff827a4c450389268ddbe2ae9b67" LabelOwner="[UIModel]7665601a428141bda40d7000a29c7403" Left="[float]4" Text="[string]Layer Information" Top="[float]4" Width="[float]93" />
+					</Cluster>
+					<Label Height="[float]16" Id="4d81a406908647fb91883f9e42b45233" LabelOwner="[UIModel]f8b4f0f8af4247b2aa66fb40a9a3629b" Left="[float]100" Text="[string]Sample Extra Information" Top="[float]80" Width="[float]134" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="d369af0e9f1442fe985c96aaab6a7a2a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Layer Information" DataType=":DotNet:NationalInstruments.Controls.Runtime.ArrayViewerProxy, NationalInstruments.Controls.Runtime`String[]`String[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

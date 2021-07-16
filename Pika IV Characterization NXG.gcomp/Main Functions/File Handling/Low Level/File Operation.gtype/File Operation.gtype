@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="98C940AFEDC54A71B4BE955728E5C23BF707E049E4F99628843C7DB2A206EC4540412D7C6A711981B6F64E320AEFE6B0276D008F7C2201ACD3DD1EB1F3250720" Timestamp="1D77A26F4667187" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@762b9eb1a79f4cb098fa2bc6a72ccb02" Id="845c577fc2db4104b242dc1c950c2ec2" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="ee59fd736f294a1c88897bb39ccbb4fa" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="b8a4857cc34f458d8eed2b1cc8071256" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="cfdabcf073734f3b837e84a4a2f10deb" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@762b9eb1a79f4cb098fa2bc6a72ccb02" Id="c41c6748d49408c96012a3bdbc6a38e" Name="File Operation">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="d80e66da86a041dc9a71d0d016271f9f" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="107c2cda865c49baab8b4dbbc0dbe2af" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="37f51958b11b499aaf5b015494ab71a7" Name="File Operation.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="a14c0b9bad554a788b578ea06231ce92" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="4f98726c88146eead7f45514c947918" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="4cbb0de7416a4d0aa4565a1d111cf167" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]835cca64c87c427091c92cd8de721f72" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=c41c6748d49408c96012a3bdbc6a38e}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Replace" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Rename" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Do not save" Value="[ushort]2" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Id="835cca64c87c427091c92cd8de721f72" LabelOwner="[UIModel]4cbb0de7416a4d0aa4565a1d111cf167" Left="[float]100" Text="[string]File Operation" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="762b9eb1a79f4cb098fa2bc6a72ccb02">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Replace" />
+					<EnumerationMember Value="1" Name="Rename" />
+					<EnumerationMember Value="2" Name="Do not save" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

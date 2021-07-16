@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="99ED8EA37C0EC38D5816518A6CC42086E3CA2B9D83E36BABD875983C5547FC5C2D375F91A68379A63DDAC9C9CB71F9C2A36FBBB0DDC2B3FE22991CA608FD68E4" Timestamp="1D77965A7F6687F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@19eca91004ba4e73ba25487c36087606" Id="5b50ef8e974f44b386efa187a87db747" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="f3b46bcd387c45fa98245857d60d4ed8" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="20bb2d3c09b44fefbe903087023accec" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="aabadb0e25444243b17d61aeec0e68ff" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@19eca91004ba4e73ba25487c36087606" Id="fb508cf966964bb792ee9223aff3f837" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>""</Field1>
+					<Field2>""</Field2>
+					<Field3>""</Field3>
+					<Field4>""</Field4>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="ea4b3bd85c984483b54ea55e1cff755e" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="d953df37fee34aacb129ebdf1b2d0dc2" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="800a8aa0079445128ad16e3749e0c106" Name="Naming Cluster.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="11f48f8faf644d189ca1a8785b92c790" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="a062559fb4584201a1836bd2bbacf87f" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@19eca91004ba4e73ba25487c36087606" Height="[float]216" Id="d389b6f361ca4c15886552153d94ff43" Label="[UIModel]407624ff3f4946879ff90bf5d736bd13" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=fb508cf966964bb792ee9223aff3f837}" Width="[float]88" xmlns="http://www.ni.com/PanelCommon">
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="f0da6c5474f942ebbe48971256648da1" Label="[UIModel]bdc361c4fe604b9c84ac6980fe1e1ee4" Left="[float]4" Text="{ClusterBinding FieldName=Authors\ Initials}" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="bdc361c4fe604b9c84ac6980fe1e1ee4" LabelOwner="[UIModel]f0da6c5474f942ebbe48971256648da1" Left="[float]4" Text="[string]Authors Initials" Top="[float]4" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="e19624967dc443f69614287287ff0bd5" Label="[UIModel]7325a43ca6949d7a31e9e6c7db92041" Left="[float]4" Text="{ClusterBinding FieldName=Current\ Date}" Top="[float]76" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="7325a43ca6949d7a31e9e6c7db92041" LabelOwner="[UIModel]e19624967dc443f69614287287ff0bd5" Left="[float]4" Text="[string]Current Date" Top="[float]56" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="40562f2724304363b1acc34a84a7dd4b" Label="[UIModel]ef9d84ff9f8143308cefadedbb3fc920" Left="[float]4" Text="{ClusterBinding FieldName=Batch\ Name}" Top="[float]128" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="ef9d84ff9f8143308cefadedbb3fc920" LabelOwner="[UIModel]40562f2724304363b1acc34a84a7dd4b" Left="[float]4" Text="[string]Batch Name" Top="[float]108" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="d120e4e33a642a9990e53957260ee92" Label="[UIModel]a08e9cb3e40d4ed79d524d3251bce79c" Left="[float]4" Text="{ClusterBinding FieldName=Sample\ Prefix}" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="a08e9cb3e40d4ed79d524d3251bce79c" LabelOwner="[UIModel]d120e4e33a642a9990e53957260ee92" Left="[float]4" Text="[string]Sample Prefix" Top="[float]160" />
+					</Cluster>
+					<Label Id="407624ff3f4946879ff90bf5d736bd13" LabelOwner="[UIModel]d389b6f361ca4c15886552153d94ff43" Left="[float]100" Text="[string]Cluster" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="19eca91004ba4e73ba25487c36087606">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Authors Initials" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Date" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Batch Name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sample Prefix" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
