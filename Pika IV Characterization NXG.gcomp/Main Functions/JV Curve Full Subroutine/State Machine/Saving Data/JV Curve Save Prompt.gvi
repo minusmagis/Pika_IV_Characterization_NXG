@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="46150BF33BAB4C789977E6490FF1DEC189FB50469BE91C74FBE24F696E89B177F13655853696D5DAABC3B020E478C794841EFCC72CD9F78132A3C4B7687D11FF" Timestamp="1D77A32863B192E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4DD080B9E352D32637215FE8FA2B4447EC1600085279347E738A1682EFB6962AC8A568BE467AA3AB20A2B453BDEC5841B21C70977D02F0C47FAA56E07BD66D52" Timestamp="1D77A5B6CF3373C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -74,13 +74,13 @@
 			</EnumSelector>
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="c8037535cdb440d1a180338ef2208013">
-			<DataAccessor Bounds="-355 305 40 15" DataItem="6711faf5474f426daadb92f0bab0de93" Id="645fa6385ef4443196e19a5718065861" Label="5193a22290484111a85fe33c436103de" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="-915 305 40 15" DataItem="6711faf5474f426daadb92f0bab0de93" Id="645fa6385ef4443196e19a5718065861" Label="5193a22290484111a85fe33c436103de" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="200 305 40 15" DataItem="b21c10ce911247a4afc38e4561d5e58d" Id="25ac5708ade144609e8b7b78c71e3062" Label="7cd4c38c96a44bb59fb547e0dcdc1437" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="-360 305 40 15" DataItem="b21c10ce911247a4afc38e4561d5e58d" Id="25ac5708ade144609e8b7b78c71e3062" Label="7cd4c38c96a44bb59fb547e0dcdc1437" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<CaseStructure Bounds="-295 155 455 235" DataType="Error" Default="f506c7afec5f4369bee70cb222357b7e" Id="a6a47411da1941bfbb31863e1e0f3ce8" Selected="8614df1bb01342adbd51779fd4a98743" UserSelectorBounds="174 0 106 17">
+			<CaseStructure Bounds="-855 155 455 235" DataType="Error" Default="f506c7afec5f4369bee70cb222357b7e" Id="a6a47411da1941bfbb31863e1e0f3ce8" Selected="8614df1bb01342adbd51779fd4a98743" UserSelectorBounds="174 0 106 17">
 				<CaseStructure.Case Bounds="5 5 445 225" Id="f506c7afec5f4369bee70cb222357b7e" Pattern="Error">
 					<Wire Id="7cd2c4fbd1714cbd9b7174081a0b3365" Joints="N(ecac23a2ed5449488ef367afaff61f0a:f506c7afec5f4369bee70cb222357b7e)|(4,150) N(d3b91ec7ecc64b7dbd0b27ca0ac3ad44:f506c7afec5f4369bee70cb222357b7e)|(441,150)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="330 65 90 15" DataType="@a288d4698be64486a4bc7eaf9486a469" Id="b99fe3ec7ffd40a78c65c5a7364be4f7" p6:ControlDefinitionChecksum="nOjQrYfsenLqUGqZyhehLpBCstusou/nbf80WPRGb6Y=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
@@ -95,19 +95,19 @@
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 445 225" Id="8614df1bb01342adbd51779fd4a98743" Pattern="No Error">
 					<Literal Bounds="28 76 12 9" DataType="String" Id="13c12a74117a4fe5ab9bac6cd6990119" Label="8537c7d90fc44fc8a1005ff96eac193a" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>"Do you wish to save the current Measurement files, as well as a full report with ppt and origin files?\nThey will be properly saved on your Personal Folder with the current date and batch label."</p.Data>
+						<p.Data>"Do you wish to save the current Measurement files, \nas well as a full report with ppt and origin files?\n\nThey will be properly saved on your Personal Folder\n with the current date and batch label."</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
-						<DockedConstantFacade UndockedSize="570 28" />
+						<DockedConstantFacade UndockedSize="310 68" />
 					</Literal>
 					<Literal Bounds="28 86 12 9" DataType="String" Id="81e11e6691ea4ae488b7c168f9238ee8" Label="c1cca4db6a245db9527595f183c9fa6" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Yes please I want a full report :D</p.Data>
+						<p.Data>"Yes please I want \na full report :D"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
-						<DockedConstantFacade UndockedSize="200 15" />
+						<DockedConstantFacade UndockedSize="120 28" />
 					</Literal>
 					<Literal Bounds="28 106 12 9" DataType="String" Id="26ecd4738a5f425eb9b2f7435729f554" Label="cd1cbe013474d1d9bc434f01b9a3c44" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>These results are awful, I don't want them!</p.Data>
+						<p.Data>"These results are awful,\nI don't want them!"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
-						<DockedConstantFacade UndockedSize="260 15" />
+						<DockedConstantFacade UndockedSize="150 28" />
 					</Literal>
 					<NodeLabel AttachedTo="13c12a74117a4fe5ab9bac6cd6990119" Bounds="28 58 30 15" Id="8537c7d90fc44fc8a1005ff96eac193a" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>message</p.Text>
@@ -118,19 +118,19 @@
 					<NodeLabel AttachedTo="26ecd4738a5f425eb9b2f7435729f554" Bounds="28 88 30 15" Id="cd1cbe013474d1d9bc434f01b9a3c44" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>false button name</p.Text>
 					</NodeLabel>
-					<Wire Facade="WireInvisibleFacade" Id="c25d3f4ff0d844498bd1b5f4f35b1558" Joints="N(81e11e6691ea4ae488b7c168f9238ee8:Out)|(40,91) N(851241a14c7b410f8480be02b6f08037:Left Button Text (&quot;Yes&quot;\))|(40,90)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Facade="WireInvisibleFacade" Id="dec92f1f5bb64b9f813955381677b341" Joints="N(13c12a74117a4fe5ab9bac6cd6990119:Out)|(40,81) N(851241a14c7b410f8480be02b6f08037:message)|(40,80)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Facade="WireInvisibleFacade" Id="c25d3f4ff0d844498bd1b5f4f35b1558" Joints="N(81e11e6691ea4ae488b7c168f9238ee8:Out)|(148,91) v(-1) N(851241a14c7b410f8480be02b6f08037:Left Button Text (&quot;Yes&quot;\))|(40,90)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Facade="WireInvisibleFacade" Id="dec92f1f5bb64b9f813955381677b341" Joints="N(13c12a74117a4fe5ab9bac6cd6990119:Out)|(338,81) v(-1) N(851241a14c7b410f8480be02b6f08037:message)|(40,80)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 					<ThreeButtonDialog Bounds="40 75 40 40" Id="851241a14c7b410f8480be02b6f08037" />
 					<Literal Bounds="28 96 12 9" DataType="String" Id="cea56a16bfe4bab91fa5515ab372a2f" Label="2695e0ccbcde4e82945ac36d2fc30808" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Just the .txt files are okay thanks :)</p.Data>
+						<p.Data>"Just the .txt files\nare okay thanks :)"</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
-						<DockedConstantFacade UndockedSize="220 15" />
+						<DockedConstantFacade UndockedSize="120 28" />
 					</Literal>
 					<NodeLabel AttachedTo="cea56a16bfe4bab91fa5515ab372a2f" Bounds="28 78 30 15" Id="2695e0ccbcde4e82945ac36d2fc30808" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>center button text</p.Text>
 					</NodeLabel>
-					<Wire Facade="WireInvisibleFacade" Id="880f02baf07f4ce7a1ad8487b42b70ae" Joints="N(cea56a16bfe4bab91fa5515ab372a2f:Out)|(40,101) N(851241a14c7b410f8480be02b6f08037:Center Button Text (&quot;No&quot;\))|(40,100)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Facade="WireInvisibleFacade" Id="b404ccab878349b3957723575cca8034" Joints="N(26ecd4738a5f425eb9b2f7435729f554:Out)|(40,111) N(851241a14c7b410f8480be02b6f08037:Right Button Text (&quot;Cancel&quot;\))|(40,110)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Facade="WireInvisibleFacade" Id="880f02baf07f4ce7a1ad8487b42b70ae" Joints="N(cea56a16bfe4bab91fa5515ab372a2f:Out)|(148,101) v(-1) N(851241a14c7b410f8480be02b6f08037:Center Button Text (&quot;No&quot;\))|(40,100)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Facade="WireInvisibleFacade" Id="b404ccab878349b3957723575cca8034" Joints="N(26ecd4738a5f425eb9b2f7435729f554:Out)|(178,111) v(-1) N(851241a14c7b410f8480be02b6f08037:Right Button Text (&quot;Cancel&quot;\))|(40,110)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="60 63 12 9" DataType="String" Id="2c4af41b84d84040861dbf96b6058177" Label="4f91b282ca3443ffb5d57f9641ebaf82" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>Everything not saved will be lost</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
@@ -149,7 +149,7 @@
 						<p.Text>allow user to close window?</p.Text>
 					</NodeLabel>
 					<Wire Facade="WireInvisibleFacade" Id="e3bbaa0113fd4454947bec01257fe7c1" Joints="N(fa6a435b1567424093ffe2c847201f33:Out)|(72,132) v(-17) N(851241a14c7b410f8480be02b6f08037:Allow user to close window? (TRUE\))|(65,115)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-					<CaseStructure Bounds="175 45 215 160" DataType="@0c80868b9ff245988c07692c7c90e321" Default="42207ebecbda4234b34bef3edfa1c033" Id="7710774eddea41bc97b8e6c98e82f5fa" Selected="42207ebecbda4234b34bef3edfa1c033" UserSelectorBounds="20 0 176 17">
+					<CaseStructure Bounds="175 45 215 160" DataType="@0c80868b9ff245988c07692c7c90e321" Default="42207ebecbda4234b34bef3edfa1c033" Id="7710774eddea41bc97b8e6c98e82f5fa" Selected="4ef8eb0dcd1f4b55a4d7e7ac157d0c54" UserSelectorBounds="20 0 176 17">
 						<CaseStructure.Case Bounds="5 5 205 150" Id="42207ebecbda4234b34bef3edfa1c033" Pattern="&quot;left button&quot;, Default">
 							<MethodCall Bounds="60 35 40 40" Id="526208c203e04261a6b4ec924ff3a7c4" ResolveFailedHint="&quot;C:\\Users\\minus\\Documents\\LabVIEW Projects\\Pika_IV_Characterization_NXG\\Pika IV Characterization NXG.gcomp\\Main Functions\\JV Curve Full Subroutine\\State Machine\\Saving Data\\FGV JV Save Mode.gvi&quot;" Signature="@9337dfee7a93475b830a02453232b432" Target="Pika IV Characterization NXG::Main Functions::JV Curve Full Subroutine::State Machine::Saving Data::FGV JV Save Mode.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
@@ -290,26 +290,26 @@
 				<CaseStructure.Tunnel Bounds="446 150 13 10" Docking="Right" Id="d3b91ec7ecc64b7dbd0b27ca0ac3ad44" Terminals="a6a47411da1941bfbb31863e1e0f3ce8=13fc2f95f4884f779d070833f66dd1e2, f506c7afec5f4369bee70cb222357b7e=7cd2c4fbd1714cbd9b7174081a0b3365, 8614df1bb01342adbd51779fd4a98743=67d532f087104159aa6932638a626aac" />
 				<CaseStructure.Tunnel Bounds="446 70 13 10" Docking="Right" Id="df9ddaadb3bc4137b8d298999a7c278e" Terminals="a6a47411da1941bfbb31863e1e0f3ce8=b0825c28f4634f5dbfeeddf8d77c57bb, f506c7afec5f4369bee70cb222357b7e=77c383e1bbcf447e9912bba6fd7020d2, 8614df1bb01342adbd51779fd4a98743=103ad40a79b342a188be3bc3e13bc363" />
 			</CaseStructure>
-			<Wire Id="71fb7ef191b4cdf9dc161fc0a2fa139" Joints="N(645fa6385ef4443196e19a5718065861:Value)|(-315,310) N(ecac23a2ed5449488ef367afaff61f0a:a6a47411da1941bfbb31863e1e0f3ce8)|(-299,310)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="13fc2f95f4884f779d070833f66dd1e2" Joints="N(d3b91ec7ecc64b7dbd0b27ca0ac3ad44:a6a47411da1941bfbb31863e1e0f3ce8)|(164,310) N(25ac5708ade144609e8b7b78c71e3062:Value)|(203,310)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Comment Bounds="-255 130 450 28" Id="b44074f638f1423aaed9f8de73c3ca0b" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="71fb7ef191b4cdf9dc161fc0a2fa139" Joints="N(645fa6385ef4443196e19a5718065861:Value)|(-875,310) N(ecac23a2ed5449488ef367afaff61f0a:a6a47411da1941bfbb31863e1e0f3ce8)|(-859,310)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="13fc2f95f4884f779d070833f66dd1e2" Joints="N(d3b91ec7ecc64b7dbd0b27ca0ac3ad44:a6a47411da1941bfbb31863e1e0f3ce8)|(-396,310) N(25ac5708ade144609e8b7b78c71e3062:Value)|(-357,310)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="-815 130 450 25" Id="b44074f638f1423aaed9f8de73c3ca0b" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>"This subVI Prompts the user to save or discard the measurement files in case \r\nthe operation was a new measurement. Otherwise it does not"</p.Text>
 			</Comment>
-			<NodeLabel AttachedTo="645fa6385ef4443196e19a5718065861" Bounds="-404 305 44 14" Id="5193a22290484111a85fe33c436103de" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="645fa6385ef4443196e19a5718065861" Bounds="-964 305 44 14" Id="5193a22290484111a85fe33c436103de" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error In</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="25ac5708ade144609e8b7b78c71e3062" Bounds="245 305 52 14" Id="7cd4c38c96a44bb59fb547e0dcdc1437" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="25ac5708ade144609e8b7b78c71e3062" Bounds="-315 305 52 14" Id="7cd4c38c96a44bb59fb547e0dcdc1437" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error Out</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="200 225 40 15" DataItem="dbe146eae126474eb276151b5f24fc8d" Id="5c3a5abde05f43588dc4414f79d61b85" Label="ec8cd1ef7394695b0576c426d2f3ae6" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="-360 225 40 15" DataItem="dbe146eae126474eb276151b5f24fc8d" Id="5c3a5abde05f43588dc4414f79d61b85" Label="ec8cd1ef7394695b0576c426d2f3ae6" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="@a288d4698be64486a4bc7eaf9486a469" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="5c3a5abde05f43588dc4414f79d61b85" Bounds="245 225 59 14" Id="ec8cd1ef7394695b0576c426d2f3ae6" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="5c3a5abde05f43588dc4414f79d61b85" Bounds="-315 225 59 14" Id="ec8cd1ef7394695b0576c426d2f3ae6" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Next State</p.Text>
 			</NodeLabel>
-			<Wire Id="b0825c28f4634f5dbfeeddf8d77c57bb" Joints="N(df9ddaadb3bc4137b8d298999a7c278e:a6a47411da1941bfbb31863e1e0f3ce8)|(164,230) N(5c3a5abde05f43588dc4414f79d61b85:Value)|(203,230)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="b0825c28f4634f5dbfeeddf8d77c57bb" Joints="N(df9ddaadb3bc4137b8d298999a7c278e:a6a47411da1941bfbb31863e1e0f3ce8)|(-396,230) N(5c3a5abde05f43588dc4414f79d61b85:Value)|(-357,230)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<NativeFrontPanel Height="[float]500" HtmlPanel="[bool]False" Id="da22e3837efd439d91aba1245c03b62e" Left="[float]0" MaxWidth="[float]16000" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800">
+		<NativeFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]500" HtmlPanel="[bool]False" Id="da22e3837efd439d91aba1245c03b62e" Left="[float]0" MaxWidth="[float]16000" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800">
 			<PanelExecutionWindow Id="4f2a01a42390423e8e31e236846f53f6" />
 		</NativeFrontPanel>
 		<DataItem CallDirection="Input" CallIndex="0" DataType="Error" Id="6711faf5474f426daadb92f0bab0de93" Name="Error In" xmlns="http://www.ni.com/MocCommon">
