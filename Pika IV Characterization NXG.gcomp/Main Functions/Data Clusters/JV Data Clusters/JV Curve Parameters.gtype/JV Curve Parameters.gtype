@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="63179BC00851357F9B01E6C77D57783A71BC9FF1700F3A16303F61A2DD51CB67F58AD5676CCD0134CDC484C712A137C13F804E018BE3E7851237F8D23E15F2D2" Timestamp="1D77A4FE08C4F19" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9A55F5390A0393F45B8D91AB7582CD325A7691E70306BC840D8B0F4549CC3A44A72FFA2417789E2DDE226B9FD96631DE00A55CABE98D79EE9423A6A9506FDC29" Timestamp="1D77D5FA88A4160" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,23 +7,23 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@9d22d1a0e8e94b9d8b54794ad7122cf3" Id="57eff40850e1404994e38c0a5a9b78b1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@0f906da6e4bd4ae1b31293edb2a88392" Id="57eff40850e1404994e38c0a5a9b78b1" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::Cell Parameters.gtype" />
-			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters::Accuracy Parameters.gtype" />
 			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::JV Scan Mode.gtype" />
+			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters::Accuracy Parameters.gtype" />
+			<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::Cell Parameters.gtype" />
 		</p.TypeDefinitionTargets>
 		<Icon Id="c590fd6d154845a09b72b658eeb7b435" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="de1873928499e8dd02f59e28a5208" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="28787ce3b1434698a75164db5a07ce08" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@9d22d1a0e8e94b9d8b54794ad7122cf3" Id="cc238bf0f6b64c91ac3445f07be25048" Name="JV Curve Parameters">
-			<p.DefaultValue>0x3FF0000000000000_0xBFC999999999999A_False_0x3FB999999999999A_True_0x3FF0000000000000_0x3EE0C6F7A0B5ED8D_0x408F400000000000_100_3_0x3FE0000000000000_1_0_0_</p.DefaultValue>
+		<DataItem DataType="@0f906da6e4bd4ae1b31293edb2a88392" Id="cc238bf0f6b64c91ac3445f07be25048" Name="JV Curve Parameters">
+			<p.DefaultValue>0_0_0_0x0_0_0_0x0_0x0_0x0_False_0x0_False_0x0_0x0_0x0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::Cell Parameters.gtype" />
-				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters::Accuracy Parameters.gtype" />
 				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::JV Scan Mode.gtype" />
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters::Accuracy Parameters.gtype" />
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::Cell Parameters.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</TypeDefinition>
@@ -32,30 +32,8 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8b630c45a9df4e94817d919e8167c8bf" Name="JV Curve Parameters.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="b747670fc8644fcaa0070555c9ff574f" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="718bfbb371e4475d809611e1fd167821" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]MRM Specific Parameters" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@9d22d1a0e8e94b9d8b54794ad7122cf3" Height="[float]504" Id="a15ed32e474642db8588cc514005fe4f" IsTabStop="[bool]True" Label="[UIModel]97195e15a4e24b81a4d4248b1f9898bc" Left="[float]339" TabIndex="[int]0" Top="[float]127" Value="{DataItemBinding Id=cc238bf0f6b64c91ac3445f07be25048}" Width="[float]197" xmlns="http://www.ni.com/PanelCommon">
-						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cell Parameters" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@8ed1a020016247d89faba90b2038c7af" Height="[float]247" Id="671c63440cb24756a6b3d5e24f936848" IsTabStop="[bool]True" Label="[UIModel]aa70fef8a5f84f049770d5ddbfb9b3d7" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Cell\ Parameters}" Width="[float]181" p7:ControlDefinitionChecksum="CEHppHFHCVDu41i+u4SXBjNx6X0WtEFi/VNtp+kxFj8=" xmlns:p7="http://www.ni.com/PanelCommon">
-							<p7:p.TypeDefinitionTargets>
-								<p7:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::Cell Parameters.gtype::ControlDefinition" />
-							</p7:p.TypeDefinitionTargets>
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="1499ea17b2c8420ea73c7aea8ab55bc5" Interval="[double]0.1" Label="[UIModel]63e4ae9cf05a49b6aa0e5856ffcd8cfc" Left="[float]53" Maximum="[double]200" Minimum="[double]-200" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Max\ (V)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="63e4ae9cf05a49b6aa0e5856ffcd8cfc" LabelOwner="[UIModel]1499ea17b2c8420ea73c7aea8ab55bc5" Left="[float]53" Text="[string]Max (V)" Top="[float]4" Width="[float]40" />
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="6d79be0df67c4def91b6ccf39b435632" Interval="[double]0.1" Label="[UIModel]b925e3aa6fa64642ad760c3de79d3a3d" Left="[float]4" Maximum="[double]200" Minimum="[double]-200" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Min\ (V)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="b925e3aa6fa64642ad760c3de79d3a3d" LabelOwner="[UIModel]6d79be0df67c4def91b6ccf39b435632" Left="[float]4" Text="[string]Min (V)" Top="[float]4" Width="[float]38" />
-							<Switch BaseName="[string]Switch" Enabled="[bool]True" FalseContent="[string]-/+" Height="[float]24" Id="3e16d7b7b00c425bbdd7e8927526db02" Label="[UIModel]81136f91d45d4239820a9c94610b9137" Left="[float]116" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]2" Top="[float]24" TrueContent="[string]+/-" Value="{ClusterBinding FieldName=Sweep\ Dir}" Width="[float]46" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="81136f91d45d4239820a9c94610b9137" LabelOwner="[UIModel]3e16d7b7b00c425bbdd7e8927526db02" Left="[float]116" Text="[string]Sweep Dir" Top="[float]4" Width="[float]53" />
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="1c4936da84884b7da11d82ce0020cb0b" Interval="[double]1E-07" Label="[UIModel]b0950d5ca0b6412faca83260b9b328e8" Left="[float]7" Maximum="[double]1" Minimum="[double]1E-08" TabIndex="[int]3" Top="[float]73" Value="{ClusterBinding FieldName=Curr\ Range\ (A)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="b0950d5ca0b6412faca83260b9b328e8" LabelOwner="[UIModel]1c4936da84884b7da11d82ce0020cb0b" Left="[float]7" Text="[string]Curr Range (A)" Top="[float]53" Width="[float]78" />
-							<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Enabled="[bool]True" Height="[float]16" Id="2a372d9e5f2d48e1bedb8eddb36dea1b" Label="[UIModel]bc561e4f41254678b83cf7b7c973ea95" Left="[float]105" TabIndex="[int]4" Top="[float]76" Value="{ClusterBinding FieldName=Autorange}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="bc561e4f41254678b83cf7b7c973ea95" LabelOwner="[UIModel]2a372d9e5f2d48e1bedb8eddb36dea1b" Left="[float]105" Text="[string]Autorange" Top="[float]56" Width="[float]56" />
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f9ab5c849987448d9e287d5a8bccf07c" Interval="[double]0.01" Label="[UIModel]479ccf7238fe48c090e37830801a27fb" Left="[float]7" Maximum="[double]5" Minimum="[double]0" TabIndex="[int]5" Top="[float]118" Value="{ClusterBinding FieldName=Max\ (A)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="479ccf7238fe48c090e37830801a27fb" LabelOwner="[UIModel]f9ab5c849987448d9e287d5a8bccf07c" Left="[float]7" Text="[string]Max (A)" Top="[float]98" Width="[float]41" />
-							<NumericText BaseName="[string]Numeric" ButtonsLocation="[HorizontalLocation]Left" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="469b2232922d4dc88fcaa3a53bbe0b8d" Interval="[double]1E-08" Label="[UIModel]769031cddf9d4e3488561fe405360cae" Left="[float]7" Maximum="[double]10000" Minimum="[double]0" TabIndex="[int]6" TextAlignment="[TextAlignment]Right" Top="[float]211" Value="{ClusterBinding FieldName=Cell\ Area\ (m^2)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]49" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="769031cddf9d4e3488561fe405360cae" LabelOwner="[UIModel]469b2232922d4dc88fcaa3a53bbe0b8d" Left="[float]7" Text="[string]Cell Area (m^2)" Top="[float]191" Width="[float]83" />
-							<NumericText BaseName="[string]Numeric" ButtonsLocation="[HorizontalLocation]Left" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f02c0e05d5142b8b2fcf204572bdc87" Interval="[double]100" Label="[UIModel]db585fa54ca341c0b3768998f143e3b1" Left="[float]7" Maximum="[double]100000" Minimum="[double]0" TabIndex="[int]7" TextAlignment="[TextAlignment]Right" Top="[float]166" Value="{ClusterBinding FieldName=Light\ Power\ (W\ m^-2)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]49" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="db585fa54ca341c0b3768998f143e3b1" LabelOwner="[UIModel]f02c0e05d5142b8b2fcf204572bdc87" Left="[float]7" Text="[string]Light Power (W m^-2)" Top="[float]146" Width="[float]117" />
-						</Cluster>
-						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="aa70fef8a5f84f049770d5ddbfb9b3d7" LabelOwner="[UIModel]671c63440cb24756a6b3d5e24f936848" Left="[float]4" Text="[string]Cell Parameters" Top="[float]4" Width="[float]82" />
-						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]JV Scan Mode" Height="[float]24" Id="cf987204e1164a19972cced18ab32b99" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]9c4f8b9a3bd54a3cbd484546cf4f25ff" LabelLinked="[bool]True" Left="[float]5" TabIndex="[int]2" Top="[float]300" Value="{ClusterBinding FieldName=JV\ Scan\ Mode}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]109" p7:ControlDefinitionChecksum="olLitzsBKF1Xp4zar1AOMVRmazuTI8RVPkqTJcTBfTw=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]MRM Specific Parameters" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@0f906da6e4bd4ae1b31293edb2a88392" Height="[float]506" Id="a15ed32e474642db8588cc514005fe4f" IsTabStop="[bool]True" Label="[UIModel]97195e15a4e24b81a4d4248b1f9898bc" Left="[float]339" TabIndex="[int]0" Top="[float]128" Value="{DataItemBinding Id=cc238bf0f6b64c91ac3445f07be25048}" Width="[float]198" xmlns="http://www.ni.com/PanelCommon">
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]JV Scan Mode" Height="[float]24" Id="cf987204e1164a19972cced18ab32b99" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]9c4f8b9a3bd54a3cbd484546cf4f25ff" LabelLinked="[bool]True" Left="[float]5" TabIndex="[int]0" Top="[float]299" Value="{ClusterBinding FieldName=JV\ Scan\ Mode}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]109" p7:ControlDefinitionChecksum="olLitzsBKF1Xp4zar1AOMVRmazuTI8RVPkqTJcTBfTw=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::JV Scan Mode.gtype::ControlDefinition" />
 							</p7:p.TypeDefinitionTargets>
@@ -65,54 +43,78 @@
 							<EnumSelectorInfo DisplayValue="[string]Smart" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
 							<EnumSelectorInfo DisplayValue="[string]Custom" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
 						</EnumSelector>
-						<Label Height="[float]16" Id="9c4f8b9a3bd54a3cbd484546cf4f25ff" LabelOwner="[UIModel]cf987204e1164a19972cced18ab32b99" Left="[float]5" Text="[string]JV Scan Mode" Top="[float]280" Width="[float]75" />
-						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Measurement Precision" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@3581dc00a3e54a719563c78b8023c2de" Height="[float]159" Id="68a3ef4b3e05472e8dfc21af0a249514" IsTabStop="[bool]True" Label="[UIModel]5959b0e02ce54c0d8c090e722402971c" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]1" Top="[float]333" Value="{ClusterBinding FieldName=Measurement\ Precision}" Width="[float]154" p7:ControlDefinitionChecksum="jqg6HN4fni6LMGEA54tNgfn5arNVLHf6dPavLuDCi8I=" xmlns:p7="http://www.ni.com/PanelCommon">
+						<Label Height="[float]16" Id="9c4f8b9a3bd54a3cbd484546cf4f25ff" LabelOwner="[UIModel]cf987204e1164a19972cced18ab32b99" Left="[float]5" Text="[string]JV Scan Mode" Top="[float]279" Width="[float]74" />
+						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Measurement Precision" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4e976427d9bb48e7a8b6b9ec9efe2df1" Height="[float]159" Id="52f3bd45b33c402ab6cbc02b52777f8c" Label="[UIModel]bb1b784b30134bbebdf33aa16e5edbd4" Left="[float]4" TabIndex="[int]1" Top="[float]335" Value="{ClusterBinding FieldName=Measurement\ Precision}" Width="[float]170" p7:ControlDefinitionChecksum="O++HQWnNoWrkRTzNCHD81fN4BUMYRnLYyCqGtAnSf/w=" xmlns:p7="http://www.ni.com/PanelCommon">
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters::Accuracy Parameters.gtype::ControlDefinition" />
 							</p7:p.TypeDefinitionTargets>
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="5418d8b87a2d42e78cb078fa6caf3789" Interval="[uint]1" Label="[UIModel]da38bd2325c3465aa72a9d7f7bb9942d" Left="[float]99" Maximum="[uint]100000" Minimum="[uint]1" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]0" Top="[float]73" Value="{ClusterBinding FieldName=V\ Points}" ValueFormatter="[string]Decimal, Uppercase" ValueType="[Type]UInt32" Width="[float]36" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="20bd400b01664ed9aa154372e425931e" Interval="[uint]1" Label="[UIModel]cc4e3d6301d74f1db150c33029f467b7" Left="[float]62" Maximum="[uint]1000000" Minimum="[uint]1" TabIndex="[int]1" Top="[float]25" Value="{ClusterBinding FieldName=Current\ Avg}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f7ce25dcf563474bb7c343bc7f777ee9" Interval="[double]0.1" Label="[UIModel]79ffc22da0664732970c61a2f8d40dbd" Left="[float]5" Maximum="[double]1000000" Minimum="[double]0.001" TabIndex="[int]2" Top="[float]73" Value="{ClusterBinding FieldName=Integration\ Time}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="8fef0addb324035bb6d19949ad1e37f" Interval="[uint]1" IsReadOnly="[bool]False" Label="[UIModel]5ef438057e6440859956dec269ec4027" Left="[float]99" Maximum="[uint]100000" Minimum="[uint]0" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]0" Top="[float]73" Value="{ClusterBinding FieldName=V\ Points}" ValueFormatter="[string]Decimal, Uppercase" ValueType="[Type]UInt32" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="cabffbd44ce4486895643edf2532f70b" Interval="[uint]1" IsReadOnly="[bool]False" Label="[UIModel]d7585b5e967f4b5ab4be0f6dcc69fbbf" Left="[float]86" Maximum="[uint]1000000" Minimum="[uint]0" TabIndex="[int]1" Top="[float]25" Value="{ClusterBinding FieldName=Current\ Avg}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="bba53c8ff578454e9de7a89f4f682081" Interval="[double]0.1" IsReadOnly="[bool]False" Label="[UIModel]a3bbc39a562e459499f96a5c8d2ef8fd" Left="[float]5" Maximum="[double]1000000" Minimum="[double]0" TabIndex="[int]2" Top="[float]73" Value="{ClusterBinding FieldName=Integration\ Time}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Lower for faster and less accurate measurements</p.InfoTipDescription>
 							</NumericText>
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="285b9363df964d479e2ffd7a6b6b2478" Interval="[uint]1" Label="[UIModel]d2216576b79948578f48669bb9f5f6c6" Left="[float]4" Maximum="[uint]100" Minimum="[uint]1" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Iterations}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]36" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="da38bd2325c3465aa72a9d7f7bb9942d" LabelOwner="[UIModel]5418d8b87a2d42e78cb078fa6caf3789" Left="[float]99" Text="[string]V Points" Top="[float]53" Width="[float]43" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="cc4e3d6301d74f1db150c33029f467b7" LabelOwner="[UIModel]20bd400b01664ed9aa154372e425931e" Left="[float]62" Text="[string]Current Avg" Top="[float]5" Width="[float]63" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="79ffc22da0664732970c61a2f8d40dbd" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]f7ce25dcf563474bb7c343bc7f777ee9" Left="[float]5" Text="[string]Integration Time" Top="[float]53" Width="[float]88" />
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="d2216576b79948578f48669bb9f5f6c6" LabelOwner="[UIModel]285b9363df964d479e2ffd7a6b6b2478" Left="[float]4" Text="[string]Iterations" Top="[float]4" Width="[float]50" />
-							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="c66a28e1e8b449a48bc06ec4543f7a4e" Interval="[uint]1" Label="[UIModel]a07ac2c1509e41c8892dc7495e1a11e7" Left="[float]8" Maximum="[uint]1000000" Minimum="[uint]3" TabIndex="[int]4" Top="[float]123" Value="{ClusterBinding FieldName=Rs\ Rsh\ Slope\ points}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="de97e142168b4f06845dc9ae41ed6176" Interval="[uint]1" IsReadOnly="[bool]False" Label="[UIModel]624805f28b9b43c18d018bcf842a950d" Left="[float]4" Maximum="[uint]100" Minimum="[uint]0" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Iterations}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]62" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="5ef438057e6440859956dec269ec4027" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]8fef0addb324035bb6d19949ad1e37f" Left="[float]115" Text="[string]V Points" Top="[float]53" Width="[float]43" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="d7585b5e967f4b5ab4be0f6dcc69fbbf" LabelOwner="[UIModel]cabffbd44ce4486895643edf2532f70b" Left="[float]86" Text="[string]Current Avg" Top="[float]5" Width="[float]63" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="a3bbc39a562e459499f96a5c8d2ef8fd" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]bba53c8ff578454e9de7a89f4f682081" Left="[float]5" Text="[string]Integration Time" Top="[float]53" Width="[float]88" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="624805f28b9b43c18d018bcf842a950d" LabelOwner="[UIModel]de97e142168b4f06845dc9ae41ed6176" Left="[float]4" Text="[string]Iterations" Top="[float]4" Width="[float]50" />
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="4c9dd913aca644778371ada133eae83d" Interval="[uint]1" IsReadOnly="[bool]False" Label="[UIModel]58e7b89d98c4456d946b02cf1afc0a62" Left="[float]8" Maximum="[uint]1000000" Minimum="[uint]0" TabIndex="[int]4" Top="[float]123" Value="{ClusterBinding FieldName=Rs\ Rsh\ Slope\ points}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Lower for faster and less accurate measurements</p.InfoTipDescription>
 							</NumericText>
-							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="a07ac2c1509e41c8892dc7495e1a11e7" LabelOwner="[UIModel]c66a28e1e8b449a48bc06ec4543f7a4e" Left="[float]8" Text="[string]Rs Rsh Slope points" Top="[float]103" Width="[float]104" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="58e7b89d98c4456d946b02cf1afc0a62" LabelOwner="[UIModel]4c9dd913aca644778371ada133eae83d" Left="[float]8" Text="[string]Rs Rsh Slope points" Top="[float]103" Width="[float]104" />
+							<NumericText Background="[SMSolidColorBrush]#ffe0e0e0" BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="9212610db1a446b893d9fe2148c47d88" Interval="[double]1" IsReadOnly="[bool]False" Label="[UIModel]ac6357fdc835475e81abb4d8124caee7" Left="[float]107" Maximum="[double]100" Minimum="[double]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]5" Top="[float]123" Value="{ClusterBinding FieldName=dV\ (V)}" ValueFormatter="[string]LV:G2" ValueType="[Type]Double" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="ac6357fdc835475e81abb4d8124caee7" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]9212610db1a446b893d9fe2148c47d88" Left="[float]124" Text="[string]dV (V)" Top="[float]103" Width="[float]32" />
 						</Cluster>
-						<Label Height="[float]0" Id="5959b0e02ce54c0d8c090e722402971c" LabelOwner="[UIModel]68a3ef4b3e05472e8dfc21af0a249514" Left="[float]4" Text="[string]Measurement Precision" Top="[float]313" Visible="[bool]False" Width="[float]0" />
+						<Label Height="[float]0" Id="bb1b784b30134bbebdf33aa16e5edbd4" LabelOwner="[UIModel]52f3bd45b33c402ab6cbc02b52777f8c" Left="[float]4" Text="[string]Measurement Precision" Top="[float]315" Visible="[bool]False" Width="[float]0" />
+						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cell Parameters" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@8ed1a020016247d89faba90b2038c7af" Height="[float]247" Id="22b002f47f914360bcc71afba5f8888f" IsTabStop="[bool]True" Label="[UIModel]e357cc6bbb2d496590f9e67b54080669" Left="[float]5" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Cell\ Parameters}" Width="[float]181" p7:ControlDefinitionChecksum="qgcXYE8Q77EKBw6EeAJdJ1FGufFwfKXzBc9OWgT+bJM=" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters::Cell Parameters.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="6add94ceb3bb496ab9b77c3e443c0ee0" Interval="[double]0.1" Label="[UIModel]e5efea9052274aca8f8159a9a80897d2" Left="[float]53" Maximum="[double]200" Minimum="[double]-200" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Max\ (V)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="e5efea9052274aca8f8159a9a80897d2" LabelOwner="[UIModel]6add94ceb3bb496ab9b77c3e443c0ee0" Left="[float]53" Text="[string]Max (V)" Top="[float]4" Width="[float]40" />
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="72fe9ce4c9e94be0854d8c8b7afe6093" Interval="[double]0.1" Label="[UIModel]6ecf1ecb44734738b7cca5718d61ecb2" Left="[float]4" Maximum="[double]200" Minimum="[double]-200" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Min\ (V)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="6ecf1ecb44734738b7cca5718d61ecb2" LabelOwner="[UIModel]72fe9ce4c9e94be0854d8c8b7afe6093" Left="[float]4" Text="[string]Min (V)" Top="[float]4" Width="[float]38" />
+							<Switch BaseName="[string]Switch" Enabled="[bool]True" FalseContent="[string]-/+" Height="[float]24" Id="14e6b21bec554171827698b69fd5b467" Label="[UIModel]2c01764b74ee4fbead605818829adfb8" Left="[float]116" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]2" Top="[float]24" TrueContent="[string]+/-" Value="{ClusterBinding FieldName=Sweep\ Dir}" Width="[float]46" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="2c01764b74ee4fbead605818829adfb8" LabelOwner="[UIModel]14e6b21bec554171827698b69fd5b467" Left="[float]116" Text="[string]Sweep Dir" Top="[float]4" Width="[float]53" />
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f3cbe5038bc445bf8d12df7b200cdb2a" Interval="[double]1" Label="[UIModel]bbac1d895a045699cd79413b7d5747c" Left="[float]7" Maximum="[double]1" Minimum="[double]0" TabIndex="[int]3" Top="[float]73" Value="{ClusterBinding FieldName=Curr\ Range\ (A)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="bbac1d895a045699cd79413b7d5747c" LabelOwner="[UIModel]f3cbe5038bc445bf8d12df7b200cdb2a" Left="[float]7" Text="[string]Curr Range (A)" Top="[float]53" Width="[float]78" />
+							<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Enabled="[bool]True" Height="[float]16" Id="f9cc2fe0974d4635829bb4b2991885ac" Label="[UIModel]4c1062307284098b75dd2a7a1f9e32f" Left="[float]105" TabIndex="[int]4" Top="[float]76" Value="{ClusterBinding FieldName=Autorange}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="4c1062307284098b75dd2a7a1f9e32f" LabelOwner="[UIModel]f9cc2fe0974d4635829bb4b2991885ac" Left="[float]105" Text="[string]Autorange" Top="[float]56" Width="[float]56" />
+							<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="ec8c07085a5b4e1bb90559ce55cf3ac8" Interval="[double]0.01" Label="[UIModel]9cd04869d2d149f7bb14508e24ea7778" Left="[float]7" Maximum="[double]5" Minimum="[double]0" TabIndex="[int]5" Top="[float]118" Value="{ClusterBinding FieldName=Max\ (A)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="9cd04869d2d149f7bb14508e24ea7778" LabelOwner="[UIModel]ec8c07085a5b4e1bb90559ce55cf3ac8" Left="[float]7" Text="[string]Max (A)" Top="[float]98" Width="[float]41" />
+							<NumericText BaseName="[string]Numeric" ButtonsLocation="[HorizontalLocation]Left" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="fd7ceb4eb12249cbb027361bdfdb0ffb" Interval="[double]1E-08" Label="[UIModel]e9651f65fe8a46d8976b2e3f811a7224" Left="[float]7" Maximum="[double]10000" Minimum="[double]0" TabIndex="[int]6" TextAlignment="[TextAlignment]Right" Top="[float]211" Value="{ClusterBinding FieldName=Cell\ Area\ (m^2)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]49" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="e9651f65fe8a46d8976b2e3f811a7224" LabelOwner="[UIModel]fd7ceb4eb12249cbb027361bdfdb0ffb" Left="[float]7" Text="[string]Cell Area (m^2)" Top="[float]191" Width="[float]83" />
+							<NumericText BaseName="[string]Numeric" ButtonsLocation="[HorizontalLocation]Left" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="74cbfe41e8ba491b9d8c843fa3131ddb" Interval="[double]100" Label="[UIModel]80b4c5e07794798b1e7ed4e80bc2345" Left="[float]7" Maximum="[double]100000" Minimum="[double]0" TabIndex="[int]7" TextAlignment="[TextAlignment]Right" Top="[float]166" Value="{ClusterBinding FieldName=Light\ Power\ (W\ m^-2)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]49" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="80b4c5e07794798b1e7ed4e80bc2345" LabelOwner="[UIModel]74cbfe41e8ba491b9d8c843fa3131ddb" Left="[float]7" Text="[string]Light Power (W m^-2)" Top="[float]146" Width="[float]117" />
+						</Cluster>
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="e357cc6bbb2d496590f9e67b54080669" LabelOwner="[UIModel]22b002f47f914360bcc71afba5f8888f" Left="[float]5" Text="[string]Cell Parameters" Top="[float]4" Width="[float]82" />
 					</Cluster>
-					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="97195e15a4e24b81a4d4248b1f9898bc" LabelOwner="[UIModel]a15ed32e474642db8588cc514005fe4f" Left="[float]339" Text="[string]JV Curve Parameters" Top="[float]107" Width="[float]108" xmlns="http://www.ni.com/PanelCommon" />
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="97195e15a4e24b81a4d4248b1f9898bc" LabelOwner="[UIModel]a15ed32e474642db8588cc514005fe4f" Left="[float]339" Text="[string]JV Curve Parameters" Top="[float]108" Width="[float]108" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="9d22d1a0e8e94b9d8b54794ad7122cf3">
+		<p.TypeReference TypeId="0f906da6e4bd4ae1b31293edb2a88392">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Cell Parameters" DataType="@8ed1a020016247d89faba90b2038c7af" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Measurement Precision" DataType="@3581dc00a3e54a719563c78b8023c2de" />
 					<Field FieldAccessPolicy="ReadWrite" Name="JV Scan Mode" DataType="@b0603efcedc34c8aaa29edd2f0db4f51" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Measurement Precision" DataType="@4e976427d9bb48e7a8b6b9ec9efe2df1" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cell Parameters" DataType="@8ed1a020016247d89faba90b2038c7af" />
 				</Members>
 			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4e976427d9bb48e7a8b6b9ec9efe2df1">
+			<Attributed AttributedType="@2bd26903b35e4a4681c4b91aa36f5345">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="8ed1a020016247d89faba90b2038c7af">
 			<Attributed AttributedType="@2641f3d199d54b44bc44b1f4b02c0350">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::Data Clusters::Control Clusters" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="3581dc00a3e54a719563c78b8023c2de">
-			<Attributed AttributedType="@006590ac000f4446a3ebb8a010b00ffa">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::Data Clusters::JV Data Clusters" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
@@ -123,14 +125,26 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
+		<p.TypeReference TypeId="2bd26903b35e4a4681c4b91aa36f5345">
+			<Typedef TypedefName="Accuracy Parameters.gtype" UnderlyingType="@60b58ad9fed44898bd83669c2be7def5" />
+		</p.TypeReference>
 		<p.TypeReference TypeId="2641f3d199d54b44bc44b1f4b02c0350">
 			<Typedef TypedefName="Cell Parameters.gtype" UnderlyingType="@8aee81dbd036435ea40310bbf01f8b46" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="006590ac000f4446a3ebb8a010b00ffa">
-			<Typedef TypedefName="Accuracy Parameters.gtype" UnderlyingType="@081ce01b641a46fc879ac69d36233e97" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="2a97ca3542354438a7012e0020537028">
 			<Typedef TypedefName="JV Scan Mode.gtype" UnderlyingType="@21df3294f0634d81b9b3a6135e2c21d8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="60b58ad9fed44898bd83669c2be7def5">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="V Points" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Avg" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Integration Time" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Iterations" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Rs Rsh Slope points" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="dV (V)" DataType="Double" />
+				</Members>
+			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="8aee81dbd036435ea40310bbf01f8b46">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -143,17 +157,6 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Max (A)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Cell Area (m^2)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Light Power (W m^-2)" DataType="Double" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="081ce01b641a46fc879ac69d36233e97">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="V Points" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Current Avg" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Integration Time" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Iterations" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Rs Rsh Slope points" DataType="UInt32" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
