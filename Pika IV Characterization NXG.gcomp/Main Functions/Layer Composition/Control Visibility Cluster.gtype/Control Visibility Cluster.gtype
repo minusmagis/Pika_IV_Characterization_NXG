@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="38E3268FE5E6FBDDEFFC1E0DBEC457CAB73B5507BDB1144D479DB8B262569CE70CF60893E69AAAE61926725DDA23F104D8117DD112CDAB7523045F919FEDC4AF" Timestamp="1D782F9ED3DFCCB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@e54341d07f0043baa269f9115d2a98bf" Id="55708e925c7e410dbacccb9422299ef0" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="59589480b6b94e429642a7a51ab72391" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="ab620e43d15f4f4ea7a3d50ee7a2e33a" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="23bdf2818725400ca3984a8389c720c4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@e54341d07f0043baa269f9115d2a98bf" Id="e06ce3f692c4444681340728411e75fe" Name="Cluster">
+			<p.DefaultValue>0x0_0x0_False_False_False_False_False_0x0_0x0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="9231df2c31ab456db0447ee14094b2c2" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="6b9aa937042d4800be915f258a50e7e4" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3cc9b6e168ae40dfa37335fce4540c30" Name="Control Visibility Cluster.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="b260949b17084e4d8e430dae67a3d953" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="a555ebe9658043c6b6d148cf155c6e11" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e54341d07f0043baa269f9115d2a98bf" Height="[float]788" Id="15e35ad9dd4d4f5fb70c5cee37651a2c" Label="[UIModel]89fce7bf69c2459a8e029d6c0787fa14" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=e06ce3f692c4444681340728411e75fe}" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@84670b64d2e4492784cbad939a470a41" Height="[float]112" Id="ec85a2b7baef4c9e806b5d5419ab9ba6" Label="[UIModel]b434ce1436854e8bb949b255d770c7c1" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=Add\ Layer\ Position\ Button}" Width="[float]88">
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="f3614e0dbeb24a288ddde6bdebd845b9" Interval="[float]1" Label="[UIModel]28442cfd2f0d4e279533116a89fe2bd1" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=Left}" ValueFormatter="[string]LV:G6" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<Label Id="28442cfd2f0d4e279533116a89fe2bd1" LabelOwner="[UIModel]f3614e0dbeb24a288ddde6bdebd845b9" Left="[float]4" Text="[string]Left" Top="[float]4" />
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="eaa5c84984ee4b3eb82d2b183fc2fd8b" Interval="[float]1" Label="[UIModel]44285a05a2384c92bf1ef8abf64f2266" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=Top}" ValueFormatter="[string]LV:G6" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<Label Id="44285a05a2384c92bf1ef8abf64f2266" LabelOwner="[UIModel]eaa5c84984ee4b3eb82d2b183fc2fd8b" Left="[float]4" Text="[string]Top" Top="[float]56" />
+						</Cluster>
+						<Label Id="b434ce1436854e8bb949b255d770c7c1" LabelOwner="[UIModel]ec85a2b7baef4c9e806b5d5419ab9ba6" Left="[float]4" Text="[string]Add Layer Position Button" Top="[float]4" />
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="f5e791ad74684e78af108bbcc504fa84" Label="[UIModel]5e8c35b491be43ddb1fca2e611af8f66" Left="[float]4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]164" TrueContent="[string]On" Value="{ClusterBinding FieldName=Blade\ Controls\ Visible}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="5e8c35b491be43ddb1fca2e611af8f66" LabelOwner="[UIModel]f5e791ad74684e78af108bbcc504fa84" Left="[float]4" Text="[string]Blade Controls Visible" Top="[float]144" />
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="c134bd9fdcf640ab808dca88abcc6c4b" Label="[UIModel]f046b277647b4959acdc776902bf9c0d" Left="[float]4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]264" TrueContent="[string]On" Value="{ClusterBinding FieldName=General\ Controls\ Visible}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="f046b277647b4959acdc776902bf9c0d" LabelOwner="[UIModel]c134bd9fdcf640ab808dca88abcc6c4b" Left="[float]4" Text="[string]General Controls Visible" Top="[float]244" />
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="ceea38f8cf3642f5aa0acb69e1892e8b" Label="[UIModel]8791ea2ed3b04a0696d13ee952fd6aa2" Left="[float]4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]364" TrueContent="[string]On" Value="{ClusterBinding FieldName=Solution\ Inform\ Visible}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="8791ea2ed3b04a0696d13ee952fd6aa2" LabelOwner="[UIModel]ceea38f8cf3642f5aa0acb69e1892e8b" Left="[float]4" Text="[string]Solution Inform Visible" Top="[float]344" />
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="e89ea3ccbd584566acf5a49b91ad649a" Label="[UIModel]bf571f3ee769436b993aa7dba3fed311" Left="[float]4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]464" TrueContent="[string]On" Value="{ClusterBinding FieldName=Spin\ Coating\ Controls\ Visible}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="bf571f3ee769436b993aa7dba3fed311" LabelOwner="[UIModel]e89ea3ccbd584566acf5a49b91ad649a" Left="[float]4" Text="[string]Spin Coating Controls Visible" Top="[float]444" />
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="c660e33be314376992a5a3390dd6345" Label="[UIModel]a46fec3ee63b4d6dacfb1c793090f8c2" Left="[float]4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]564" TrueContent="[string]On" Value="{ClusterBinding FieldName=Thermal\ Evaporation\ Controls\ Visible}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="a46fec3ee63b4d6dacfb1c793090f8c2" LabelOwner="[UIModel]c660e33be314376992a5a3390dd6345" Left="[float]4" Text="[string]Thermal Evaporation Controls Visible" Top="[float]544" />
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7d2e8ac176bb4199ae6e279f31002929" Height="[float]112" Id="31e70d58cb8341228c57c4ee23800dbf" Label="[UIModel]90c19150d73c4139b9d115b9cf32bbbb" Left="[float]4" Top="[float]664" Value="{ClusterBinding FieldName=Panel\ Size}" Width="[float]88">
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="e93bab05e1a34e999bbdc8d779b157b0" Interval="[float]1" Label="[UIModel]aea74827624545c68e2c8db215ae4d3a" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=Width}" ValueFormatter="[string]LV:G6" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<Label Id="aea74827624545c68e2c8db215ae4d3a" LabelOwner="[UIModel]e93bab05e1a34e999bbdc8d779b157b0" Left="[float]4" Text="[string]Width" Top="[float]4" />
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="45e9ddd1a6d94692b2fc2a093148f823" Interval="[float]1" Label="[UIModel]8c9f82a3b25e4133b5eb3cce84b3c4a6" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=Height}" ValueFormatter="[string]LV:G6" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<Label Id="8c9f82a3b25e4133b5eb3cce84b3c4a6" LabelOwner="[UIModel]45e9ddd1a6d94692b2fc2a093148f823" Left="[float]4" Text="[string]Height" Top="[float]56" />
+						</Cluster>
+						<Label Id="90c19150d73c4139b9d115b9cf32bbbb" LabelOwner="[UIModel]31e70d58cb8341228c57c4ee23800dbf" Left="[float]4" Text="[string]Panel Size" Top="[float]644" />
+					</Cluster>
+					<Label Id="89fce7bf69c2459a8e029d6c0787fa14" LabelOwner="[UIModel]15e35ad9dd4d4f5fb70c5cee37651a2c" Left="[float]100" Text="[string]Cluster" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="e54341d07f0043baa269f9115d2a98bf">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Add Layer Position Button" DataType="@84670b64d2e4492784cbad939a470a41" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Controls Visible" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="General Controls Visible" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Solution Inform Visible" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Spin Coating Controls Visible" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Thermal Evaporation Controls Visible" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Panel Size" DataType="@7d2e8ac176bb4199ae6e279f31002929" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="84670b64d2e4492784cbad939a470a41">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Left" DataType="Single" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Top" DataType="Single" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="7d2e8ac176bb4199ae6e279f31002929">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Width" DataType="Single" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Height" DataType="Single" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6D78636F28B480F6F3B83B73502DF6C64388D069268053727654645A3E4291724918ABA79EDD47D0D91425A45C572546D2DC0D7EC3E02A3180D7D36A1F90AF53" Timestamp="1D77D7173121ED4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FCA77D30ED9205AA672F846E5FA0FA98DB245FC98520E47DC4E408713DF1A3611C3407AA4FD6B589332929645BA46D750FB8FA2E2E35F5553867EBB4A7938407" Timestamp="1D78227A1E49E7D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@921bb1f22c444271930b498b0024bb75" Id="76115c5a6b2149e88d1516518fa6dca4" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@b67158dbe816450094943e4098332e53" Id="76115c5a6b2149e88d1516518fa6dca4" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="3d9331d221464cde94e4891bed0fe3e1" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="d24545b4d57b4f5092ff2d77c3a24255" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="780ca9188708403984c5514b99ed6a9b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@921bb1f22c444271930b498b0024bb75" Id="eb82a66ca4194e91862fc53b3e6f0c64" Name="Initialize App States">
+		<DataItem DataType="@b67158dbe816450094943e4098332e53" Id="eb82a66ca4194e91862fc53b3e6f0c64" Name="Initialize App States">
 			<p.DefaultValue>1</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -29,6 +29,8 @@
 						<EnumSelectorInfo DisplayValue="[string]Reset Controls to Default" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Reset Clusters" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Detect Instruments" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Open Main Window" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="5f736f321c214ad0b23a362324071893" LabelOwner="[UIModel]4ba03bdb7fd745cdb32221ae7cff7d42" Left="[float]287" Text="[string]Initialize App States" Top="[float]217" Width="[float]104" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -36,7 +38,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="921bb1f22c444271930b498b0024bb75">
+		<p.TypeReference TypeId="b67158dbe816450094943e4098332e53">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Reset Global Variables" />
@@ -45,6 +47,8 @@
 					<EnumerationMember Value="3" Name="Reset Controls to Default" />
 					<EnumerationMember Value="4" Name="Reset Clusters" />
 					<EnumerationMember Value="5" Name="Detect Instruments" />
+					<EnumerationMember Value="6" Name="Open Main Window" />
+					<EnumerationMember Value="7" Name="" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
