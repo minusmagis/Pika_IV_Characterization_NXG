@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A9B1F4754711330C190AAD431CD317DA71996876B295E98750F8890277633D1A70D97209B650FE8CEC5B04FD8AB493BA51EA7F5D27B1A8904049632A1E59E766" Timestamp="1D7846267429932" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@b6d1ae8524034d9cb65522628fea8995" Id="bc5edfcaff1541e79cf17029d776f436" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="a93f8496f0fd43f5a669548c19558202" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="161a9411f8fa4307933d8e0be8f22cdd" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="e5d2ee84988b466f9992a7ec7dc36030" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@b6d1ae8524034d9cb65522628fea8995" Id="f09c7d26c551468591037be1a2793ec6" Name="Deposition Method">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="de6233907d6b4e798ca84c50dceb424e" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="57fbc02fba1d4e8b81a9cfb3df17b64c" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7eba0334671e4e19b14b571d4a0b6c5d" Name="Deposition Method.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="1f6d86b01fdd4b0b889ab117b34bc09d" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="e812a90758c04e25af102b17a4430359" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Layer Type" Height="[float]24" Id="17be62afef024b62b59f63bd927adbff" IsTypeAheadEnabled="[bool]True" Label="[UIModel]6efc6798568c420c934abf33309fb3cf" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=f09c7d26c551468591037be1a2793ec6}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]200" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Blade Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Spin Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Thermal Evaporation" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]E-beam Evaporation" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Sputtering" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Drop Casting" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Dip Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Pulsed Laser Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Chemical Vapour Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]8" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Atomic Layer Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]9" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Spray Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]10" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Screen Printing" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]11" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Electroplating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]12" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Molecular Beam Epitaxy" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]13" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Custom Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]14" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="6efc6798568c420c934abf33309fb3cf" LabelOwner="[UIModel]17be62afef024b62b59f63bd927adbff" Left="[float]100" Text="[string]Deposition Method" Top="[float]80" Width="[float]103" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b6d1ae8524034d9cb65522628fea8995">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Blade Coating" />
+					<EnumerationMember Value="1" Name="Spin Coating" />
+					<EnumerationMember Value="2" Name="Thermal Evaporation" />
+					<EnumerationMember Value="3" Name="E-beam Evaporation" />
+					<EnumerationMember Value="4" Name="Sputtering" />
+					<EnumerationMember Value="5" Name="Drop Casting" />
+					<EnumerationMember Value="6" Name="Dip Coating" />
+					<EnumerationMember Value="7" Name="Pulsed Laser Deposition" />
+					<EnumerationMember Value="8" Name="Chemical Vapour Deposition" />
+					<EnumerationMember Value="9" Name="Atomic Layer Deposition" />
+					<EnumerationMember Value="10" Name="Spray Coating" />
+					<EnumerationMember Value="11" Name="Screen Printing" />
+					<EnumerationMember Value="12" Name="Electroplating" />
+					<EnumerationMember Value="13" Name="Molecular Beam Epitaxy" />
+					<EnumerationMember Value="14" Name="Custom Deposition" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

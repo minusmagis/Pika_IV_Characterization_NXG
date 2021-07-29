@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7264C3904D625E04346585A80DB1CD117C5A9CF20FAD4EECDB27C775DFCFA7561FDFE905F7DFBCE68012BC77087E12A42B004886980B5743CE92F6910F566D3A" Timestamp="1D78464FA2DEA74" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@b74a0e439a8e498a9f2488d9f111ad3a" Id="e42425cc5f7c4d46ada4e2cc28a7849c" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="c6c3387e3f824a48a0cc4a9f01fea03f" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="459efee7504f4c229cf82e65e62a04fb" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="cf92bc939e894ae0b21a1d229a1dda99" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@b74a0e439a8e498a9f2488d9f111ad3a" Id="bd41f0f271964b8aae5826093e362fc8" Name="Current Deposition Method Information Cluster">
+			<p.DefaultValue>False_False_False_False_False_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="c280e43289d14be386b185f0a85d2387" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="88740af963484fe9b932af3c8958d9c9" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="97fba9c84cd445479798444226cd8ab3" Name="Current Deposition Method Information Cluster.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="3c05fbdfc72a40bf80f57a40a22e6f84" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="47e4f0fcd69d4db9870506f8f14bbda8" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b74a0e439a8e498a9f2488d9f111ad3a" Height="[float]208" Id="874631e8a4d14a739e375888894de1fd" Label="[UIModel]41c20b4127984a5e9c6acd9586ae3718" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=bd41f0f271964b8aae5826093e362fc8}" Width="[float]191" xmlns="http://www.ni.com/PanelCommon">
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="60673b1cdf994fa89b8746c78fd6d416" IsTabStop="[bool]True" Label="[UIModel]c6be975619f8476f8edf23ead2d276c5" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]4" Top="[float]24" Value="{ClusterBinding FieldName=Blade\ Coating\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="c6be975619f8476f8edf23ead2d276c5" LabelOwner="[UIModel]60673b1cdf994fa89b8746c78fd6d416" Left="[float]4" Text="[string]Blade Coating Information" Top="[float]4" Width="[float]139" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="938808d507494079a58d4679cb183921" IsTabStop="[bool]True" Label="[UIModel]936c315c2f704ab99ac42388aca5d0b6" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]60" Value="{ClusterBinding FieldName=General\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="936c315c2f704ab99ac42388aca5d0b6" LabelOwner="[UIModel]938808d507494079a58d4679cb183921" Left="[float]4" Text="[string]General Information" Top="[float]40" Width="[float]106" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="77707c09cd954d77b2ce5b1e09bb7b94" IsTabStop="[bool]True" Label="[UIModel]c42e71036bf440b97e43a04033026de" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]1" Top="[float]100" Value="{ClusterBinding FieldName=Solution\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="c42e71036bf440b97e43a04033026de" LabelOwner="[UIModel]77707c09cd954d77b2ce5b1e09bb7b94" Left="[float]4" Text="[string]Solution Information" Top="[float]80" Width="[float]109" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="6557c0a541f640eca1959d6bf5354a39" IsTabStop="[bool]True" Label="[UIModel]5024aee8e13448a2a7c5da722b75fcfb" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]2" Top="[float]140" Value="{ClusterBinding FieldName=Spin\ Coating\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="5024aee8e13448a2a7c5da722b75fcfb" LabelOwner="[UIModel]6557c0a541f640eca1959d6bf5354a39" Left="[float]4" Text="[string]Spin Coating Information" Top="[float]120" Width="[float]133" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="f4f0ef0dea9c4d68bc656accc845ad4a" IsTabStop="[bool]True" Label="[UIModel]68e0b18242274cc6999ea2e4f737c6b7" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]3" Top="[float]180" Value="{ClusterBinding FieldName=Thermal\ Evaporation\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="68e0b18242274cc6999ea2e4f737c6b7" LabelOwner="[UIModel]f4f0ef0dea9c4d68bc656accc845ad4a" Left="[float]4" Text="[string]Thermal Evaporation Information" Top="[float]160" Width="[float]175" />
+					</Cluster>
+					<Label Height="[float]16" Id="41c20b4127984a5e9c6acd9586ae3718" LabelOwner="[UIModel]874631e8a4d14a739e375888894de1fd" Left="[float]100" Text="[string]Current Deposition Method Information Cluster" Top="[float]80" Width="[float]251" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b74a0e439a8e498a9f2488d9f111ad3a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Coating Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="General Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Solution Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Spin Coating Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Thermal Evaporation Information" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

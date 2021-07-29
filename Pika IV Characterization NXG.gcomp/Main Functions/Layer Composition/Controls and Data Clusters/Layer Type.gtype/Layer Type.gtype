@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="508F500C04F900C9F944A99B3AC4F3AF8BEC17B76F5B531D18EA7C7E5D3C3B3A7F2DAFC2AA3CD94EFE695F804A68CADA5B9385524D4565CD517A6467027870BF" Timestamp="1D7846267469038" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@1e26dd7eb6c445cc8f388a708cd64548" Id="efa804b48259445bbd027b10f9e811d8" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="a806ab65e78f47abaffff30c3fa2f1b2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="17d3016a7bcd442a9dff7ba8a2456c95" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="866ad4cfb88f4abfb4b8617938855d26" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@1e26dd7eb6c445cc8f388a708cd64548" Id="9939162da7e449129c150081a5fcfc79" Name="Layer Type">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="9e20696811914b2fa7ffc56ce70625d2" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="9221bb2bd75542c59ad971b1956d4be7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="68b625efd93d49848ec67b5fd4f90ba8" Name="Layer Type.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="2765d10d0e0544158cbf12ce27e53c07" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="93c3ed0ef4504d74bba19ba96bfd9b1d" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Layer Type" Height="[float]24" Id="6bd25f8b44954d8a81f27846245a466a" IsTypeAheadEnabled="[bool]True" Label="[UIModel]b1aedea2aa224372a8e1ee94e6cd3bdc" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=9939162da7e449129c150081a5fcfc79}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]144" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Front Electrode" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Electrode Transport Layer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Active Layer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Hole Transport Layer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Back Electrode" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Annealing Treatment" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Encapsulation" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Custom Layer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="b1aedea2aa224372a8e1ee94e6cd3bdc" LabelOwner="[UIModel]6bd25f8b44954d8a81f27846245a466a" Left="[float]100" Text="[string]Layer Type" Top="[float]80" Width="[float]57" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="1e26dd7eb6c445cc8f388a708cd64548">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Front Electrode" />
+					<EnumerationMember Value="1" Name="Electrode Transport Layer" />
+					<EnumerationMember Value="2" Name="Active Layer" />
+					<EnumerationMember Value="3" Name="Hole Transport Layer" />
+					<EnumerationMember Value="4" Name="Back Electrode" />
+					<EnumerationMember Value="5" Name="Annealing Treatment" />
+					<EnumerationMember Value="6" Name="Encapsulation" />
+					<EnumerationMember Value="7" Name="Custom Layer" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

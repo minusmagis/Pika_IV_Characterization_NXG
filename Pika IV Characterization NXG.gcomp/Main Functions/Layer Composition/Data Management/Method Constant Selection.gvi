@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F8D08838FDD0ABCAE658682B254FEE47FFA91C03822CA0BF0A0C88729A6136E2208A6D6C273CA098AEAFCC5A06B62DC118302A03AD139E52AB63F6A0BCB73E58" Timestamp="1D7848EF335F8A0" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="eb0ed57560074da4bf0ff64e5f182309" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="6909d016253148e6a3d371bf89c55f2f" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="c20ba0d6dd5d4989a139317e60c60f71" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="37c236d6fcc54102ab30869fd0767478" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="608cd0c0bb9b4f719039605b6a00184e" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="854fecbf85004befaced94b96e290cde" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="8023c77e1ed541fc8cbcffd2cdb6c480" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Method Constant Selection" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="8f91450cd29443218d13c6c11ab22e43" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="bc2109812934a3c9f127f1f00f7f781" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 65" Parameter="f9df0fbf27fa451cb1c81dfd803f8a02" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="5a32644b82124fa981cd934bc6d25634" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 80" Parameter="4d1785b70f96415db7293da6752dfd46" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="cc538ec991954e8c85cbaa2fc3a2a34f" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="204cef94f5254499902c1bfb0182bda6" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="21237bb98fa84f44a9fa86a462ba68f1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Deposition Method" Height="[float]24" Id="8289270744804a57b91800bf089ebfd6" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Left="[float]100" Name="[string]Deposition Method In" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=f9df0fbf27fa451cb1c81dfd803f8a02}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]200" p4:ControlDefinitionChecksum="1tg0SDevkhXgib9Nl/iH7pgJ8e/TXa8oZyvDnuFKH9Q=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Deposition Method.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<EnumSelectorInfo DisplayValue="[string]Blade Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Spin Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Thermal Evaporation" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]E-beam Evaporation" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Sputtering" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Drop Casting" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Dip Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Pulsed Laser Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Chemical Vapour Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]8" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Atomic Layer Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]9" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Spray Coating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]10" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Screen Printing" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]11" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Electroplating" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]12" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Molecular Beam Epitaxy" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]13" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Custom Deposition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]14" ValueType="[Type]UInt16" />
+			</EnumSelector>
+			<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Current Deposition Method Information Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@45a22da1d14b44c782d53a13df0e3ff1" Height="[float]208" Id="7b9fc16d5fea49c29a30d3cf58e5276c" IsTabStop="[bool]True" Label="[UIModel]c8e4814558dc478f8aa9ee9829725c6c" LabelLinked="[bool]True" Left="[float]100" TabIndex="[int]1" Top="[float]100" Value="{DataItemBinding Id=4d1785b70f96415db7293da6752dfd46}" Width="[float]191" p4:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="6cca41316be44bea897bd391c6bdcbf1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]bf632f641034ee5bc4c9a56016af8b5" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Blade\ Coating\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="bf632f641034ee5bc4c9a56016af8b5" LabelOwner="[UIModel]6cca41316be44bea897bd391c6bdcbf1" Left="[float]4" Text="[string]Blade Coating Information" Top="[float]4" Width="[float]139" />
+				<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="d7550982a2674acbbbb0c3d95b26a6b7" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]f6e84213f8449579246deb135b433ca" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]1" Top="[float]60" Value="{ClusterBinding FieldName=General\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="f6e84213f8449579246deb135b433ca" LabelOwner="[UIModel]d7550982a2674acbbbb0c3d95b26a6b7" Left="[float]4" Text="[string]General Information" Top="[float]40" Width="[float]106" />
+				<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="d87196e82a644d9c801e0dcab2f114d1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]f7c09bec61b14108b0620dceb6a349bd" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]2" Top="[float]100" Value="{ClusterBinding FieldName=Solution\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="f7c09bec61b14108b0620dceb6a349bd" LabelOwner="[UIModel]d87196e82a644d9c801e0dcab2f114d1" Left="[float]4" Text="[string]Solution Information" Top="[float]80" Width="[float]109" />
+				<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="cdbc6111d86341c8b22062575aaebace" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]19300af9c919482b9b43b3625cddecfd" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]3" Top="[float]140" Value="{ClusterBinding FieldName=Spin\ Coating\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="19300af9c919482b9b43b3625cddecfd" LabelOwner="[UIModel]cdbc6111d86341c8b22062575aaebace" Left="[float]4" Text="[string]Spin Coating Information" Top="[float]120" Width="[float]133" />
+				<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Height="[float]16" Id="c6463a4cdb504bd8b26580d794fa92f0" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]65f8f2f145bc44f1b87ab7c3eee71be5" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]4" Top="[float]180" Value="{ClusterBinding FieldName=Thermal\ Evaporation\ Information}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="65f8f2f145bc44f1b87ab7c3eee71be5" LabelOwner="[UIModel]c6463a4cdb504bd8b26580d794fa92f0" Left="[float]4" Text="[string]Thermal Evaporation Information" Top="[float]160" Width="[float]175" />
+				<p4:Label Height="[float]16" Id="c8e4814558dc478f8aa9ee9829725c6c" IsVisualChild="[bool]False" LabelOwner="[UIModel]7b9fc16d5fea49c29a30d3cf58e5276c" Left="[float]100" Text="[string]Current Deposition Method Cluster Out" Top="[float]80" Width="[float]251" />
+			</Cluster>
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="c8037535cdb440d1a180338ef2208013">
+			<CaseStructure Bounds="12 -45 1163 600" DataType="Error" Default="f6808185825d4ff1b11a3632670d7771" Id="1220d5195f604ac586e223327ce65199" Selected="5056cb46ccb94683ae2331d2deaf7c04" UserSelectorBounds="528 0 106 17">
+				<CaseStructure.Case Bounds="5 5 1153 590" Id="f6808185825d4ff1b11a3632670d7771" Pattern="Error">
+					<Wire Id="b8dcdfb42314aca9131f3cc572e51e0" Joints="N(83d697108c4e4b67a7513ea7ce6c1c5c:f6808185825d4ff1b11a3632670d7771)|(4,40) N(e621631180a84d329181b479c7d9b57b:f6808185825d4ff1b11a3632670d7771)|(1149,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 1153 590" Id="5056cb46ccb94683ae2331d2deaf7c04" Pattern="No Error">
+					<CaseStructure Bounds="133 70 660 230" DataType="@33edb4589fd2420c820baf72cceb5d02" Default="13f220c1fa764171b94b725276ef8e19" Id="5260601ff74e47c8a26936d571a7ec2e" Selected="5029044efc1249feb1285b7a83c7aff3" UserSelectorBounds="218 0 225 17">
+						<CaseStructure.Case Bounds="5 5 650 220" Id="e67cee828ed4c8a834ce2b331b89f73" Pattern="&quot;E-beam Evaporation&quot;">
+							<Wire Id="6b673c486f46439199e98591c645b8ea" Joints="N(1447cb3903b04de4aced3fa2cc740b73:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:e67cee828ed4c8a834ce2b331b89f73)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="1447cb3903b04de4aced3fa2cc740b73" Label="dfe5db51bbf447fa9e3894e71ddd337b" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="7cbf910e037b4f2eb39a3f122f9cf571" Label="38e82828096c429fb0995ecfbe8a9d70">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="7cbf910e037b4f2eb39a3f122f9cf571" Bounds="2 2 30 15" Id="38e82828096c429fb0995ecfbe8a9d70" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="5726c57a8f7640ed8d57c27994ad6214" Label="8e1ae1c11c784b6a9716ab665911c1a2">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="5726c57a8f7640ed8d57c27994ad6214" Bounds="2 39 30 15" Id="8e1ae1c11c784b6a9716ab665911c1a2" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="e3f76b2d2f184d4681c9124a6ca9545c" Label="e49281a9b0bc4c0188f05082b89228df">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="e3f76b2d2f184d4681c9124a6ca9545c" Bounds="2 76 30 15" Id="e49281a9b0bc4c0188f05082b89228df" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="7c76d0688afe4c8b855b109218bd24a0" Label="f846a723093a474fb53f727a2e019c29">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="7c76d0688afe4c8b855b109218bd24a0" Bounds="2 113 30 15" Id="f846a723093a474fb53f727a2e019c29" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="410254205d6472c8a0503572f97ea85" Label="1ebed1f6b9714cc4b58643993926a444">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="410254205d6472c8a0503572f97ea85" Bounds="2 150 30 15" Id="1ebed1f6b9714cc4b58643993926a444" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="1447cb3903b04de4aced3fa2cc740b73" Bounds="559 -3 30 15" Id="dfe5db51bbf447fa9e3894e71ddd337b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="fba9370f55ff40028fbabb6d5dcd6cb2" Pattern="&quot;Sputtering&quot;">
+							<Wire Id="7bb5122b7e07432e9482ebbda402360d" Joints="N(7b12bd3102b4484c92266efcdb0c08ac:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:fba9370f55ff40028fbabb6d5dcd6cb2)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="7b12bd3102b4484c92266efcdb0c08ac" Label="8d1755b24c7d4cae8f9f9ad21fe309e1" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="336012eeb9764915aaa0dee217bd55fd" Label="d1d22470d7274b15b3332937e4cda1be">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="336012eeb9764915aaa0dee217bd55fd" Bounds="2 2 30 15" Id="d1d22470d7274b15b3332937e4cda1be" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="9ed2ec78e3164d1682e1006a762bb488" Label="55a58d1c7ad04adfa3a902f7738838be">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="9ed2ec78e3164d1682e1006a762bb488" Bounds="2 39 30 15" Id="55a58d1c7ad04adfa3a902f7738838be" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="fbd1ae5275634bba893d03cf29a5627b" Label="234f34a5dc114a1b93d4d042781d631f">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="fbd1ae5275634bba893d03cf29a5627b" Bounds="2 76 30 15" Id="234f34a5dc114a1b93d4d042781d631f" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="1803c74d0d144754ad09264c866c49c3" Label="b49a2982dfef483ebef28049dc716d65">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="1803c74d0d144754ad09264c866c49c3" Bounds="2 113 30 15" Id="b49a2982dfef483ebef28049dc716d65" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="9fc49300611b464c934b6f9eb983b4fd" Label="ddb2e802b6a94edca69d778d061f1211">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="9fc49300611b464c934b6f9eb983b4fd" Bounds="2 150 30 15" Id="ddb2e802b6a94edca69d778d061f1211" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="7b12bd3102b4484c92266efcdb0c08ac" Bounds="524 15 30 15" Id="8d1755b24c7d4cae8f9f9ad21fe309e1" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="a4afade6c88c437dbd9ec7e9a64b3d53" Pattern="&quot;Drop Casting&quot;">
+							<Wire Id="6ba277031d94db5a7043ff5072788e6" Joints="N(c5b2ad0ca31a41c188ea5a7740f757d4:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:a4afade6c88c437dbd9ec7e9a64b3d53)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="c5b2ad0ca31a41c188ea5a7740f757d4" Label="aa5e4f67bc324783997e14b4caacfa1a" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_True_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="12bbf3ad357746d8ba2d77277d634b7a" Label="837f3946c3034b8e85c76c9c8986243b">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="12bbf3ad357746d8ba2d77277d634b7a" Bounds="2 2 30 15" Id="837f3946c3034b8e85c76c9c8986243b" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="54638954bf14427194d20b2c928c82b2" Label="228015b003614bfbac3666812ce098c8">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="54638954bf14427194d20b2c928c82b2" Bounds="2 39 30 15" Id="228015b003614bfbac3666812ce098c8" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="933db1f624f94b5488a73dabcf4ac287" Label="7fb34c807da0436d9825ba8522afec0a">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="933db1f624f94b5488a73dabcf4ac287" Bounds="2 76 30 15" Id="7fb34c807da0436d9825ba8522afec0a" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="5db7abdafb5e4358b46a5917ef34bea4" Label="5e3ad24e30e94875bd50af370979c053">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="5db7abdafb5e4358b46a5917ef34bea4" Bounds="2 113 30 15" Id="5e3ad24e30e94875bd50af370979c053" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="83d955ad145c4509bd345b927307b0cb" Label="f5a5b5e4ed354399b9b5c46c2110c74d">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="83d955ad145c4509bd345b927307b0cb" Bounds="2 150 30 15" Id="f5a5b5e4ed354399b9b5c46c2110c74d" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="c5b2ad0ca31a41c188ea5a7740f757d4" Bounds="524 15 30 15" Id="aa5e4f67bc324783997e14b4caacfa1a" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="69a27f03159a41e0bb293efcd16018c4" Pattern="&quot;Dip Coating&quot;">
+							<Wire Id="cbff387796e849b28712864dcde50ade" Joints="N(ccfcebd669c74a9dad1a307993eeda75:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:69a27f03159a41e0bb293efcd16018c4)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="ccfcebd669c74a9dad1a307993eeda75" Label="2980aa5b3eb949efb3eb78e13ae5d35d" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_True_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="d1327a716f92496082f269ef89b02f3a" Label="c30d9d66415e4378a83e419f5d616f19">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="d1327a716f92496082f269ef89b02f3a" Bounds="2 2 30 15" Id="c30d9d66415e4378a83e419f5d616f19" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="2d0acbdad65f44fdbf21716dcc9afde9" Label="1f81f18a1714422aaff3175e5048ba01">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="2d0acbdad65f44fdbf21716dcc9afde9" Bounds="2 39 30 15" Id="1f81f18a1714422aaff3175e5048ba01" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="8e6bedd87f7543dbb85dd92b2fc2d229" Label="3a6e72e1311840d1952e9479d44d3cee">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="8e6bedd87f7543dbb85dd92b2fc2d229" Bounds="2 76 30 15" Id="3a6e72e1311840d1952e9479d44d3cee" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="80999588a4d34ebbba41420871c98cc6" Label="c8eb27a9c3934377afc97f6fe1a2d5a0">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="80999588a4d34ebbba41420871c98cc6" Bounds="2 113 30 15" Id="c8eb27a9c3934377afc97f6fe1a2d5a0" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="78edeeed045643af97cb38b95142ff9c" Label="9dc03fbac314fd1b2fdf05ac540f4f6">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="78edeeed045643af97cb38b95142ff9c" Bounds="2 150 30 15" Id="9dc03fbac314fd1b2fdf05ac540f4f6" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="ccfcebd669c74a9dad1a307993eeda75" Bounds="524 15 30 15" Id="2980aa5b3eb949efb3eb78e13ae5d35d" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="a58d12a55e4840348e05a7fe73330062" Pattern="&quot;Pulsed Laser Deposition&quot;">
+							<Wire Id="1a8385033e824009b3992595bcfd18fd" Joints="N(5a712f5d858a4a09b04f2a6c06c01091:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:a58d12a55e4840348e05a7fe73330062)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="5a712f5d858a4a09b04f2a6c06c01091" Label="4e5fa94081ce4b29a558a629712803d8" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="dda8a4b04777451f880d13b80a6e3c88" Label="66630f0a58bc498981ecb29c5159ef0e">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="dda8a4b04777451f880d13b80a6e3c88" Bounds="2 2 30 15" Id="66630f0a58bc498981ecb29c5159ef0e" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="7241a0ff373a4b72a2dea5ab98aec60e" Label="2ef472ed778d418d9b6f2722360010d2">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="7241a0ff373a4b72a2dea5ab98aec60e" Bounds="2 39 30 15" Id="2ef472ed778d418d9b6f2722360010d2" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="3b6f6d7351046188be3e856ba5cdaf8" Label="26c89b1f76e14286a366542408066602">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="3b6f6d7351046188be3e856ba5cdaf8" Bounds="2 76 30 15" Id="26c89b1f76e14286a366542408066602" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="1f99be74a5d44fdb8b01277f0673ab91" Label="bd9c2523921749c387d5ff6e7e132d2b">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="1f99be74a5d44fdb8b01277f0673ab91" Bounds="2 113 30 15" Id="bd9c2523921749c387d5ff6e7e132d2b" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="e04909529d004fea98d86824c126cbdb" Label="c8e5eddcf88242ec8471102c2c7edcf0">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="e04909529d004fea98d86824c126cbdb" Bounds="2 150 30 15" Id="c8e5eddcf88242ec8471102c2c7edcf0" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="5a712f5d858a4a09b04f2a6c06c01091" Bounds="559 -3 30 15" Id="4e5fa94081ce4b29a558a629712803d8" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="92310c5eea644b32a3abf95aec6f571b" Pattern="&quot;Chemical Vapour Deposition&quot;">
+							<Wire Id="71ebb9ec75447b1879d18b7c848485c" Joints="N(c48be10a262e433e91271ae9e7b386c1:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:92310c5eea644b32a3abf95aec6f571b)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="c48be10a262e433e91271ae9e7b386c1" Label="d73176362e404fd08297735f7b7f20e2" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="b8cba2b9e16c42459046d4717bf7e0ba" Label="dc8361c6ec3c4e37af752865c4772ecb">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="b8cba2b9e16c42459046d4717bf7e0ba" Bounds="2 2 30 15" Id="dc8361c6ec3c4e37af752865c4772ecb" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="4a7c2dc4cd384f7c8d72f50396c761e4" Label="2ef9923eef124f43aa022bbf99d28d77">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="4a7c2dc4cd384f7c8d72f50396c761e4" Bounds="2 39 30 15" Id="2ef9923eef124f43aa022bbf99d28d77" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="466692d526dc41c8ae1f887e3092c9c7" Label="c011af3792d54387a31e430fae25e0a0">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="466692d526dc41c8ae1f887e3092c9c7" Bounds="2 76 30 15" Id="c011af3792d54387a31e430fae25e0a0" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="6348052b4ba94aa088aec6dfe2ebe82d" Label="b08dcdeed2b94612a1aee6a956df41f5">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="6348052b4ba94aa088aec6dfe2ebe82d" Bounds="2 113 30 15" Id="b08dcdeed2b94612a1aee6a956df41f5" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="7fe93bf5e3de4821beb1fa1187111e20" Label="d2752dffff204d94b24f121145aed1fa">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="7fe93bf5e3de4821beb1fa1187111e20" Bounds="2 150 30 15" Id="d2752dffff204d94b24f121145aed1fa" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="c48be10a262e433e91271ae9e7b386c1" Bounds="524 15 30 15" Id="d73176362e404fd08297735f7b7f20e2" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="5029044efc1249feb1285b7a83c7aff3" Pattern="&quot;Atomic Layer Deposition&quot;">
+							<Wire Id="b2180e4adb3a4e0f9c6b95c0e226d35f" Joints="N(7505583aef442789ab6a2abc82b43d6:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:5029044efc1249feb1285b7a83c7aff3)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="7505583aef442789ab6a2abc82b43d6" Label="ce72194d787c4fe981cb1c48e85beb0c" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="842d4e5dc92b435d8603b52281107cf0" Label="faff9771bc314169bc46895ecf39ef2b">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="842d4e5dc92b435d8603b52281107cf0" Bounds="2 2 30 15" Id="faff9771bc314169bc46895ecf39ef2b" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="92e1b650a9c4e8bb1534285d5ccc223" Label="8aa727f5c2cf45c2aee6a8f1d6e31620">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="92e1b650a9c4e8bb1534285d5ccc223" Bounds="2 39 30 15" Id="8aa727f5c2cf45c2aee6a8f1d6e31620" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="83491ded76d4bc38ddf92277a7f39f4" Label="ea83605d31724bf28fc564e935344dd0">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="83491ded76d4bc38ddf92277a7f39f4" Bounds="2 76 30 15" Id="ea83605d31724bf28fc564e935344dd0" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="f24dc044474e478d94219f3e156fcd75" Label="f43499dff5bc4dccada4c554ca8bc11a">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="f24dc044474e478d94219f3e156fcd75" Bounds="2 113 30 15" Id="f43499dff5bc4dccada4c554ca8bc11a" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="b5d10e4dd7eb4da89873af867e4f8aad" Label="317d555c7d294c1d8dc31ca346dc3a96">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="b5d10e4dd7eb4da89873af867e4f8aad" Bounds="2 150 30 15" Id="317d555c7d294c1d8dc31ca346dc3a96" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="7505583aef442789ab6a2abc82b43d6" Bounds="559 -3 30 15" Id="ce72194d787c4fe981cb1c48e85beb0c" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="6707ef7849ad445b9e647047ee27e28b" Pattern="&quot;Spray Coating&quot;">
+							<Wire Id="3a3d63fd08e040c0bf59e533c83186fa" Joints="N(ef4e52a9bb9141b5895beef65c629ab2:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:6707ef7849ad445b9e647047ee27e28b)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="ef4e52a9bb9141b5895beef65c629ab2" Label="9c31873d27394c80b4e26f60239d32c2" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_True_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="77fc952ffb546dc810169777a4a6d09" Label="7110b7d3ef2344f4aa2425bfb001810b">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="77fc952ffb546dc810169777a4a6d09" Bounds="2 2 30 15" Id="7110b7d3ef2344f4aa2425bfb001810b" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="d5b761485da34e5f822eda875e5c03ce" Label="c43c93cce15644eeb1f6c1bd87c42bda">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="d5b761485da34e5f822eda875e5c03ce" Bounds="2 39 30 15" Id="c43c93cce15644eeb1f6c1bd87c42bda" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="e70d2d0c39dc4a36ae68665ba877b917" Label="56f40320dc1f41afb09adfd3d70959f6">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="e70d2d0c39dc4a36ae68665ba877b917" Bounds="2 76 30 15" Id="56f40320dc1f41afb09adfd3d70959f6" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="9e520e558c3f45f5994a787b82517e97" Label="9d60a47fe3d84d37a9f2fc8a5bfe0fce">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="9e520e558c3f45f5994a787b82517e97" Bounds="2 113 30 15" Id="9d60a47fe3d84d37a9f2fc8a5bfe0fce" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="9f6910d8d3bc4504bc65c5b8f1ebcc99" Label="8d20206faa424d6e839dfe3a8861d59b">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="9f6910d8d3bc4504bc65c5b8f1ebcc99" Bounds="2 150 30 15" Id="8d20206faa424d6e839dfe3a8861d59b" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="ef4e52a9bb9141b5895beef65c629ab2" Bounds="524 15 30 15" Id="9c31873d27394c80b4e26f60239d32c2" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="c4b67ef64c974489883994c41bc6314c" Pattern="&quot;Screen Printing&quot;">
+							<Wire Id="771a3061a12a47e2b83183fed5003ac1" Joints="N(30acd24ec3374cd98905ada40b11cab7:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:c4b67ef64c974489883994c41bc6314c)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="30acd24ec3374cd98905ada40b11cab7" Label="9a18d52450304c28ac4a32eec8fb0ddd" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_True_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="bddf3395612f4f81be15fd7649e24999" Label="a9299ce327844166aebe9b3627f6478b">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="bddf3395612f4f81be15fd7649e24999" Bounds="2 2 30 15" Id="a9299ce327844166aebe9b3627f6478b" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="91c125641d494024a50ddae95805dafe" Label="99fc4016d91f453f802e439bd1f5da25">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="91c125641d494024a50ddae95805dafe" Bounds="2 39 30 15" Id="99fc4016d91f453f802e439bd1f5da25" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="70f1e57f3e41496b8bd573111ce0c733" Label="7dbac59e4da44a6899a4867a3800655">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="70f1e57f3e41496b8bd573111ce0c733" Bounds="2 76 30 15" Id="7dbac59e4da44a6899a4867a3800655" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="f4a8b3d9dcb7445fa3e38d5aaf530ced" Label="ad4a00aa80644823b2d29bbd22fe6ba0">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="f4a8b3d9dcb7445fa3e38d5aaf530ced" Bounds="2 113 30 15" Id="ad4a00aa80644823b2d29bbd22fe6ba0" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="3b264e749c9947448835943eb8dbc337" Label="3926f4c49764001bd32f0f14d42980d">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="3b264e749c9947448835943eb8dbc337" Bounds="2 150 30 15" Id="3926f4c49764001bd32f0f14d42980d" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="30acd24ec3374cd98905ada40b11cab7" Bounds="559 -3 30 15" Id="9a18d52450304c28ac4a32eec8fb0ddd" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="9eaf7c4c04e947af8e0653064d960698" Pattern="&quot;Electroplating&quot;">
+							<Wire Id="8bbd51cc6f7d42678f41f59b36d7aeec" Joints="N(14cb9ae39c6447d79e5c075a0dcc3172:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:9eaf7c4c04e947af8e0653064d960698)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="14cb9ae39c6447d79e5c075a0dcc3172" Label="b96188a00a1b4019802150f373c14851" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="d355355366aa44cd81adc816893ea372" Label="8245bb6282cf4b29b73da807e9de0cd1">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="d355355366aa44cd81adc816893ea372" Bounds="2 2 30 15" Id="8245bb6282cf4b29b73da807e9de0cd1" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="31a8ef000d8d47f9bf1ea3ee597ab4b5" Label="3613cd99243b483da075670b986410a4">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="31a8ef000d8d47f9bf1ea3ee597ab4b5" Bounds="2 39 30 15" Id="3613cd99243b483da075670b986410a4" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="1a69fddddf864d86b89bce58a69a5e73" Label="3651a1bab7fb4865acdb083e1c10c048">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="1a69fddddf864d86b89bce58a69a5e73" Bounds="2 76 30 15" Id="3651a1bab7fb4865acdb083e1c10c048" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="2788d2d7b77a4ed6960324a03b660b7f" Label="93487b9c14a742dfbf34f09faa0c0deb">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="2788d2d7b77a4ed6960324a03b660b7f" Bounds="2 113 30 15" Id="93487b9c14a742dfbf34f09faa0c0deb" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="fa454b1630b47b9a64937dfbd4de827" Label="b2a2637c751f41ebbe3ee8d7f4f40e78">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="fa454b1630b47b9a64937dfbd4de827" Bounds="2 150 30 15" Id="b2a2637c751f41ebbe3ee8d7f4f40e78" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="14cb9ae39c6447d79e5c075a0dcc3172" Bounds="524 15 30 15" Id="b96188a00a1b4019802150f373c14851" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="4501d958673c47229d3c0ad1bd8248c1" Pattern="&quot;Molecular Beam Epitaxy&quot;">
+							<Wire Id="2babf0f4814e42d997eca2fe8fb0dbe8" Joints="N(82126af7991d4ca5805d67b11d815273:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:4501d958673c47229d3c0ad1bd8248c1)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="82126af7991d4ca5805d67b11d815273" Label="bce7128013d14fec8fccb53cfaec86bb" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_False_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="9972cf1cfb324a4395b6633870349330" Label="9a5a9da16a8b49e6bdc15d0a78562ea3">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="9972cf1cfb324a4395b6633870349330" Bounds="2 2 30 15" Id="9a5a9da16a8b49e6bdc15d0a78562ea3" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="5f440af334b643dcbb71dfa6e0214773" Label="9e1096998e7041adb4ed7eb0f13be7aa">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="5f440af334b643dcbb71dfa6e0214773" Bounds="2 39 30 15" Id="9e1096998e7041adb4ed7eb0f13be7aa" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="590f3141801c4450af18b0553acb21b5" Label="cc07271877c74386b51461a7c525668a">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="590f3141801c4450af18b0553acb21b5" Bounds="2 76 30 15" Id="cc07271877c74386b51461a7c525668a" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="9a3acdaf6a404b4580c742ebf1a5e2fa" Label="b2496d808dd247beb4f50cbaad8ce328">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="9a3acdaf6a404b4580c742ebf1a5e2fa" Bounds="2 113 30 15" Id="b2496d808dd247beb4f50cbaad8ce328" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="cb7ff5f188eb493e8a1800b10cbdbf9a" Label="bde60a336c5a4625b2a4e8f523cb1218">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="cb7ff5f188eb493e8a1800b10cbdbf9a" Bounds="2 150 30 15" Id="bde60a336c5a4625b2a4e8f523cb1218" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="82126af7991d4ca5805d67b11d815273" Bounds="524 15 30 15" Id="bce7128013d14fec8fccb53cfaec86bb" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="6eb9420d9c3e435cbf1046fd68d2e7c3" Pattern="&quot;Custom Deposition&quot;">
+							<Wire Id="859c2ad4d6734ac899b8e6d023c8b0df" Joints="N(1faed604318c4b079671ac9a2653693e:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:6eb9420d9c3e435cbf1046fd68d2e7c3)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="1faed604318c4b079671ac9a2653693e" Label="ddd6cdef2e6649a095d97b3890994b04" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_True_True_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="10489f0df08941ebb9fef30e9032b6ee" Label="ea4ad69502b4d639cea04efef775d71">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="10489f0df08941ebb9fef30e9032b6ee" Bounds="2 2 30 15" Id="ea4ad69502b4d639cea04efef775d71" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="ca38c92e96e04cdcbd873b3b79dda787" Label="284448a754174b15ac8cff943e5fc5d3">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="ca38c92e96e04cdcbd873b3b79dda787" Bounds="2 39 30 15" Id="284448a754174b15ac8cff943e5fc5d3" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="d742cb5b2f974a069c0c209eb3253e0d" Label="23675dfcfed74b659953543f08f0664c">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="d742cb5b2f974a069c0c209eb3253e0d" Bounds="2 76 30 15" Id="23675dfcfed74b659953543f08f0664c" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="20e35896390436b8c54ac5badacaa16" Label="d7f0b2379c614a4b950488b011601f49">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="20e35896390436b8c54ac5badacaa16" Bounds="2 113 30 15" Id="d7f0b2379c614a4b950488b011601f49" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="80894125058d40f4bc2078ed8ba7ccd4" Label="5d73509711fc45c187c48b36cb036ec1">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="80894125058d40f4bc2078ed8ba7ccd4" Bounds="2 150 30 15" Id="5d73509711fc45c187c48b36cb036ec1" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="1faed604318c4b079671ac9a2653693e" Bounds="524 15 30 15" Id="ddd6cdef2e6649a095d97b3890994b04" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="aa04a8c2a3984e759677cdc235dfafec" Pattern="&quot;Thermal Evaporation&quot;">
+							<Wire Id="985473b062b74436b04ccc07f98da87f" Joints="N(d468eb65b87f405487cf5aebddc90c34:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:aa04a8c2a3984e759677cdc235dfafec)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="d468eb65b87f405487cf5aebddc90c34" Label="f23d5739eb2f46d0b2d66352c9421d84" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_False_False_False_True_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="206d13decede4a3a83ec1977e1a9fb2b" Label="e38af172a75f4c3d8469fce783ea268c">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="206d13decede4a3a83ec1977e1a9fb2b" Bounds="2 2 30 15" Id="e38af172a75f4c3d8469fce783ea268c" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="16c3d474daa84fa9babc3eaceddac906" Label="4ab9a415ce644677a04ca26003e0e4d8">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="16c3d474daa84fa9babc3eaceddac906" Bounds="2 39 30 15" Id="4ab9a415ce644677a04ca26003e0e4d8" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="e6c04cbf26e24e7b94ee7700aa3b4999" Label="279be45f1a0e4e80adef41f55f11ec01">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="e6c04cbf26e24e7b94ee7700aa3b4999" Bounds="2 76 30 15" Id="279be45f1a0e4e80adef41f55f11ec01" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="6d116056e3a243978314a48797c29028" Label="ec3154ffd6dd437fb7f4c6cf14bace57">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="6d116056e3a243978314a48797c29028" Bounds="2 113 30 15" Id="ec3154ffd6dd437fb7f4c6cf14bace57" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="23f4e66425d04f84a1b69ab27c5b28ba" Label="78d6a28bc370496bade22d047831bafa">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="23f4e66425d04f84a1b69ab27c5b28ba" Bounds="2 150 30 15" Id="78d6a28bc370496bade22d047831bafa" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="d468eb65b87f405487cf5aebddc90c34" Bounds="559 -3 30 15" Id="f23d5739eb2f46d0b2d66352c9421d84" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="26973a6c5cc04ec895adcc8adae2966d" Pattern="&quot;Spin Coating&quot;">
+							<Wire Id="a112c4c73d5e483693a6bbef8f8aefb3" Joints="N(996fa7bc089f4c9289780be24dc20062:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:26973a6c5cc04ec895adcc8adae2966d)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="996fa7bc089f4c9289780be24dc20062" Label="a7d8e26bdf6e43438264dce1ccc7fec0" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>False_False_True_True_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="64693926ebb346eda2cab60350894736" Label="3254649fa6a14fb99c1de08ee23098e4">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="64693926ebb346eda2cab60350894736" Bounds="2 2 30 15" Id="3254649fa6a14fb99c1de08ee23098e4" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="de9e4182806840ea848e53c4235bb1d1" Label="44ab9f62144544df81d30029d92ad887">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="de9e4182806840ea848e53c4235bb1d1" Bounds="2 39 30 15" Id="44ab9f62144544df81d30029d92ad887" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="a5b15f7ac9394990925a1e2566d05cd0" Label="d527f60591a04f96afb9b8377a0aaa74">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="a5b15f7ac9394990925a1e2566d05cd0" Bounds="2 76 30 15" Id="d527f60591a04f96afb9b8377a0aaa74" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="49021cd3bd0f44a8a2709556fcc50daf" Label="e7e0fc7b68d14655a7d003fc1dc504ac">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="49021cd3bd0f44a8a2709556fcc50daf" Bounds="2 113 30 15" Id="e7e0fc7b68d14655a7d003fc1dc504ac" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="7e2797224b744c47b322f3fa2307b97f" Label="911e68dbed442f5bbbad5e659514185">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="7e2797224b744c47b322f3fa2307b97f" Bounds="2 150 30 15" Id="911e68dbed442f5bbbad5e659514185" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="996fa7bc089f4c9289780be24dc20062" Bounds="524 15 30 15" Id="a7d8e26bdf6e43438264dce1ccc7fec0" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Case Bounds="5 5 650 220" Id="13f220c1fa764171b94b725276ef8e19" Pattern="&quot;Blade Coating&quot;, Default">
+							<Wire Id="9a021b3dc01240578e64ac2411ba0caf" Joints="N(504defcc24ab42d9b7c185e9d971fdfb:Out)|(610,20) N(fd5b6f3046c647848f1f9edc0671e1de:13f220c1fa764171b94b725276ef8e19)|(646,20)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ClusterLiteral Bounds="559 15 51 195" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="504defcc24ab42d9b7c185e9d971fdfb" Label="61a0ec9a95f5480182d81f79459b84db" p8:ControlDefinitionChecksum="kXgSpOyfXmj7goICzcAeMdZer3ygtQkEPhlUl2uQ4S8=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>True_False_True_False_False_</p.Data>
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+									<p8:TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<ClusterBehavior AutoArrange="ArrangeVertically" />
+								<Literal Bounds="2 20 25 15" DataType="Boolean" Id="5218ddb8d4164173a198468be14093e1" Label="74bcc5721d2d453fa14306804be49926">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="5218ddb8d4164173a198468be14093e1" Bounds="2 2 30 15" Id="74bcc5721d2d453fa14306804be49926" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Blade Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 57 25 15" DataType="Boolean" Id="fdbd6e5b212e4260b9ac156320b0948c" Label="b1b6de44f6d44d21bbb7cf80cb1db154">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="fdbd6e5b212e4260b9ac156320b0948c" Bounds="2 39 30 15" Id="b1b6de44f6d44d21bbb7cf80cb1db154" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>General Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 94 25 15" DataType="Boolean" Id="49674db02c67485fa26056061569c596" Label="2c257534b7ec44b5876608e4afb5c8f3">
+									<p.Data>True</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="49674db02c67485fa26056061569c596" Bounds="2 76 30 15" Id="2c257534b7ec44b5876608e4afb5c8f3" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Solution Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 131 25 15" DataType="Boolean" Id="48e6bfbc51924b6993ca530e60e7b5b5" Label="195e5a0400004768a68bbe443583d912">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="48e6bfbc51924b6993ca530e60e7b5b5" Bounds="2 113 30 15" Id="195e5a0400004768a68bbe443583d912" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Spin Coating Information</p.Text>
+								</NodeLabel>
+								<Literal Bounds="2 168 25 15" DataType="Boolean" Id="f5cde68542b1458c83948ed2297161f5" Label="6077629f9b0441a480e8ca2d2b818013">
+									<p.Data>False</p.Data>
+									<BooleanBehavior />
+								</Literal>
+								<NodeLabel AttachedTo="f5cde68542b1458c83948ed2297161f5" Bounds="2 150 30 15" Id="6077629f9b0441a480e8ca2d2b818013" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Thermal Evaporation Information</p.Text>
+								</NodeLabel>
+							</ClusterLiteral>
+							<NodeLabel AttachedTo="504defcc24ab42d9b7c185e9d971fdfb" Bounds="559 -3 30 15" Id="61a0ec9a95f5480182d81f79459b84db" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>Useless Cluster</p.Text>
+							</NodeLabel>
+						</CaseStructure.Case>
+						<CaseStructure.Selector Bounds="-4 200 13 10" Docking="Left" Id="6acef259293c45a0842064853c216b1a" Terminals="5260601ff74e47c8a26936d571a7ec2e=a794372bab924c1d9942a1ecdbc19bfc, e67cee828ed4c8a834ce2b331b89f73, fba9370f55ff40028fbabb6d5dcd6cb2, a4afade6c88c437dbd9ec7e9a64b3d53, 69a27f03159a41e0bb293efcd16018c4, a58d12a55e4840348e05a7fe73330062, 92310c5eea644b32a3abf95aec6f571b, 5029044efc1249feb1285b7a83c7aff3, 6707ef7849ad445b9e647047ee27e28b, c4b67ef64c974489883994c41bc6314c, 9eaf7c4c04e947af8e0653064d960698, 4501d958673c47229d3c0ad1bd8248c1, 6eb9420d9c3e435cbf1046fd68d2e7c3, aa04a8c2a3984e759677cdc235dfafec, 26973a6c5cc04ec895adcc8adae2966d, 13f220c1fa764171b94b725276ef8e19" />
+						<CaseStructure.Tunnel Bounds="651 20 13 10" Docking="Right" Id="fd5b6f3046c647848f1f9edc0671e1de" Terminals="5260601ff74e47c8a26936d571a7ec2e=487eb8c48f474ae48b03fcb0fcef08c1, e67cee828ed4c8a834ce2b331b89f73=6b673c486f46439199e98591c645b8ea, fba9370f55ff40028fbabb6d5dcd6cb2=7bb5122b7e07432e9482ebbda402360d, a4afade6c88c437dbd9ec7e9a64b3d53=6ba277031d94db5a7043ff5072788e6, 69a27f03159a41e0bb293efcd16018c4=cbff387796e849b28712864dcde50ade, a58d12a55e4840348e05a7fe73330062=1a8385033e824009b3992595bcfd18fd, 92310c5eea644b32a3abf95aec6f571b=71ebb9ec75447b1879d18b7c848485c, 5029044efc1249feb1285b7a83c7aff3=b2180e4adb3a4e0f9c6b95c0e226d35f, 6707ef7849ad445b9e647047ee27e28b=3a3d63fd08e040c0bf59e533c83186fa, c4b67ef64c974489883994c41bc6314c=771a3061a12a47e2b83183fed5003ac1, 9eaf7c4c04e947af8e0653064d960698=8bbd51cc6f7d42678f41f59b36d7aeec, 4501d958673c47229d3c0ad1bd8248c1=2babf0f4814e42d997eca2fe8fb0dbe8, 6eb9420d9c3e435cbf1046fd68d2e7c3=859c2ad4d6734ac899b8e6d023c8b0df, aa04a8c2a3984e759677cdc235dfafec=985473b062b74436b04ccc07f98da87f, 26973a6c5cc04ec895adcc8adae2966d=a112c4c73d5e483693a6bbef8f8aefb3, 13f220c1fa764171b94b725276ef8e19=9a021b3dc01240578e64ac2411ba0caf" />
+					</CaseStructure>
+					<Wire Id="a794372bab924c1d9942a1ecdbc19bfc" Joints="N(fad8ea69ebe14e9ea02136ceac144e5a:5056cb46ccb94683ae2331d2deaf7c04)|(4,245) h(110) v(30) N(6acef259293c45a0842064853c216b1a:5260601ff74e47c8a26936d571a7ec2e)|(129,275)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="487eb8c48f474ae48b03fcb0fcef08c1" Joints="N(fd5b6f3046c647848f1f9edc0671e1de:5260601ff74e47c8a26936d571a7ec2e)|(797,95) N(fa1a8f9cfb034a0ab7a72c95e794e20c:5056cb46ccb94683ae2331d2deaf7c04)|(1149,95)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="a7ae92c298334b3683523ce1e7515d44" Joints="N(83d697108c4e4b67a7513ea7ce6c1c5c:5056cb46ccb94683ae2331d2deaf7c04)|(4,40) N(e621631180a84d329181b479c7d9b57b:5056cb46ccb94683ae2331d2deaf7c04)|(1149,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="83d697108c4e4b67a7513ea7ce6c1c5c" Terminals="1220d5195f604ac586e223327ce65199=f71a773fe2ce4573b1aaa48700be7079, f6808185825d4ff1b11a3632670d7771=b8dcdfb42314aca9131f3cc572e51e0, 5056cb46ccb94683ae2331d2deaf7c04=a7ae92c298334b3683523ce1e7515d44" />
+				<CaseStructure.Tunnel Bounds="1154 40 13 10" Docking="Right" Id="e621631180a84d329181b479c7d9b57b" Terminals="1220d5195f604ac586e223327ce65199=351a43c5401a4e7eaaac393c832a3e56, f6808185825d4ff1b11a3632670d7771=b8dcdfb42314aca9131f3cc572e51e0, 5056cb46ccb94683ae2331d2deaf7c04=a7ae92c298334b3683523ce1e7515d44" />
+				<CaseStructure.Tunnel Bounds="-4 245 13 10" Docking="Left" Id="fad8ea69ebe14e9ea02136ceac144e5a" Terminals="1220d5195f604ac586e223327ce65199=5ae9c581a31c452b8b93c4a01e7572eb, f6808185825d4ff1b11a3632670d7771, 5056cb46ccb94683ae2331d2deaf7c04=a794372bab924c1d9942a1ecdbc19bfc" />
+				<CaseStructure.Tunnel Bounds="1154 95 13 10" DefaultIfUnwired="True" Docking="Right" Id="fa1a8f9cfb034a0ab7a72c95e794e20c" Terminals="1220d5195f604ac586e223327ce65199=3ebea71b2aed4cd8802dd68f24c7272e, f6808185825d4ff1b11a3632670d7771, 5056cb46ccb94683ae2331d2deaf7c04=487eb8c48f474ae48b03fcb0fcef08c1" />
+			</CaseStructure>
+			<DataAccessor Bounds="-110 60 40 15" DataItem="5a32644b82124fa981cd934bc6d25634" Id="5197570acafd417e91192afc5fa1b66e" Label="5ece6a4c5fd481c98eb07d8f9a0e557" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<Wire Id="f71a773fe2ce4573b1aaa48700be7079" Joints="N(5197570acafd417e91192afc5fa1b66e:Value)|(-70,65) h(72) v(-65) N(83d697108c4e4b67a7513ea7ce6c1c5c:1220d5195f604ac586e223327ce65199)|(8,0)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="1209 -5 40 15" DataItem="cc538ec991954e8c85cbaa2fc3a2a34f" Id="1e714a93ed57452cb5ddc04f7bbcb2ce" Label="a6b531f2847242b39939c05efe539861" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<Wire Id="351a43c5401a4e7eaaac393c832a3e56" Joints="N(e621631180a84d329181b479c7d9b57b:1220d5195f604ac586e223327ce65199)|(1179,0) N(1e714a93ed57452cb5ddc04f7bbcb2ce:Value)|(1212,0)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="5197570acafd417e91192afc5fa1b66e" Bounds="-159 60 44 14" Id="5ece6a4c5fd481c98eb07d8f9a0e557" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error In</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="1e714a93ed57452cb5ddc04f7bbcb2ce" Bounds="1254 -5 52 14" Id="a6b531f2847242b39939c05efe539861" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error Out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="-110 200 40 15" DataItem="f9df0fbf27fa451cb1c81dfd803f8a02" Id="4f2423b1356842be8d037584d34e6d5b" Label="aa41720544e64a9c8d2683d9a6da4256" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@33edb4589fd2420c820baf72cceb5d02" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="4f2423b1356842be8d037584d34e6d5b" Bounds="-234 200 119 14" Id="aa41720544e64a9c8d2683d9a6da4256" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Deposition Method In</p.Text>
+			</NodeLabel>
+			<Wire Id="5ae9c581a31c452b8b93c4a01e7572eb" Joints="N(4f2423b1356842be8d037584d34e6d5b:Value)|(-70,205) N(fad8ea69ebe14e9ea02136ceac144e5a:1220d5195f604ac586e223327ce65199)|(8,205)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="1209 50 40 15" DataItem="4d1785b70f96415db7293da6752dfd46" Id="d6f76b4eb92e469782e72a2431b37dc7" Label="2883916deef24c2c9efc52ecd95c58d8" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@45a22da1d14b44c782d53a13df0e3ff1" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="d6f76b4eb92e469782e72a2431b37dc7" Bounds="1254 50 216 14" Id="2883916deef24c2c9efc52ecd95c58d8" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Current Deposition Method Cluster Out</p.Text>
+			</NodeLabel>
+			<Wire Id="3ebea71b2aed4cd8802dd68f24c7272e" Joints="N(fa1a8f9cfb034a0ab7a72c95e794e20c:1220d5195f604ac586e223327ce65199)|(1179,55) N(d6f76b4eb92e469782e72a2431b37dc7:Value)|(1212,55)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]228" HtmlPanel="[bool]False" Id="da22e3837efd439d91aba1245c03b62e" Left="[float]0" MaxWidth="[float]16000" PanelSizeMode="Fixed" Top="[float]0" Width="[float]432">
+			<PanelExecutionWindow Id="4f2a01a42390423e8e31e236846f53f6" />
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="595d008961c7437d907ed047570e8955" IsTabStop="[bool]True" Label="[UIModel]26f41091f0394c4bacfd9ad910d68277" LabelLinked="[bool]True" Left="[float]20" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]36" Value="{DataItemBinding Id=5a32644b82124fa981cd934bc6d25634}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="d17a8d199f3142a385ccfa5a2233b7b5" Label="[UIModel]46d7a57eebc748ebbe47e75583c28b51" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="46d7a57eebc748ebbe47e75583c28b51" LabelOwner="[UIModel]d17a8d199f3142a385ccfa5a2233b7b5" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="707cc1770a4242c6b96e4b26885c3a05" Label="[UIModel]b704fbc0844b44f6999d765faf18b8fe" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="b704fbc0844b44f6999d765faf18b8fe" LabelOwner="[UIModel]707cc1770a4242c6b96e4b26885c3a05" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="ce21b24c4b5f41e49808dc10694c9e70" Label="[UIModel]c05da1531309428da86ce6976701d238" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="c05da1531309428da86ce6976701d238" LabelOwner="[UIModel]ce21b24c4b5f41e49808dc10694c9e70" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="d6834a0aff304c6abc9ff7f43bab49cc" IsTabStop="[bool]True" Label="[UIModel]51df817a4a374bb590599019dd054d16" LabelLinked="[bool]True" Left="[float]228" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]36" Value="{DataItemBinding Id=cc538ec991954e8c85cbaa2fc3a2a34f}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="6a401ff747f545068a70edff0136cafc" IsReadOnly="[bool]True" Label="[UIModel]cc3df8df679f4a298a9eb9817b476712" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="cc3df8df679f4a298a9eb9817b476712" LabelOwner="[UIModel]6a401ff747f545068a70edff0136cafc" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="9ff6b5719eff42e8b4230e650e0dfd55" IsReadOnly="[bool]True" Label="[UIModel]3ff990ec2cf24d7195bc5a402188f7c5" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="3ff990ec2cf24d7195bc5a402188f7c5" LabelOwner="[UIModel]9ff6b5719eff42e8b4230e650e0dfd55" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="49fb511c46c445888addb2d480d4cc74" IsReadOnly="[bool]True" Label="[UIModel]9092e3d23ba14311b8be7110d1e72a8e" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="9092e3d23ba14311b8be7110d1e72a8e" LabelOwner="[UIModel]49fb511c46c445888addb2d480d4cc74" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="26f41091f0394c4bacfd9ad910d68277" LabelOwner="[UIModel]595d008961c7437d907ed047570e8955" Left="[float]20" Text="[string]Error In" Top="[float]16" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="51df817a4a374bb590599019dd054d16" LabelOwner="[UIModel]d6834a0aff304c6abc9ff7f43bab49cc" Left="[float]228" Text="[string]Error Out" Top="[float]16" Width="[float]49" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="0" DataType="Error" Id="5a32644b82124fa981cd934bc6d25634" Name="Error In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="Error" Id="cc538ec991954e8c85cbaa2fc3a2a34f" Name="Error Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="@33edb4589fd2420c820baf72cceb5d02" Id="f9df0fbf27fa451cb1c81dfd803f8a02" Name="Deposition Method In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Deposition Method.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@45a22da1d14b44c782d53a13df0e3ff1" Id="4d1785b70f96415db7293da6752dfd46" Name="Current Deposition Method Cluster Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False_False_False_False_False_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters::Useless Cluster.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="45a22da1d14b44c782d53a13df0e3ff1">
+			<Attributed AttributedType="@6209dba22cef49d388f8a5377dbae0b4">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="33edb4589fd2420c820baf72cceb5d02">
+			<Attributed AttributedType="@ca2acd039a4d48caa342f4e93c5c085b">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Pika IV Characterization NXG::Main Functions::Layer Composition::Controls and Data Clusters" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6209dba22cef49d388f8a5377dbae0b4">
+			<Typedef TypedefName="Useless Cluster.gtype" UnderlyingType="@b74a0e439a8e498a9f2488d9f111ad3a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ca2acd039a4d48caa342f4e93c5c085b">
+			<Typedef TypedefName="Deposition Method.gtype" UnderlyingType="@b6d1ae8524034d9cb65522628fea8995" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b74a0e439a8e498a9f2488d9f111ad3a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Coating Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="General Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Solution Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Spin Coating Information" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Thermal Evaporation Information" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b6d1ae8524034d9cb65522628fea8995">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Blade Coating" />
+					<EnumerationMember Value="1" Name="Spin Coating" />
+					<EnumerationMember Value="2" Name="Thermal Evaporation" />
+					<EnumerationMember Value="3" Name="E-beam Evaporation" />
+					<EnumerationMember Value="4" Name="Sputtering" />
+					<EnumerationMember Value="5" Name="Drop Casting" />
+					<EnumerationMember Value="6" Name="Dip Coating" />
+					<EnumerationMember Value="7" Name="Pulsed Laser Deposition" />
+					<EnumerationMember Value="8" Name="Chemical Vapour Deposition" />
+					<EnumerationMember Value="9" Name="Atomic Layer Deposition" />
+					<EnumerationMember Value="10" Name="Spray Coating" />
+					<EnumerationMember Value="11" Name="Screen Printing" />
+					<EnumerationMember Value="12" Name="Electroplating" />
+					<EnumerationMember Value="13" Name="Molecular Beam Epitaxy" />
+					<EnumerationMember Value="14" Name="Custom Deposition" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

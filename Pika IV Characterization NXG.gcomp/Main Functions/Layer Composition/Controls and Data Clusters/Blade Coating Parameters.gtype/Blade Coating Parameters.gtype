@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="B889E944B8FBCD749ECFF6C639D69D94A7DA43FA4CC9CDE11059ED18F2E3D686F7E3B39C6C9972B80AA3590D4F8CA41CF3444D05E2196BEE377D9950F7F0ECAF" Timestamp="1D784625DF01C8F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@6dfec72e9acd42f5b6aa921e2ed08bda" Id="83e62e2f5a02439f86ec12b5bbb2fb60" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="28771a7f10df4b0799516f29cf9191bc" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="2b093655b94b4d9996e8b0b2795321f4" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="cc77bc38ead5450ca43769e0eef71b35" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@6dfec72e9acd42f5b6aa921e2ed08bda" Id="a05d0c554131449ea53ce5fd252b12c0" Name="Blade Coating Controls">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0x0</Field1>
+					<Field2>0x0</Field2>
+					<Field3>False</Field3>
+					<Field4>0x0</Field4>
+					<Field5>0x0</Field5>
+					<Field6>0x0</Field6>
+					<Field7>0x0</Field7>
+					<Field8>0x0</Field8>
+					<Field9>False</Field9>
+					<Field10>""</Field10>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="4c57e186ea86480daca87704cccd7e3c" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="5e9b12eb6d9f494282826110bafc9c17" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ab06c5f6eb4493cbf45f7dcc5e1135c" Name="Blade Coating Controls.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="850892ff15ca4e4d95a52367d1129466" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="7338a495aab14886978b7c21445f7b97" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@6dfec72e9acd42f5b6aa921e2ed08bda" Height="[float]312" Id="9d37ef8297be4c839d0273ab0c10acc8" Label="[UIModel]3f8df790195140629c4500a22cee8db0" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=a05d0c554131449ea53ce5fd252b12c0}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="2a015fc1678c4f0daba82e91aeb236fe" Interval="[double]1" Label="[UIModel]dd945443074a4a0cb6d954f631905452" Left="[float]6" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Thickness\ (nm)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="4bd7d444318b47d8b9272e6b8a4e39dc" Interval="[double]1" Label="[UIModel]47e285bdf8934c79991f74f50a5059bc" Left="[float]102" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]1" Top="[float]20" Value="{ClusterBinding FieldName=Blade\ Initial\ Speed\ (mm/s)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Off/On" Enabled="[bool]True" Height="[float]16" Id="4a9496ebb60a4d4799cf66c9fb0a01f8" Label="[UIModel]31384a3986ff47ddaf2ac284a19da02f" Left="[float]6" TabIndex="[int]2" Top="[float]76" Value="{ClusterBinding FieldName=Speed\ Gradient}" Width="[float]59" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="eec16a71a1ae4712b65167eadf39d41f" Interval="[double]1" Label="[UIModel]64cc0a8549b44723b7f83c4464b31474" Left="[float]102" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]3" Top="[float]72" Value="{ClusterBinding FieldName=Blade\ Final\ Speed\ (mm/s)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="dd945443074a4a0cb6d954f631905452" LabelOwner="[UIModel]2a015fc1678c4f0daba82e91aeb236fe" Left="[float]6" Text="[string]Thickness (nm)" Top="[float]0" Width="[float]79" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="47e285bdf8934c79991f74f50a5059bc" LabelOwner="[UIModel]4bd7d444318b47d8b9272e6b8a4e39dc" Left="[float]102" Text="[string]Blade Initial Speed (mm/s)" Top="[float]0" Width="[float]139" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="31384a3986ff47ddaf2ac284a19da02f" LabelOwner="[UIModel]4a9496ebb60a4d4799cf66c9fb0a01f8" Left="[float]6" Text="[string]Speed Gradient" Top="[float]56" Width="[float]82" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="64cc0a8549b44723b7f83c4464b31474" LabelOwner="[UIModel]eec16a71a1ae4712b65167eadf39d41f" Left="[float]102" Text="[string]Blade Final Speed (mm/s)" Top="[float]52" Width="[float]135" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="36d86638d6264b74b4ca07934749bf5e" Interval="[double]1" Label="[UIModel]1483f72a0ad6494089b8f391b78ddaba" Left="[float]6" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]4" Top="[float]123" Value="{ClusterBinding FieldName=Blade\ Gap\ (um)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="1483f72a0ad6494089b8f391b78ddaba" LabelOwner="[UIModel]36d86638d6264b74b4ca07934749bf5e" Left="[float]6" Text="[string]Blade Gap (um)" Top="[float]103" Width="[float]82" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="a5eea80fb86c481a8a5c3804679bf307" Interval="[double]1" Label="[UIModel]236f4f69d5e648eaa6d292cae249e8db" Left="[float]102" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]5" Top="[float]123" Value="{ClusterBinding FieldName=Blade\ Temperature\ (ºC)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="236f4f69d5e648eaa6d292cae249e8db" LabelOwner="[UIModel]a5eea80fb86c481a8a5c3804679bf307" Left="[float]102" Text="[string]Blade Temperature (ºC)" Top="[float]103" Width="[float]123" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="a4d273912cda4e558b2f05f5fc09d47c" Interval="[double]1" Label="[UIModel]8b7c2e1250949ae883aeba74c131f3c" Left="[float]6" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]6" Top="[float]178" Value="{ClusterBinding FieldName=Droplet\ Volume\ (ul)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="8b7c2e1250949ae883aeba74c131f3c" LabelOwner="[UIModel]a4d273912cda4e558b2f05f5fc09d47c" Left="[float]6" Text="[string]Droplet Volume (ul)" Top="[float]158" Width="[float]104" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="28d1a314b1364faba414959c167b245b" Interval="[double]1" Label="[UIModel]fbc8a4f88962468b90bf02ca90d1421e" Left="[float]123" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]7" Top="[float]178" Value="{ClusterBinding FieldName=Subsequent\ layers}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="fbc8a4f88962468b90bf02ca90d1421e" LabelOwner="[UIModel]28d1a314b1364faba414959c167b245b" Left="[float]123" Text="[string]Subsequent layers" Top="[float]158" Width="[float]97" />
+						<Switch BaseName="[string]Round Switch" Enabled="[bool]True" FalseContent="[string]Outside" Height="[float]72" Id="5cb21970765e4647adf13e269b1a208d" IncludeInCapture="[bool]False" IsTabStop="[bool]True" Label="[UIModel]37b00c4361ff422e91af195ed2e58e98" LabelLinked="[bool]True" Left="[float]4" Shape="[SwitchShape]Round" TabIndex="[int]8" Top="[float]228" TrueContent="[string]Inside" Value="{ClusterBinding FieldName=Glovebox}" Width="[float]133" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="37b00c4361ff422e91af195ed2e58e98" LabelOwner="[UIModel]5cb21970765e4647adf13e269b1a208d" Left="[float]4" Text="[string]Glovebox" Top="[float]208" Width="[float]50" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1d1b438779b14a12bfb67e1e4e0c5ecb" Label="[UIModel]32ab181143524599a68bd9e751cac836" Left="[float]121" TabIndex="[int]9" Text="{ClusterBinding FieldName=Comments}" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]274" TypeToReplace="[bool]False" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]115" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="32ab181143524599a68bd9e751cac836" LabelOwner="[UIModel]1d1b438779b14a12bfb67e1e4e0c5ecb" Left="[float]121" Text="[string]Comments" Top="[float]254" Width="[float]58" />
+					</Cluster>
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]0" Id="3f8df790195140629c4500a22cee8db0" LabelOwner="[UIModel]9d37ef8297be4c839d0273ab0c10acc8" Left="[float]100" Text="[string]Blade Coating Controls" Top="[float]80" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="6dfec72e9acd42f5b6aa921e2ed08bda">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Thickness (nm)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Initial Speed (mm/s)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Speed Gradient" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Final Speed (mm/s)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Gap (um)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Blade Temperature (ºC)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Droplet Volume (ul)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Subsequent layers" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Glovebox" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Comments" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
