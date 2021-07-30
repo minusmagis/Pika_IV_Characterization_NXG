@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="72DAC31B2C074EDBF1E79C485661B9F139C6AFE3F8B7216D172120D3518B223FCD09FD6FFEC98F2C38AAD4DE953946A7070F6D6591693C4825465B19CEA2704A" Timestamp="1D78537608BAB6B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@706c6e702d994ff681d13a5e0f8dec9a" Id="4efbc373cbc74e8eb3f1c959f2d33ed5" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2e57595bbe0f47cbb145cd6a627e79de" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="edc81f888bf24f51a07fb8defff8ef2b" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="407d2892ec7045e2959cc4b5acf46bb0" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@706c6e702d994ff681d13a5e0f8dec9a" Id="657ba7e556374339b0c2b3ee1a346d51" Name="Layer Information Operation">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="aff7b9f2e38a463e9ee5eab9adaa5fde" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="28aa4c4f1ddf4a1aac4efcaedb74e600" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="50dfd52d64684b24afb8ef6495d7b6dd" Name="Layer Information Operation.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="1a57d3af1a99411abc4011b8d5126475" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="f67bfb20a804510bfa29fe0d7359df2" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="bc4278239de74eacad03fb238f9f6c6a" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]1e519fb4eb93474bbef8e7652b2ef4c8" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=657ba7e556374339b0c2b3ee1a346d51}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]164" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Update Cluster" DisplayValueOverride="[string]" Id="34" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Update Controls" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="1e519fb4eb93474bbef8e7652b2ef4c8" LabelOwner="[UIModel]bc4278239de74eacad03fb238f9f6c6a" Left="[float]100" Text="[string]Layer Information Operation" Top="[float]80" Width="[float]150" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="706c6e702d994ff681d13a5e0f8dec9a">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Update Cluster" />
+					<EnumerationMember Value="1" Name="Update Controls" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
