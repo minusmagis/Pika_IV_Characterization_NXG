@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2CAB3195605BE956A701C961B2CB1A0AE3F4B12822F227BCB9C099FDF15E19B495D067D3F1E93B11FCE4494D2A6A30CC571B39BEB55DFD0C408C64FC09F0EA34" Timestamp="1D7848E61DCD052" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A66A21A6C2BB8E2082D63ADD4F81BD1F300940112F6CE1F9DE215C7BDB8AD11E5D0D21AB2D6826D34C273C09673E61C649C43797D14351583AF158CC47DB4171" Timestamp="1D7885B2A7CB9B7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@dd200e70597c48e7b2d17e8ff8f3fd61" Id="acf8fc8155684f47a1d86625464ee457" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@dda191ed8eff4eff849d216339edda09" Id="acf8fc8155684f47a1d86625464ee457" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="eb8647aa9a594b539ecaa53afc268c3e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="20cee9cd16c745f8ba178c5f219659b3" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="a5aa69322f7e44eab15287a227eb879a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@dd200e70597c48e7b2d17e8ff8f3fd61" Id="c1c157075a794a53bbc8faea9c7aaa34" Name="Queue Instruction">
+		<DataItem DataType="@dda191ed8eff4eff849d216339edda09" Id="c1c157075a794a53bbc8faea9c7aaa34" Name="Queue Instruction">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -28,15 +28,15 @@
 						<EnumSelectorInfo DisplayValue="[string]Initialize App" Value="[ushort]2" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Idle" Value="[ushort]3" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Change Cell" Value="[ushort]4" ValueType="[Type]UInt16" />
-						<EnumSelectorInfo DisplayValue="[string]IV Curves Acquisition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]JV Curves Acquisition" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Saving TXT Files" Value="[ushort]6" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Generating Origin Files" Value="[ushort]7" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Stopping App" Value="[ushort]8" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Add Layer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]9" ValueType="[Type]UInt16" />
-						<EnumSelectorInfo DisplayValue="[string]State2" Value="[ushort]10" ValueType="[Type]UInt16" />
-						<EnumSelectorInfo DisplayValue="[string]State3" Value="[ushort]11" ValueType="[Type]UInt16" />
-						<EnumSelectorInfo DisplayValue="[string]State4" Value="[ushort]12" ValueType="[Type]UInt16" />
-						<EnumSelectorInfo DisplayValue="[string]State5" Value="[ushort]13" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Edit Layers" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]10" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Delete Last Layer" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]11" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Load Layer Defaults" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]12" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Set Layer Defaults" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]13" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="c41714bbeb0347a08f99e129d2a9d093" LabelOwner="[UIModel]e5bfaad5f47c46c3aa920cf96bab5b0b" Left="[float]100" Text="[string]Queue Instruction" Top="[float]80" Width="[float]95" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -44,7 +44,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="dd200e70597c48e7b2d17e8ff8f3fd61">
+		<p.TypeReference TypeId="dda191ed8eff4eff849d216339edda09">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Undefined State" />
@@ -52,15 +52,15 @@
 					<EnumerationMember Value="2" Name="Initialize App" />
 					<EnumerationMember Value="3" Name="Idle" />
 					<EnumerationMember Value="4" Name="Change Cell" />
-					<EnumerationMember Value="5" Name="IV Curves Acquisition" />
+					<EnumerationMember Value="5" Name="JV Curves Acquisition" />
 					<EnumerationMember Value="6" Name="Saving TXT Files" />
 					<EnumerationMember Value="7" Name="Generating Origin Files" />
 					<EnumerationMember Value="8" Name="Stopping App" />
 					<EnumerationMember Value="9" Name="Add Layer" />
-					<EnumerationMember Value="10" Name="State2" />
-					<EnumerationMember Value="11" Name="State3" />
-					<EnumerationMember Value="12" Name="State4" />
-					<EnumerationMember Value="13" Name="State5" />
+					<EnumerationMember Value="10" Name="Edit Layers" />
+					<EnumerationMember Value="11" Name="Delete Last Layer" />
+					<EnumerationMember Value="12" Name="Load Layer Defaults" />
+					<EnumerationMember Value="13" Name="Set Layer Defaults" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
