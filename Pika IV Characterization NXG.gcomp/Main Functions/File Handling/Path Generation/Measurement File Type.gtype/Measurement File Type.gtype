@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6335087E42102027C97702140002F322EC129A3E03AE662668E90F769849967F29BA85D94213CC6C87792298927C2575BDAE4D7C11401E9A5B69D621BB375F9F" Timestamp="1D77A19B467F468" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2AE3B20B29882EEF5082EF74B263E51EE19F83E036A49F46CDA3A8373031BCBA105438BC907D5E550C69428132506C34276C63F4113E94DE54911DA783296FC9" Timestamp="1D78EB58EB98D03" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@e5031d1a8c3941f09bc0f5fcbc7b2c87" Id="da0f422e98864f82821173b889a12adf" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@40aac7e92b8b4a46aa1ff2587635b126" Id="da0f422e98864f82821173b889a12adf" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="22cc211d2ad4b95aebe5a40a09b6c83" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="485ebf9722f64bc182674d75a2cf1088" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="3d1b5ce3d87a40ecbf2805d901f479f8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@e5031d1a8c3941f09bc0f5fcbc7b2c87" Id="f0d49d5618484ff39e0a5cfed0dc00b6" Name="Measurement File Type">
+		<DataItem DataType="@40aac7e92b8b4a46aa1ff2587635b126" Id="f0d49d5618484ff39e0a5cfed0dc00b6" Name="Measurement File Type">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -28,6 +28,7 @@
 						<EnumSelectorInfo DisplayValue="[string]Excel" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Origin" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Power Point" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Layer Information" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="5db0e1d8f7fd4129ad35392a770b92a5" LabelOwner="[UIModel]2867ca58f39f4bb2a915adc2323948b0" Left="[float]100" Text="[string]Measurement File Type" Top="[float]80" Width="[float]122" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -35,7 +36,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="e5031d1a8c3941f09bc0f5fcbc7b2c87">
+		<p.TypeReference TypeId="40aac7e92b8b4a46aa1ff2587635b126">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="TXT JV Curve" />
@@ -43,6 +44,7 @@
 					<EnumerationMember Value="2" Name="Excel" />
 					<EnumerationMember Value="3" Name="Origin" />
 					<EnumerationMember Value="4" Name="Power Point" />
+					<EnumerationMember Value="5" Name="Layer Information" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
