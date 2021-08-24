@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="38DB930F76F7C6DC44E0CFCB767FD359A8CBE604B0CE4FA7FEFB4956B836AF73262880ABC66A9BD8642246D6D7FC0FA124CFD8FE4DE615BD4B3323B40676A497" Timestamp="1D77268C847EA28" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7DC39A831D62891B462DFA4F016D749EB0F763C7BC75E5A141A42662116485D41DB6E8B9C41237D49E4BA51F947B5264195128BB3F5DBCB04C07F8C32493A35A" Timestamp="1D7945F13302304" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@73bee630bb8d4e3ea3877a328a24413d" Id="3ecc71a04c3b4f6495e38b23f4ee34cb" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@454e3ed34dc6429288632cff963343b1" Id="3ecc71a04c3b4f6495e38b23f4ee34cb" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="NI::VISA::Visa.udr::Instr" />
 		</p.TypeDefinitionTargets>
@@ -16,7 +16,7 @@
 				<IconTemplate Height="[float]40" Id="3afb9ad5307e47118b68a3bfad9a8d0e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@73bee630bb8d4e3ea3877a328a24413d" Id="356c7847218a4411be75f5479aa95f79" Name="Instrument Control">
+		<DataItem DataType="@454e3ed34dc6429288632cff963343b1" Id="356c7847218a4411be75f5479aa95f79" Name="Instrument Control">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>False</Field1>
@@ -27,6 +27,7 @@
 					<Field6>False</Field6>
 					<Field7>""</Field7>
 					<Field8>0</Field8>
+					<Field9>False</Field9>
 				</Cluster>
 			</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -39,7 +40,7 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="134d485a06bb435796478be1a2c036eb" Name="Instrument Control.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="367a02c0ab45467ca13c9389126549f5" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="d798627725254d989cb0d8eeee23f950" xmlns="http://www.ni.com/MocCommon">
-					<Cluster BaseName="[string]Arduino coms cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@73bee630bb8d4e3ea3877a328a24413d" Height="[float]313" Id="897e2a6e7a1e405391dea52198345dce" IsTabStop="[bool]True" Label="[UIModel]7c2a46851a84536a48479a02107de83" LabelLinked="[bool]True" Left="[float]214" TabIndex="[int]0" Top="[float]125" Value="{DataItemBinding Id=356c7847218a4411be75f5479aa95f79}" Width="[float]321" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster BaseName="[string]Arduino coms cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@454e3ed34dc6429288632cff963343b1" Height="[float]313" Id="897e2a6e7a1e405391dea52198345dce" IsTabStop="[bool]True" Label="[UIModel]7c2a46851a84536a48479a02107de83" LabelLinked="[bool]True" Left="[float]214" TabIndex="[int]0" Top="[float]125" Value="{DataItemBinding Id=356c7847218a4411be75f5479aa95f79}" Width="[float]321" xmlns="http://www.ni.com/PanelCommon">
 						<IONameControl AllowUndefinedValues="[bool]True" BaseName="[string]Instr" DataType="[Type]:UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Height="[float]24" Id="819df535651541759713e28fd3f8012d" Label="[UIModel]51f695a7a2524a6b98be6b6746d23ef4" Left="[float]3" SelectedResource="{ClusterBinding FieldName=Multiplexer\ Arduino\ Address}" ShowType="[bool]False" ShowUserRefresh="[bool]True" TabIndex="[int]0" Top="[float]23" Width="[float]125" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="NI::VISA::Visa.udr::Instr::ControlDefinition" />
@@ -83,7 +84,9 @@
 							<EnumSelectorInfo DisplayValue="[string]Keithley 2400 Series" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 							<EnumSelectorInfo DisplayValue="[string]Keithley 2450 Series" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 						</EnumSelector>
-						<Label Height="[float]16" Id="60c1cca1534404984e5de42245f0747" LabelOwner="[UIModel]c0dd1a34b9544bea8d1bc6ebccd56852" Left="[float]8" Text="[string]Detected Keithley Type" Top="[float]256" Width="[float]122" />
+						<Label Height="[float]16" Id="60c1cca1534404984e5de42245f0747" LabelOwner="[UIModel]c0dd1a34b9544bea8d1bc6ebccd56852" Left="[float]8" Text="[string]Detected Keithley Type" Top="[float]256" Width="[float]121" />
+						<LED BaseName="[string]Square LED" ContentVisibility="[Visibility]Visible" FalseContent="[string]Offline" Height="[float]25" Id="d7c6b82a8a1d49cfbeb11cd5237c3ada" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]97fca38c8fa848ef97cc5f2ad794082f" Left="[float]199" Shape="[LEDShape]Square" TabIndex="[int]8" Top="[float]279" TrueContent="[string]Online" Value="{ClusterBinding FieldName=Database\ Detected?}" Width="[float]106" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="97fca38c8fa848ef97cc5f2ad794082f" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]d7c6b82a8a1d49cfbeb11cd5237c3ada" Left="[float]199" Text="[string]Database Detected?" Top="[float]259" Width="[float]106" />
 					</Cluster>
 					<Label Height="[float]16" Id="7c2a46851a84536a48479a02107de83" LabelOwner="[UIModel]897e2a6e7a1e405391dea52198345dce" Left="[float]214" Text="[string]Instrument Control" Top="[float]105" Width="[float]100" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -91,7 +94,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="73bee630bb8d4e3ea3877a328a24413d">
+		<p.TypeReference TypeId="454e3ed34dc6429288632cff963343b1">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Multiplexer Arduino Detected?" DataType="Boolean" />
@@ -102,6 +105,7 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Keithley Detected?" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Keithley ID" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Detected Keithley Type" DataType="@e5478ad6e75c424ea0c191587e670f8f" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Database Detected?" DataType="Boolean" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

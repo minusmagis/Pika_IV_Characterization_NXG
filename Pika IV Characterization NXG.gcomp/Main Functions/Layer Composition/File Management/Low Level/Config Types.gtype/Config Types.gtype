@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F3878A2036738A4BBF9C73C3637CA13FEBC6BD39C4BC08EED9BB094F82ED571675FBF5816AF1B0C256CDFE77B0BB9611179FDA6F2C8563344F6F84B35BA29E81" Timestamp="1D794530BFC0EE1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@e1f955d169884d84b81fd5e2dc8d7e2d" Id="b62086bf14284f44900a59ad73de1089" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="5b9dc8eb2bf049eaa3bce093f455388b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="e80253c95ba64359845996704a20c553" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="18d8789e70ef4c1fa180292d8ac9d705" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@e1f955d169884d84b81fd5e2dc8d7e2d" Id="c65a5d19ff6041b290790bd3062222ae" Name="Enum">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="4b5571f6acaa42c99df32e11ed92eb77" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="aa6d843a229843bdb5f8db1d4f2cbc24" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="58ffdf5e4ad94bc3a8925246721a9184" Name="Config Types.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="2798d3cca9ca408b99ac9a803bd15df8" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="547687953bde448593579a09e640668f" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="5e0b13979e614c1e9c5a2f39b3d44e27" IsTypeAheadEnabled="[bool]True" Label="[UIModel]f12b23fd077d4581a2a3c03e6f050460" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=c65a5d19ff6041b290790bd3062222ae}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]132" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]General Parameters" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Thermal Evaporation Parameters" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Spin Coating Parameters" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Blade Coating Parameters" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Solution Parameters" Value="[ushort]4" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="f12b23fd077d4581a2a3c03e6f050460" LabelOwner="[UIModel]5e0b13979e614c1e9c5a2f39b3d44e27" Left="[float]100" Text="[string]Enum" Top="[float]80" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="e1f955d169884d84b81fd5e2dc8d7e2d">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="General Parameters" />
+					<EnumerationMember Value="1" Name="Thermal Evaporation Parameters" />
+					<EnumerationMember Value="2" Name="Spin Coating Parameters" />
+					<EnumerationMember Value="3" Name="Blade Coating Parameters" />
+					<EnumerationMember Value="4" Name="Solution Parameters" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

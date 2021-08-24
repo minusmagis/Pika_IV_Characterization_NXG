@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D3E7A4F1144923F84EC1446351845C68E17BD7BB31DB0AD18BC7E0C48645A5FDE165B7B748A2D419F3FC977CB0EDF9033C04FBBDD9F7473ADC91408B72B5F1ED" Timestamp="1D784842401AEA4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DDAF0211CFC69EB16F782CE1B57BA1A5878F1CC63E735E4F27423860C56E17965CB956E4D5799AC597B4EA13D23423A3588E71A9B9A33409B8B797EA4834AB5B" Timestamp="1D79449988CB71F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,22 +7,26 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@248a3cab9fd346cdba14f40e426df665" Id="1b05880d49e9413dbbfaa795862e2b64" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@3a1411aa3dc54392b01f6d0b4c444a9b" Id="1b05880d49e9413dbbfaa795862e2b64" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="3283bdc010e9416ba7b2df8375011a3c" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="7abc1cac90054acead68a219fa892970" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="d44fecd78d454803917c4d6efe8fc73d" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@248a3cab9fd346cdba14f40e426df665" Id="c84c44c48e484033b61c18a9281decb9" Name="Solution Information">
+		<DataItem DataType="@3a1411aa3dc54392b01f6d0b4c444a9b" Id="c84c44c48e484033b61c18a9281decb9" Name="Solution Information">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>0x0</Field1>
 					<Field2>0x0</Field2>
-					<Field3>False</Field3>
+					<Field3>null</Field3>
 					<Field4>null</Field4>
-					<Field5>null</Field5>
-					<Field6>0x0</Field6>
-					<Field7>""</Field7>
+					<Field5>""</Field5>
+					<Field6>""</Field6>
+					<Field7>0x0</Field7>
+					<Field8>False</Field8>
+					<Field9>""</Field9>
+					<Field10>""</Field10>
+					<Field11>0x0</Field11>
 				</Cluster>
 			</p.DefaultValue>
 		</DataItem>
@@ -32,12 +36,12 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="48051880f5304d358e2fe8f56e56a345" Name="Solution Information.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="ab602c3694db4be5b2901b6b5aeada31" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="4ebf0025e98a412da831631ec792fad4" xmlns="http://www.ni.com/MocCommon">
-					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@248a3cab9fd346cdba14f40e426df665" Height="[float]313" Id="56941aefe6bd4dab98b066d7ef60a84b" Label="[UIModel]1934988d12647f28a062c914a38a852" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=c84c44c48e484033b61c18a9281decb9}" Width="[float]468" xmlns="http://www.ni.com/PanelCommon">
-						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="ab69701a36c14282a4480442b1d7af2b" Interval="[double]1" Label="[UIModel]ee832f883fec4ac8b48bec9c0c79cbc5" Left="[float]6" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]0" Top="[float]23" Value="{ClusterBinding FieldName=Concentration\ (mg/ml)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="4002524cbf9540fe843e54cd6d39bc3d" Interval="[double]1" Label="[UIModel]5b97dd33600449b9954355b0194b3601" Left="[float]7" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]1" Top="[float]69" Value="{ClusterBinding FieldName=Stirring\ Time\ (kr)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="ee832f883fec4ac8b48bec9c0c79cbc5" LabelOwner="[UIModel]ab69701a36c14282a4480442b1d7af2b" Left="[float]6" Text="[string]Concentration (mg/ml)" Top="[float]3" Width="[float]121" />
-						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="5b97dd33600449b9954355b0194b3601" LabelOwner="[UIModel]4002524cbf9540fe843e54cd6d39bc3d" Left="[float]7" Text="[string]Stirring Time (kr)" Top="[float]49" Width="[float]88" />
-						<ArrayViewer ArrayElement="[UIModel]a57b53c7c27e481d96069a1d299217c3" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]176" Id="889853d9d7284b0fb4952970100151e3" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]60484fb795754db2bfd7a8b59fba2e03" Left="[float]6" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]3" Top="[float]119" Value="{ClusterBinding FieldName=Composition\ Array}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]216">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@3a1411aa3dc54392b01f6d0b4c444a9b" Height="[float]315" Id="56941aefe6bd4dab98b066d7ef60a84b" Label="[UIModel]1934988d12647f28a062c914a38a852" Left="[float]98" TabIndex="[int]0" Top="[float]98" Value="{DataItemBinding Id=c84c44c48e484033b61c18a9281decb9}" Width="[float]470" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="ab69701a36c14282a4480442b1d7af2b" Interval="[double]1" Label="[UIModel]ee832f883fec4ac8b48bec9c0c79cbc5" Left="[float]105" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]0" Top="[float]25" Value="{ClusterBinding FieldName=Concentration\ (mg/ml)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="4002524cbf9540fe843e54cd6d39bc3d" Interval="[double]1" Label="[UIModel]5b97dd33600449b9954355b0194b3601" Left="[float]147" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]1" Top="[float]71" Value="{ClusterBinding FieldName=Stir\ Time\ (kr)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]68" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="ee832f883fec4ac8b48bec9c0c79cbc5" LabelOwner="[UIModel]ab69701a36c14282a4480442b1d7af2b" Left="[float]105" Text="[string]Concentration (mg/ml)" Top="[float]5" Width="[float]121" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="5b97dd33600449b9954355b0194b3601" LabelOwner="[UIModel]4002524cbf9540fe843e54cd6d39bc3d" Left="[float]147" Text="[string]Stir Time (kr)" Top="[float]51" Width="[float]67" />
+						<ArrayViewer ArrayElement="[UIModel]a57b53c7c27e481d96069a1d299217c3" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]176" Id="889853d9d7284b0fb4952970100151e3" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]60484fb795754db2bfd7a8b59fba2e03" Left="[float]8" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]2" Top="[float]121" Value="{ClusterBinding FieldName=Composition\ Array}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]216">
 							<p.DefaultElementValue>
 								<Cluster>
 									<Field1>""</Field1>
@@ -63,8 +67,8 @@
 								<Label Height="[float]16" Id="8f349bc8cf934c3c919151dfa034a7fa" IsVisualChild="[bool]False" LabelOwner="[UIModel]a57b53c7c27e481d96069a1d299217c3" Left="[float]6" Text="[string]Composition" Top="[float]-14" Width="[float]68" />
 							</Cluster>
 						</ArrayViewer>
-						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="60484fb795754db2bfd7a8b59fba2e03" LabelOwner="[UIModel]889853d9d7284b0fb4952970100151e3" Left="[float]6" Text="[string]Composition Array" Top="[float]99" Width="[float]99" />
-						<ArrayViewer ArrayElement="[UIModel]4efe968e999e4b0583974d670c2a3d48" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]176" Id="64fb4f5bef614f3aa7f56e76308d8d9b" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]146ac0ce3d364fc1be55c63417af680a" Left="[float]238" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]4" Top="[float]119" Value="{ClusterBinding FieldName=Solvent\ Array}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]216">
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="60484fb795754db2bfd7a8b59fba2e03" LabelOwner="[UIModel]889853d9d7284b0fb4952970100151e3" Left="[float]8" Text="[string]Composition Array" Top="[float]101" Width="[float]99" />
+						<ArrayViewer ArrayElement="[UIModel]4efe968e999e4b0583974d670c2a3d48" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]176" Id="64fb4f5bef614f3aa7f56e76308d8d9b" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]146ac0ce3d364fc1be55c63417af680a" Left="[float]240" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]3" Top="[float]121" Value="{ClusterBinding FieldName=Solvent\ Array}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]216">
 							<p.DefaultElementValue>
 								<Cluster>
 									<Field1>""</Field1>
@@ -87,35 +91,48 @@
 								<Label Height="[float]16" Id="e73ca27b5d624c3d8a239204eeaf5a0f" LabelOwner="[UIModel]db9be0e24a53428a9e0f0d0d54ba03b0" Left="[float]0" Text="[string]Solvent" Top="[float]0" Width="[float]40" />
 								<NumericText ButtonsVisibility="[SMVisibility]Collapsed" Height="[float]24" Id="f38b58ad418743f8b9c0e29d59dcf126" Label="[UIModel]89146bf3e3be4ca9a69f90da7fc19f2f" Left="[float]120" TabIndex="[int]1" Top="[float]20" Value="{ClusterBinding FieldName=Ratio}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 								<Label Height="[float]16" Id="89146bf3e3be4ca9a69f90da7fc19f2f" LabelOwner="[UIModel]f38b58ad418743f8b9c0e29d59dcf126" Left="[float]120" Text="[string]Ratio" Top="[float]0" Width="[float]28" />
-								<Label Height="[float]16" Id="b16d0eb34d1c47b490948f85a9f9e3dd" IsVisualChild="[bool]False" LabelOwner="[UIModel]4efe968e999e4b0583974d670c2a3d48" Left="[float]6" Text="[string]Composition" Top="[float]-14" Width="[float]68" />
+								<Label Height="[float]16" Id="b16d0eb34d1c47b490948f85a9f9e3dd" IsVisualChild="[bool]False" LabelOwner="[UIModel]4efe968e999e4b0583974d670c2a3d48" Left="[float]6" Text="[string]Composition" Top="[float]98" Width="[float]68" />
 							</Cluster>
 						</ArrayViewer>
-						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="146ac0ce3d364fc1be55c63417af680a" LabelOwner="[UIModel]64fb4f5bef614f3aa7f56e76308d8d9b" Left="[float]238" Text="[string]Solvent Array" Top="[float]99" Width="[float]70" />
-						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="fa43d11de5e4adba41834b7e337b4de" Interval="[double]1" Label="[UIModel]ce418fa046a84ed7bd1d2bfb2a9deffc" Left="[float]108" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]5" Top="[float]43" Value="{ClusterBinding FieldName=Solution\ Preparation\ Date}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="ce418fa046a84ed7bd1d2bfb2a9deffc" LabelOwner="[UIModel]fa43d11de5e4adba41834b7e337b4de" Left="[float]108" Text="[string]Solution Preparation Date" Top="[float]23" Width="[float]137" />
-						<Rectangle BaseName="[string]Rectangle" Fill="[SMSolidColorBrush]#ffe0e0e0" Height="[float]18" Id="3cfdefcb40af403689124e1cf68d287d" Left="[float]108" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]74" Width="[float]73" xmlns="http://www.ni.com/PlatformFramework" />
-						<Text BaseName="[string]Text" Foreground="[SMColor]#ff000000" Height="[float]16" Id="525f32024a394f0f80a0cdd8f9e8b4dd" Left="[float]112" Text="[string]YYYYMMDD" TextWrapping="[TextWrapping]Wrap" Top="[float]74" Width="[float]65" xmlns="http://www.ni.com/PlatformFramework" />
-						<Switch BaseName="[string]Switch" FalseContent="[string]Outside" Height="[float]72" Id="d37013b21b8b49ec8efccc3de0ba5025" IsTabStop="[bool]True" Label="[UIModel]9887f0248b004c80ad20ec104713154d" LabelLinked="[bool]True" Left="[float]252" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]2" Top="[float]22" TrueContent="[string]Inside" Value="{ClusterBinding FieldName=Glovebox}" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Height="[float]16" Id="9887f0248b004c80ad20ec104713154d" LabelOwner="[UIModel]d37013b21b8b49ec8efccc3de0ba5025" Left="[float]252" Text="[string]Glovebox" Top="[float]2" Width="[float]50" />
-						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]77" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="9624e922380a48e5aaa3c9c2ad6b527d" Label="[UIModel]e2e52229431c4f479f62471455eee831" Left="[float]331" TabIndex="[int]6" Text="{ClusterBinding FieldName=Comments}" Top="[float]26" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]114" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<Label Height="[float]16" Id="e2e52229431c4f479f62471455eee831" LabelOwner="[UIModel]9624e922380a48e5aaa3c9c2ad6b527d" Left="[float]331" Text="[string]Comments" Top="[float]6" Width="[float]57" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="146ac0ce3d364fc1be55c63417af680a" LabelOwner="[UIModel]64fb4f5bef614f3aa7f56e76308d8d9b" Left="[float]240" Text="[string]Solvent Array" Top="[float]101" Width="[float]70" />
+						<Rectangle BaseName="[string]Rectangle" Fill="[SMSolidColorBrush]#ffe0e0e0" Height="[float]18" Id="3cfdefcb40af403689124e1cf68d287d" Left="[float]374" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]51" Width="[float]82" xmlns="http://www.ni.com/PlatformFramework" />
+						<Text BaseName="[string]Text" Foreground="[SMColor]#ff000000" Height="[float]16" Id="525f32024a394f0f80a0cdd8f9e8b4dd" Left="[float]378" Text="[string]YYYY-MM-DD" TextWrapping="[TextWrapping]Wrap" Top="[float]51" Width="[float]75" xmlns="http://www.ni.com/PlatformFramework" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="9624e922380a48e5aaa3c9c2ad6b527d" Label="[UIModel]e2e52229431c4f479f62471455eee831" Left="[float]320" TabIndex="[int]5" Text="{ClusterBinding FieldName=Comments}" Top="[float]90" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]135" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="e2e52229431c4f479f62471455eee831" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]9624e922380a48e5aaa3c9c2ad6b527d" Left="[float]397" Text="[string]Comments" Top="[float]70" Width="[float]57" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="690e60d328164b2cb2c8793758ee31cb" IsTabStop="[bool]True" Label="[UIModel]bcb03e6e4cd545d5b9a93bef64a7b6b6" LabelLinked="[bool]True" Left="[float]374" TabIndex="[int]4" Text="{ClusterBinding FieldName=Solution\ Preparation\ Date}" Top="[float]20" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]83" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="bcb03e6e4cd545d5b9a93bef64a7b6b6" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]690e60d328164b2cb2c8793758ee31cb" Left="[float]320" Text="[string]Solution Preparation Date" Top="[float]0" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f6fab4ab996043daa7acfead2c6caffa" Interval="[double]1" Label="[UIModel]27a04ae72a82482cbe2679a86d4553cb" Left="[float]233" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]6" Top="[float]71" Value="{ClusterBinding FieldName=Stir\ Temp\ (ºC)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]68" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="27a04ae72a82482cbe2679a86d4553cb" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]f6fab4ab996043daa7acfead2c6caffa" Left="[float]228" Text="[string]Stir Temp (ºC)" Top="[float]51" Width="[float]73" />
+						<Switch BaseName="[string]Switch" FalseContent="[string]Out" Height="[float]24" Id="ad50ced3dfcd40138c7e932f7c333ae7" IsTabStop="[bool]True" Label="[UIModel]4af10116c744308b58e6bb12c2b7b27" LabelLinked="[bool]True" Left="[float]312" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]7" Top="[float]43" TrueContent="[string]In" Value="{ClusterBinding FieldName=Glovebox}" Width="[float]47" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="4af10116c744308b58e6bb12c2b7b27" LabelOwner="[UIModel]ad50ced3dfcd40138c7e932f7c333ae7" Left="[float]312" Text="[string]Glovebox" Top="[float]23" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="cbaaca3f218b4fe89d27039dc45fe8c0" Label="[UIModel]670d3fe8472040ce8ed39fe72e731dd5" Left="[float]8" TabIndex="[int]8" Text="{ClusterBinding FieldName=Solution\ Label}" Top="[float]26" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]85" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="670d3fe8472040ce8ed39fe72e731dd5" LabelOwner="[UIModel]cbaaca3f218b4fe89d27039dc45fe8c0" Left="[float]8" Text="[string]Solution Label" Top="[float]6" Width="[float]76" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="8395b3fcc4014e52831bb1ffb49dc15b" Label="[UIModel]64d3c7e7621a43b1afa5cc4cb2f0dcbe" Left="[float]8" TabIndex="[int]9" Text="{ClusterBinding FieldName=Solution\ Descriptor}" Top="[float]71" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]129" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="64d3c7e7621a43b1afa5cc4cb2f0dcbe" LabelOwner="[UIModel]8395b3fcc4014e52831bb1ffb49dc15b" Left="[float]8" Text="[string]Solution Descriptor" Top="[float]51" Width="[float]102" />
+						<Rectangle BaseName="[string]Rectangle" Fill="[SMSolidColorBrush]#ffe0e0e0" Height="[float]24" Id="4752f988510648cbb8fc39b0d6861b10" Left="[float]8" Opacity="[float]0.5" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]71" Width="[float]129" xmlns="http://www.ni.com/PlatformFramework" />
+						<NumericText BaseName="[string]Numeric" ButtonsVisibility="[SMVisibility]Collapsed" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="f7e8fac2f22046ac96b27fbc97a30a3c" Interval="[double]1" Label="[UIModel]4992402ab3e545519f375569165ae268" Left="[float]228" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]10" Top="[float]25" Value="{ClusterBinding FieldName=Volume\ (ul)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="4992402ab3e545519f375569165ae268" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]f7e8fac2f22046ac96b27fbc97a30a3c" Left="[float]239" Text="[string]Volume (ul)" Top="[float]5" Width="[float]61" />
 					</Cluster>
-					<Label Foreground="[SMColor]#ff2b3033" Height="[float]0" Id="1934988d12647f28a062c914a38a852" LabelOwner="[UIModel]56941aefe6bd4dab98b066d7ef60a84b" Left="[float]100" Text="[string]Solution Information" Top="[float]80" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]0" Id="1934988d12647f28a062c914a38a852" LabelOwner="[UIModel]56941aefe6bd4dab98b066d7ef60a84b" Left="[float]98" Text="[string]Solution Information" Top="[float]78" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="248a3cab9fd346cdba14f40e426df665">
+		<p.TypeReference TypeId="3a1411aa3dc54392b01f6d0b4c444a9b">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Concentration (mg/ml)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Stirring Time (kr)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Glovebox" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Stir Time (kr)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Composition Array" DataType="@2ab8ba202e514e5688137093e24ed313" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Solvent Array" DataType="@efb645fade2d4fe3928c6f4893f03d48" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Solution Preparation Date" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Solution Preparation Date" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Comments" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Stir Temp (ºC)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Glovebox" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Solution Label" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Solution Descriptor" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Volume (ul)" DataType="Double" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3BF75A67D5A5A1298A98CAEFF19928CF01D133B3C015E916826D8ED94F6E36862ADA5345FE32D6F8ABA53272DCF76D8D51749C311DC0CD44D3C99DF44A0A540B" Timestamp="1D77248ED13B7B2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="145143178443C9D78210BBE05C9C3E771FFA52C4DA34235CE6A6D6C8BBBE9F83149D858BF3CA8F362A1CC5B1C21C0C198683336E37178F04DF0B7917F17F104E" Timestamp="1D7945F5B3E57DC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,14 +7,14 @@
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@90d77a3c7e3441d292037d9fd2f659d0" Id="e9254a5201b844acb8ae0d2ea308f0a4" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@e0383f9b8ae1454a9c6e8994ef708893" Id="e9254a5201b844acb8ae0d2ea308f0a4" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="c95d4e66793548c18653a62a708e4871" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="cd20c42a788d472d91e7719080c760fb" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="349d5e4cc33248ac8f7ea4d23da20239" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@90d77a3c7e3441d292037d9fd2f659d0" Id="cb9771ef14f143ed9502051e6ea2ba2c" Name="Debugging Cluster">
-			<p.DefaultValue>False_False_False_False_</p.DefaultValue>
+		<DataItem DataType="@e0383f9b8ae1454a9c6e8994ef708893" Id="cb9771ef14f143ed9502051e6ea2ba2c" Name="Debugging Cluster">
+			<p.DefaultValue>False_False_False_False_False_</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
 	<EnvoyManagerFile Id="e7ae0dd6058e412cb520b48f59fdcd40" xmlns="http://www.ni.com/PlatformFramework">
@@ -22,16 +22,18 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e896e90565654ce9a19cefe13cd113bc" Name="Debugging Cluster.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="fa0444329bce4a5d92aadd2e03fd877e" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Indicator" Id="d2871d93c47c4dc2a45bcbfad0b33a38" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@90d77a3c7e3441d292037d9fd2f659d0" Height="[float]234" Id="82524bbd6c884934be63fc1c532f2ed3" Label="[UIModel]70fb4f15ddab42c3867d38884aff666c" Left="[float]572" TabIndex="[int]0" Top="[float]171" Value="{DataItemBinding Id=cb9771ef14f143ed9502051e6ea2ba2c}" Width="[float]141" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e0383f9b8ae1454a9c6e8994ef708893" Height="[float]284" Id="82524bbd6c884934be63fc1c532f2ed3" Label="[UIModel]70fb4f15ddab42c3867d38884aff666c" Left="[float]572" TabIndex="[int]0" Top="[float]171" Value="{DataItemBinding Id=cb9771ef14f143ed9502051e6ea2ba2c}" Width="[float]144" xmlns="http://www.ni.com/PanelCommon">
 						<LED BaseName="[string]Square LED" ContentVisibility="[Visibility]Visible" FalseContent="[string]Debugging Off" Height="[float]40" Id="8a75269824194d7dbb84d3770ddf882b" IsReadOnly="[bool]True" Label="[UIModel]7f402de5bca6430ba24169bb0a9d0920" Left="[float]4" Shape="[LEDShape]Square" TabIndex="[int]0" Top="[float]4" TrueContent="[string]Debugging On" Value="{ClusterBinding FieldName=Debugging\ mode?}" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]24" Id="f28f4293c441428c9dc88f7eb7bcb587" IsReadOnly="[bool]True" Label="[UIModel]209f20b3ef304de68aabea28ea9942d0" Left="[float]4" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]1" Top="[float]68" TrueContent="[string]On" Value="{ClusterBinding FieldName=Initialize\ App}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Label Height="[float]0" Id="7f402de5bca6430ba24169bb0a9d0920" LabelOwner="[UIModel]8a75269824194d7dbb84d3770ddf882b" Left="[float]4" Text="[string]Debugging mode?" Top="[float]-16" Visible="[bool]False" Width="[float]0" />
 						<Label Height="[float]16" Id="209f20b3ef304de68aabea28ea9942d0" LabelOwner="[UIModel]f28f4293c441428c9dc88f7eb7bcb587" Left="[float]4" Text="[string]Initialize App" Top="[float]48" Width="[float]69" />
-						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Insturment Debugging" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1d03e987d8544acfba9b0bac15b94259" Height="[float]108" Id="8b9b840625b141698e0e44e7d87b5c3f" IsTabStop="[bool]True" Label="[UIModel]7ac1c30bf3bb42aca58f9a1723664aae" LabelLinked="[bool]True" Left="[float]12" TabIndex="[int]2" Top="[float]114" Value="{ClusterBinding FieldName=Insturment\ Debugging}" Width="[float]89">
+						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Insturment Debugging" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b0963d63097e4328a6ae349b5d66b735" Height="[float]158" Id="8b9b840625b141698e0e44e7d87b5c3f" IsTabStop="[bool]True" Label="[UIModel]7ac1c30bf3bb42aca58f9a1723664aae" LabelLinked="[bool]True" Left="[float]12" TabIndex="[int]2" Top="[float]114" Value="{ClusterBinding FieldName=Insturment\ Debugging}" Width="[float]89">
 							<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]24" Id="923efd8871a345b58946c3abd66754a7" IsReadOnly="[bool]True" Label="[UIModel]eddc29859bfe45aa914518fa25258131" Left="[float]4" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]0" Top="[float]24" TrueContent="[string]On" Value="{ClusterBinding FieldName=Keithley}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="eddc29859bfe45aa914518fa25258131" LabelOwner="[UIModel]923efd8871a345b58946c3abd66754a7" Left="[float]4" Text="[string]Keithley" Top="[float]4" Width="[float]42" />
 							<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]24" Id="8f24dec4be4341a88d5473e63e062270" IsReadOnly="[bool]True" Label="[UIModel]dbc9b232445d454d9b96212d9617b96f" Left="[float]5" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]1" Top="[float]72" TrueContent="[string]On" Value="{ClusterBinding FieldName=Arduino}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<Label Height="[float]16" Id="dbc9b232445d454d9b96212d9617b96f" LabelOwner="[UIModel]8f24dec4be4341a88d5473e63e062270" Left="[float]5" Text="[string]Arduino" Top="[float]52" Width="[float]43" />
+							<Label Height="[float]16" Id="dbc9b232445d454d9b96212d9617b96f" LabelOwner="[UIModel]8f24dec4be4341a88d5473e63e062270" Left="[float]5" Text="[string]Arduino" Top="[float]52" Width="[float]42" />
+							<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]24" Id="108a807202da472bad20f8bf19e48175" IsReadOnly="[bool]True" Label="[UIModel]ceae0ec1b6114d07a6702233cd4c4849" Left="[float]5" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]2" Top="[float]122" TrueContent="[string]On" Value="{ClusterBinding FieldName=Database}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<Label Height="[float]16" Id="ceae0ec1b6114d07a6702233cd4c4849" LabelOwner="[UIModel]108a807202da472bad20f8bf19e48175" Left="[float]5" Text="[string]Database" Top="[float]102" Width="[float]50" />
 						</Cluster>
 						<Label Height="[float]16" Id="7ac1c30bf3bb42aca58f9a1723664aae" LabelOwner="[UIModel]8b9b840625b141698e0e44e7d87b5c3f" Left="[float]12" Text="[string]Insturment Debugging" Top="[float]94" Width="[float]120" />
 					</Cluster>
@@ -41,20 +43,21 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="90d77a3c7e3441d292037d9fd2f659d0">
+		<p.TypeReference TypeId="e0383f9b8ae1454a9c6e8994ef708893">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Debugging mode?" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Initialize App" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Insturment Debugging" DataType="@1d03e987d8544acfba9b0bac15b94259" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Insturment Debugging" DataType="@b0963d63097e4328a6ae349b5d66b735" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="1d03e987d8544acfba9b0bac15b94259">
+		<p.TypeReference TypeId="b0963d63097e4328a6ae349b5d66b735">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Keithley" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Arduino" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Database" DataType="Boolean" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

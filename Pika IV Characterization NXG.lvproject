@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2FD29E7DCB128915CF68E2B9957AF44BA76ABD08148B2F5F6BAB3992CAACBCC31AA725976096D578D79BBF1B408DA2B728D8BBA5A90C35F26783C7B8E1F9D0BF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2434AE08A383B29B42554B33D3CB735F416E9D4D372B44526AA9A93F702DDC78D7512A9886C77DDDC6048D16B9651AC9B89191FF2C2AB2D861D5E0768DA704C6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -158,6 +158,8 @@
 						<WeakDefaultComponentConfigurationReference Id="404c33668a304031980cebd446554122" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="dfdd3bfcb0fe4d9da16b116a3fdc67be" Target="Pika IV Characterization NXG.gcomp::Configuration1" />
 						<WeakDefaultComponentConfigurationReference Id="aaaa4389c04d4162a55b8b1f7743ebb6" PackageName="ni-instrumentdriver-keithley24xx-src-20.0.0.niaddon" Target="keithley24xx.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="741f1dcd16a24e248f727455be5759a8" PackageName="ni-mxlc-base-src-20.0.0.niaddon" Target="MXLC.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="4ec312d4b081440d9e5741844d640042" PackageName="ni-daqmx-api-src-20.1.0.niaddon" Target="DAQmx.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -194,6 +196,8 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="df16d6ea409d424bb5d5d627efb2779e" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="c883244be04b4a12be233f0f3a094ece" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="a7ac79ee92b4a81ade906d310d86b1d" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keithley24xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/keithley24xx-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="f158a08008f3462f9ab98f117911013d" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-20.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/20.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="b9e56a9d3507423cb6d73e091f7a62bb" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-mxlc-base-src-20.0.0.niaddon" StoragePath="ref://NI/MXLC/Base-src/20.0.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ComponentMoC" Id="11" ModelDefinitionType="ComponentDefinition" Name="Default Component">
 						<ComponentDefinition DefaultConfigurationName="Default" Id="12" RootNamespaceId="11" xmlns="http://www.ni.com/GComponent.xsd">
@@ -217,9 +221,12 @@
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="448ac801f084461181318aa61eec580b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main Window_2.gvi" StoragePath="Main Window_2.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="422a143bfc484366a98037ec6664156c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test.gvi" StoragePath="test.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="2c3bb1325cfb455abbdde5a76d7deab0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_2.gvi" StoragePath="Example VI_2.gvi" />
-						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1679927ae7e84538af0454cad32d0a1c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_3.gvi" StoragePath="Example VI_3.gvi" />
-						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="e2c12d0b346c4cdd93499fd6326e111a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_4.gvi" StoragePath="Example VI_4.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="e29b02a9e67e4305900d85d58040cdab" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example vi 5.gvi" StoragePath="Example vi 5.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="e09c66b748a844afb38ad2e428581fe5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_3.gvi" StoragePath="Example VI_3.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="4b345bc19725401183f57f04a65d7de8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_4.gvi" StoragePath="Example VI_4.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="fd3aba0d9f74b4fb1a5d4e336824fc9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_5.gvi" StoragePath="Example VI_5.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="7fe0a86fb8f9404999fd6cf6069d03b6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_6.gvi" StoragePath="Example VI_6.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="f1be0acfe6f64600954121983ac95933" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Example VI_7.gvi" StoragePath="Example VI_7.gvi" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/LabVIEW.NativeBackEndCompiler}ComponentExecution_NativeApplication,EnvoyManager" Id="691d6633445347f6b301727f00582b1c" ModelDefinitionType="ComponentDefinition" Name="Pika IV Characterization NXG.gcomp" StoragePath="Pika IV Characterization NXG.gcomp\Pika IV Characterization NXG.gcomp" />
 				</NameScopingEnvoy>
@@ -262,6 +269,8 @@
 					<PackageInterfaceDefinitionContents Contents="Keysight344XX.gcomp" Id="a8890567ef724b28a5235f9ecf6092f6" PackageInterfaceDefinitionEnvoyId="be31f4cdfbfd40619300f5057308feee" />
 					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="7bcf0a7414414de68799767d84a916bc" PackageInterfaceDefinitionEnvoyId="66121b36df214913847a9f9876638417" />
 					<PackageInterfaceDefinitionContents Contents="keithley24xx.gcomp" Id="541d70516e22460b8ec1b460e8167db5" PackageInterfaceDefinitionEnvoyId="a07d6a98309844f890cc197cf573ec4a" />
+					<PackageInterfaceDefinitionContents Contents="MXLC.gcomp" Id="2d2453f02c5e4f6a86b504bfb76e59c1" PackageInterfaceDefinitionEnvoyId="d177d467403c47c6b39c78c73c2cb1ef" />
+					<PackageInterfaceDefinitionContents Contents="DAQmx.gcomp" Id="9186c6042e094baabf88475043542331" PackageInterfaceDefinitionEnvoyId="6d422b3d69664e8abcd02bfaee2dabf6" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="39727fdcce5944bcbc7883693553237d" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-advanced-src-1.0.8.5.niaddon" StoragePath="ref://ni/analysis/advanced-src/1.0.8.5" />
 				<SourceFileReference Bindings="EnvoyManager" Id="11bc03b47da44ec1a38e3e50b27ae94a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-basic-src-1.0.8.6.niaddon" StoragePath="ref://ni/analysis/basic-src/1.0.8.6" />
@@ -296,6 +305,8 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="be31f4cdfbfd40619300f5057308feee" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="66121b36df214913847a9f9876638417" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="a07d6a98309844f890cc197cf573ec4a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keithley24xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/keithley24xx-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="6d422b3d69664e8abcd02bfaee2dabf6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-20.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/20.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="d177d467403c47c6b39c78c73c2cb1ef" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-mxlc-base-src-20.0.0.niaddon" StoragePath="ref://NI/MXLC/Base-src/20.0.0" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 		<SourceFileReference Id="18317e744c6746c985af08a0cf0e1906" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
